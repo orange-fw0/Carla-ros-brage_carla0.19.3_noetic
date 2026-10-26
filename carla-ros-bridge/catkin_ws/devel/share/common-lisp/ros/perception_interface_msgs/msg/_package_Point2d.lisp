@@ -1,6 +1,0 @@
-(cl:in-package perception_interface_msgs-msg)
-(cl:export '(X-VAL
-          X
-          Y-VAL
-          Y
-))

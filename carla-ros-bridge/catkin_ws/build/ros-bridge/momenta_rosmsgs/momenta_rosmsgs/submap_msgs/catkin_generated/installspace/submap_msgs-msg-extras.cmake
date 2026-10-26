@@ -1,2 +1,0 @@
-set(submap_msgs_MESSAGE_FILES "msg/GroundLine.msg;msg/GroundLineType.msg;msg/ParkingSlot.msg;msg/ParkingSlotMap.msg;msg/Pillar.msg;msg/Position.msg;msg/Roadmark.msg;msg/RoadmarkLayer.msg;msg/RoadmarkMap.msg;msg/RoadmarkType.msg;msg/Slope.msg;msg/SlopeMap.msg;msg/StaticObstacleMap.msg;msg/Submap.msg;msg/SubmapAuxiliaryInfo.msg;msg/SubmapMeta.msg;msg/SubmapReserved.msg;msg/SubmapTrajectory.msg;msg/TimeDisDiff.msg;msg/VectorElement.msg;msg/VectorElementTypeEnum.msg;msg/VectorizedMap.msg")
-set(submap_msgs_SERVICE_FILES "")

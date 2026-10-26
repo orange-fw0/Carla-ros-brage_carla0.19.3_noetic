@@ -1,2 +1,0 @@
-set(sensor_lidar_msgs_MESSAGE_FILES "msg/LidarCalibResult.msg;msg/LidarCalibrationProgressResult.msg;msg/LidarCalibrationResult.msg;msg/LidarCalibrationResultRequest.msg;msg/LidarCalibrationResultResponse.msg;msg/LidarCalibrationType.msg;msg/LidarError.msg;msg/LidarErrorReport.msg;msg/LidarErrorStatus.msg;msg/LidarHorizontResult.msg;msg/LidarID.msg;msg/LidarMode.msg;msg/LidarModeRequest.msg;msg/LidarModeResponse.msg;msg/LidarNotificationAck.msg;msg/LidarRotationResult.msg;msg/LidarStatus.msg;msg/LidarStatusReport.msg")
-set(sensor_lidar_msgs_SERVICE_FILES "")

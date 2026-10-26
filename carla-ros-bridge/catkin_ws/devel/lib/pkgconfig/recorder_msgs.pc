@@ -1,8 +1,0 @@
-prefix=/home/carla/carla_project/carla-ros-bridge/catkin_ws/devel
-
-Name: recorder_msgs
-Description: Description of recorder_msgs
-Version: 3.9.3
-Cflags: -I/home/carla/carla_project/carla-ros-bridge/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs

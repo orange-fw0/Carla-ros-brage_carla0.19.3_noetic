@@ -1,8 +1,0 @@
-prefix=/home/carla/carla_project/carla-ros-bridge/catkin_ws/install
-
-Name: adasis_v2_msgs
-Description: Description of adasis_v2_msgs
-Version: 0.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
