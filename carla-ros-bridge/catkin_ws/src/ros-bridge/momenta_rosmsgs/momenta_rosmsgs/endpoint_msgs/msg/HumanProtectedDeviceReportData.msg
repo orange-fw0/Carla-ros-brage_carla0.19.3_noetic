@@ -1,0 +1,3 @@
+uint64 timestamp_us
+endpoint_msgs/HumanProtectedDeviceType[] enabled_human_protected_device_array
+bool valid

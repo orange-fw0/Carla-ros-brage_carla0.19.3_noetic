@@ -1,0 +1,3 @@
+uint8 LIDAR_PERCEPTION_OBJECT_DATA = 1
+uint8 available
+perception_interface_msgs/LidarPerceptionObjectData[] lidar_perception_object_data

@@ -1,0 +1,7 @@
+uint8 NONE = 0
+uint8 SAME_DIRECTION = 1
+uint8 OPPOSITE_DIRECTION = 2
+uint8 RESERVED1 = 3
+uint8 RESERVED2 = 4
+uint8 RESERVED3 = 5
+uint8 value

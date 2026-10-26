@@ -1,0 +1,7 @@
+mla_localization_msgs/MLAPosLocal position
+float64 velocity
+float64 reserved
+bool is_reverse
+float32 steering_report
+float64 yaw
+string reserved_info

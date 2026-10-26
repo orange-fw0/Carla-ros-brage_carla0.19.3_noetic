@@ -1,0 +1,14 @@
+int32 relative_id
+int32 track_id
+worldmodel_msgs/Direction lane_marks
+worldmodel_msgs/LaneType lane_type
+worldmodel_msgs/LaneBoundary left_lane_boundary
+worldmodel_msgs/LaneBoundary right_lane_boundary
+worldmodel_msgs/RoadEdge left_road_edge
+worldmodel_msgs/RoadEdge right_road_edge
+worldmodel_msgs/ReferenceLine reference_line
+float64 entrance_width
+worldmodel_msgs/RoadPriority road_priority
+worldmodel_msgs/MergePoint merge_point
+worldmodel_msgs/MergePoint y_point
+int8 bias

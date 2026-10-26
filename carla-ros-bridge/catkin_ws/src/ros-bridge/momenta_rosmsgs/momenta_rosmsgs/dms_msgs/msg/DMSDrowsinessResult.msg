@@ -1,0 +1,31 @@
+uint16 DROWSINESS_MODEL_SCORE_AVAILABLE = 1
+uint16 DROWSINESS_PRO_AVAILABLE = 2
+uint16 MODEL_BASED_DROWSINESS_PRO_AVAILABLE = 4
+uint16 RULE_BASED_DROWSINESS_PRO_AVAILABLE = 8
+uint16 DROWSINESS_LEVEL_TYPE_AVAILABLE = 16
+uint16 DROWSINESS_CONFIDENCE_LEVEL_AVAILABLE = 32
+uint16 DROWSINESS_PRO_CORE_AVAILABLE = 64
+uint16 RESERVED = 128
+uint16 L3_DROWSINESS_LEVEL_TYPE_AVAILABLE = 256
+uint16 L3_DROWSINESS_CONFIDENCE_LEVEL_AVAILABLE = 512
+uint16 L2_DROWSINESS_LEVEL_TYPE_AVAILABLE = 1024
+uint16 L2_DROWSINESS_CONFIDENCE_LEVEL_AVAILABLE = 2048
+uint16 available
+float32[] drowsiness_model_score
+int32 drowsiness_pro
+int32 model_based_drowsiness_pro
+int32 rule_based_drowsiness_pro
+dms_msgs/DMSDrowsinessLevelTypeEnum drowsiness_level_type
+dms_msgs/DMSDrowsinessConfidenceTypeEnum drowsiness_confidence_level
+dms_msgs/L2DMSDrowsinessLevelTypeEnum l2_drowsiness_level_type
+dms_msgs/L2DMSDrowsinessConfidenceTypeEnum l2_drowsiness_confidence_level
+dms_msgs/L3DMSDrowsinessLevelTypeEnum l3_drowsiness_level_type
+dms_msgs/L3DMSDrowsinessConfidenceTypeEnum l3_drowsiness_confidence_level
+int32 drowsiness_pro_core
+float32 reserved
+int32 drowsiness_sensitivity
+string drows_params
+int32 l2_drowsiness_sensitivity
+string l2_drows_params
+int32 l3_drowsiness_sensitivity
+string l3_drows_params

@@ -1,0 +1,3 @@
+sensor_interface_msgs/CommonUssEhcoData[] uss_echo_data
+sensor_interface_msgs/UltrasonicEchoStatus uss_echo_status
+uint64 reserved

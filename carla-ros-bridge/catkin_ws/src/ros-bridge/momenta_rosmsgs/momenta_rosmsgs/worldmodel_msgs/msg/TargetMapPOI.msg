@@ -1,0 +1,4 @@
+uint16 id
+worldmodel_msgs/MapPOIType type
+perception_interface_msgs/Polygon3f position
+float64 distance

@@ -1,0 +1,2 @@
+landmark_msgs/LandmarkPerceptionNodeType node_type
+landmark_msgs/TrackId track_id

@@ -1,0 +1,9 @@
+uint32 id
+float32 prob
+bool is_solid
+bool is_boundary
+uint8 color
+bool is_Yline
+bool is_biline
+geometry_msgs/Pose2D[] pts_on_img
+geometry_msgs/Pose2D[] pts_on_bv

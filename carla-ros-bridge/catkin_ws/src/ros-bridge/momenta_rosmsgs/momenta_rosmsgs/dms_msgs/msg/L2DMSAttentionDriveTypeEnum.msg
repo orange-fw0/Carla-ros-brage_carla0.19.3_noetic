@@ -1,0 +1,4 @@
+uint8 NOT_FOCUSE_ON_DRIVING = 0
+uint8 FOCUSE_ON_DRIVING = 1
+uint8 RESERVED = 2
+uint8 value

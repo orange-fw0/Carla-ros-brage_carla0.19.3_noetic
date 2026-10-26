@@ -1,0 +1,8 @@
+uint8 START_SILENT_MODE = 0
+uint8 START_USER_MODE = 1
+uint8 FINISH = 2
+uint8 ABORT = 3
+uint8 BACK_TO_SILENT_MODE = 4
+uint8 SAVE = 5
+uint8 RESET_BUFFER = 6
+uint8 value

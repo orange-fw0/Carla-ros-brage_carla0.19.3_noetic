@@ -1,0 +1,51 @@
+uint64 AVAILABLE_LANDMARK_NODE_LANE_CENTER = 1
+uint64 AVAILABLE_LANDMARK_NODE_LANE_BOUNDARY = 2
+uint64 AVAILABLE_LANDMARK_NODE_ROAD_BOUNDARY = 4
+uint64 AVAILABLE_LANDMARK_NODE_ROAD = 8
+uint64 AVAILABLE_LANDMARK_NODE_STOP_LINE = 16
+uint64 AVAILABLE_LANDMARK_NODE_CROSS_WALK = 32
+uint64 AVAILABLE_LANDMARK_NODE_VALID_ROI = 64
+uint64 AVAILABLE_LANDMARK_NODE_ROAD_MARK = 128
+uint64 AVAILABLE_LANDMARK_NODE_AOI = 256
+uint64 AVAILABLE_LANDMARK_NODE_SPEED_BUMP = 512
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_SIGN = 1024
+uint64 AVAILABLE_LANDMARK_NODE_POLE = 2048
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_LIGHT = 4096
+uint64 AVAILABLE_LANDMARK_NODE_DASH_LINE_END = 8192
+uint64 AVAILABLE_LANDMARK_NODE_ROAD_ENTRY_LINE = 16384
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_SIGN_GUIDE_ARROW = 32768
+uint64 AVAILABLE_LANDMARK_NODE_NO_PARKING_ZONE = 65536
+uint64 AVAILABLE_LANDMARK_NODE_PARKING_SPACE = 131072
+uint64 AVAILABLE_LANDMARK_NODE_ROAD_OBSTACLE = 262144
+uint64 AVAILABLE_LANDMARK_NODE_PARKING_FACILITY = 524288
+uint64 AVAILABLE_LANDMARK_NODE_ROAD_SURFACE = 1048576
+uint64 AVAILABLE_LANDMARK_NODE_INTERSECTION_GUIDE_LINE = 2097152
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_LIGHT_SINGLE_FRAME_2D_INFO = 4194304
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_SIGN_SINGLE_FRAME_2D_INFO = 8388608
+uint64 AVAILABLE_LANDMARK_NODE_TRAFFIC_LIGHT_DECISIONS = 16777216
+landmark_msgs/LaneCenterNode[] lane_centers
+landmark_msgs/LaneBoundaryNode[] lane_boundaries
+landmark_msgs/RoadBoundaryNode[] road_boundaries
+landmark_msgs/RoadNode[] road
+landmark_msgs/StopLineNode[] stop_lines
+landmark_msgs/CrossWalkNode[] cross_walks
+landmark_msgs/ValidRoiNode[] valid_rois
+landmark_msgs/RoadMarkNode[] road_marks
+landmark_msgs/AoiNode[] aois
+landmark_msgs/SpeedBumpNode[] speed_bumps
+landmark_msgs/TrafficSignNode[] traffic_signs
+landmark_msgs/PoleNode[] poles
+landmark_msgs/TrafficLightNode[] traffic_lights
+landmark_msgs/DashLineEndNode[] dash_line_ends
+landmark_msgs/RoadEntryLineNode[] road_entry_line_nodes
+landmark_msgs/TrafficSignGuideArrowNode[] traffic_sign_guide_arrow_nodes
+landmark_msgs/NoParkingZoneNode[] no_parking_zone_nodes
+landmark_msgs/ParkingSpaceNode[] parking_space_nodes
+landmark_msgs/RoadObstacleNode[] road_obstacle_nodes
+landmark_msgs/ParkingFacility[] parking_facility_nodes
+landmark_msgs/RoadSurfaceNode[] road_surface_node
+landmark_msgs/IntersectionGuideLineNode[] intersection_guide_lines
+landmark_msgs/TrafficLightSingleFrame2dInfo[] traffic_light_single_frame_2d_info
+landmark_msgs/TrafficSignSingleFrame2dInfo[] traffic_sign_single_frame_2d_info
+landmark_msgs/TrafficLightDecision[] traffic_light_decisions
+uint64 available

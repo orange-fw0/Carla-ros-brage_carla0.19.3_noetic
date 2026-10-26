@@ -1,0 +1,6 @@
+uint8 UNKNOWN = 0
+uint8 CRUISING_SEARCH = 1
+uint8 SD_DESTINATION_SEARCH = 2
+uint8 SPECIFIC_ID = 3
+uint8 RANGE_SEARCH = 4
+uint8 status

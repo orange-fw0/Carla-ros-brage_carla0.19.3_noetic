@@ -1,0 +1,3 @@
+uint8 WIRELESS_CHARGER_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WirelessChargerReportData wireless_charger_report_data

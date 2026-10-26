@@ -1,0 +1,24 @@
+(cl:in-package planning_msgs-msg)
+(cl:export '(OPTIMIZED_CORNERS-VAL
+          OPTIMIZED_CORNERS
+          SLOT_TYPE-VAL
+          SLOT_TYPE
+          HAS_WHEEL_STOPPER-VAL
+          HAS_WHEEL_STOPPER
+          EGO_SLOT_IOU-VAL
+          EGO_SLOT_IOU
+          FRONT_WHEEL_TO_STOPPER-VAL
+          FRONT_WHEEL_TO_STOPPER
+          FRONT_WHEEL_TO_OPENING-VAL
+          FRONT_WHEEL_TO_OPENING
+          FRONT_WHEEL_TO_BOTTOM-VAL
+          FRONT_WHEEL_TO_BOTTOM
+          REAR_WHEEL_TO_STOPPER-VAL
+          REAR_WHEEL_TO_STOPPER
+          REAR_WHEEL_TO_OPENING-VAL
+          REAR_WHEEL_TO_OPENING
+          REAR_WHEEL_TO_BOTTOM-VAL
+          REAR_WHEEL_TO_BOTTOM
+          RESERVED-VAL
+          RESERVED
+))

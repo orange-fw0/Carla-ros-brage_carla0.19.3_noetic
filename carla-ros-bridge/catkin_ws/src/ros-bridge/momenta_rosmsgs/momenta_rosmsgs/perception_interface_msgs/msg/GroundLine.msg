@@ -1,0 +1,8 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+uint8 available
+float32 score
+perception_interface_msgs/GroundLineTypeEnum type
+perception_interface_msgs/Point2f[] points
+perception_interface_msgs/Point3f[] points_3d
+perception_interface_msgs/GroundLine3dPointTypeEnum points_3d_type

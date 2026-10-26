@@ -1,0 +1,14 @@
+float32 dist
+uint32 id
+string name
+mla_localization_msgs/MLAPosGlobal position
+uint32 parking_space_id
+mla_localization_msgs/MLAPosGlobal[] parking_space_positions
+mla_localization_msgs/MLAPosGlobal trace_start_position
+mla_localization_msgs/MLAPosGlobal trace_end_position
+system_manager_msgs/ParkingLotTypeEnum type
+string render_data
+string address
+uint32 trajectory_length
+string label
+string reversed

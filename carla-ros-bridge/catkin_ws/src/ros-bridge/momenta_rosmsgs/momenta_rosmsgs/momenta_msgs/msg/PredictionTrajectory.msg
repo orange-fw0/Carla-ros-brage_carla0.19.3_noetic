@@ -1,0 +1,12 @@
+std_msgs/Header header
+float32 prob
+float32 prediction_interval
+uint16 num_of_points
+string intention
+string source
+string[] reserved
+float32 const_vel_prob
+float32 const_acc_prob
+float32 still_prob
+float32 coord_turn_prob
+momenta_msgs/PredictionTrajectoryPoint[] trajectory

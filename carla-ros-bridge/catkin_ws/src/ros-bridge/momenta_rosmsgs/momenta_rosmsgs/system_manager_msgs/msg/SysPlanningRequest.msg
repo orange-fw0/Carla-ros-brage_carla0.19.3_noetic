@@ -1,0 +1,7 @@
+std_msgs/Header header
+system_manager_msgs/SystemCmdTypeEnum cmd
+system_manager_msgs/SystemCmdChildType ccmd
+system_manager_msgs/SysPlanningInfoForParking parking_info
+system_manager_msgs/SysPlanningInfoForHighway highway_info
+system_manager_msgs/SysPlanningInfoForRADS rads_info
+string switch_info

@@ -1,0 +1,2 @@
+landmark_msgs/LaneRecordConfidence left_lane_boundary
+landmark_msgs/LaneRecordConfidence right_lane_boundary

@@ -1,0 +1,15 @@
+uint8 available
+sensor_interface_msgs/UltrasonicResultMeta meta
+sensor_interface_msgs/UltrasonicObjectType obj_type
+sensor_interface_msgs/UltrasonicObjectHeiType obj_height
+float32 obj_height_probability
+float32 obj_probability
+float32 obj_start_X
+float32 obj_start_Y
+float32 obj_end_X
+float32 obj_end_Y
+float32 obj_height_value
+float32 major_axis_error
+float32 minor_axis_variance
+float32 ellipse_theta_variance
+string reserved_info

@@ -1,0 +1,4 @@
+uint8 POINT_TYPE_UNKNOWN = 0
+uint8 POINT_TYPE_SCATTER = 1
+uint8 POINT_TYPE_POLYLINE = 2
+uint8 value

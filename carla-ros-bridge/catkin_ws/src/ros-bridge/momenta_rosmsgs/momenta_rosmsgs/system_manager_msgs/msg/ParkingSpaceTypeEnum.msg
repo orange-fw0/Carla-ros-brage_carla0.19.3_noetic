@@ -1,0 +1,3 @@
+uint8 UNKNOWN = 0
+uint8 PARKING_SPACE_WITH_CHARGING = 1
+uint8 value

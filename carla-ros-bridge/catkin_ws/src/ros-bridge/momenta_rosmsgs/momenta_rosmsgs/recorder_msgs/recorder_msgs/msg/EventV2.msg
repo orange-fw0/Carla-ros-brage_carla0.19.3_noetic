@@ -1,0 +1,10 @@
+Header header
+string name
+string collect_type
+bool sticky
+duration before
+duration after
+string[] topics
+string[] tags
+bool debug_reject
+string detail

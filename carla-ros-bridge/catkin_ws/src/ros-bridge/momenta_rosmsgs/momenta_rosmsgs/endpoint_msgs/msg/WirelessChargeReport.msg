@@ -1,0 +1,3 @@
+std_msgs/Header header
+endpoint_msgs/StateReportMeta meta
+endpoint_msgs/WirelessChargerReport wireless_charger_report

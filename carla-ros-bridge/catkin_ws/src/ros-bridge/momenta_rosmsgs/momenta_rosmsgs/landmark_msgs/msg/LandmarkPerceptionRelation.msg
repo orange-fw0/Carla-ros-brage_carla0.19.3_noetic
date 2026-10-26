@@ -1,0 +1,7 @@
+uint8 TYPE_VALID = 1
+uint8 LANE_CENTER_CONNECTION_TYPE_VALID = 2
+uint8 available
+landmark_msgs/LandmarkPerceptionRelationType type
+landmark_msgs/LandmarkPerceptionRelationNode start_node
+landmark_msgs/LandmarkPerceptionRelationNode end_node
+landmark_msgs/LaneCenterLineConnectionTypeEnum lane_center_connection_type

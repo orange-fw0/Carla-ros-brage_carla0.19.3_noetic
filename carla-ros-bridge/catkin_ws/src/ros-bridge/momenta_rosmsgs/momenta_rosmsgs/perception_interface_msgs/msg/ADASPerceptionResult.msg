@@ -1,0 +1,2 @@
+uint8 ihc_highbeam_on
+float64 ihc_highbeam_score

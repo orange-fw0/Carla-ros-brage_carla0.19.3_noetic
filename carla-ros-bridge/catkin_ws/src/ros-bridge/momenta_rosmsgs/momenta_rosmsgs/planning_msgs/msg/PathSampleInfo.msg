@@ -1,0 +1,4 @@
+float64 sample_s
+planning_msgs/PathPoint last_cart_traj
+planning_msgs/RefPointInfo refline_info
+planning_msgs/SpeedPlan speed_plan

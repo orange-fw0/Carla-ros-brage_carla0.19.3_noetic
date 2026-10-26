@@ -1,0 +1,3 @@
+uint64 object_id
+worldmodel_msgs/SceneObjectType object_type
+perception_interface_msgs/Polygon3f object_polygon

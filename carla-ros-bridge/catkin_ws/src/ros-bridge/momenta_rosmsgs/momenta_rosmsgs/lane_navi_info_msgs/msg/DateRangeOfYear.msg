@@ -1,0 +1,3 @@
+lane_navi_info_msgs/DayOfYear start_day
+lane_navi_info_msgs/DayOfYear end_day
+bool is_limited

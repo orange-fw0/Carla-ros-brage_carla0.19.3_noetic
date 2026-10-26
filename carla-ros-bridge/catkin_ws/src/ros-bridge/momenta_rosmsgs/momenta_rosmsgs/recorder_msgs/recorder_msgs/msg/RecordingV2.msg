@@ -1,0 +1,9 @@
+Header header
+bool start
+string name
+string collect_type
+string[] topics
+string[] tags
+bool debug_reject
+time debug_start
+string detail

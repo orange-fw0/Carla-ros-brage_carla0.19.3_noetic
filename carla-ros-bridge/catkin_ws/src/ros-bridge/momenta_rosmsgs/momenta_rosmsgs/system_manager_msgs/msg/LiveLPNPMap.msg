@@ -1,0 +1,10 @@
+system_manager_msgs/ParkingSpaceInfo[] psd_map
+system_manager_msgs/PointsPosition[] speed_bumps
+system_manager_msgs/PointsPosition[] pillars
+system_manager_msgs/PointsPosition[] walls
+system_manager_msgs/PointsPosition[] intersections
+system_manager_msgs/PointsPosition[] parking_gates
+system_manager_msgs/LiveLPNPMapRoadPoint[] trajectory_points
+uint32 road_id
+system_manager_msgs/RoadTypeEnum road_type
+geometry_msgs/TransformStamped transform

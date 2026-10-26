@@ -1,0 +1,8 @@
+uint16 object_id
+perception_interface_msgs/ObjectTypeInfo type_info
+perception_interface_msgs/Point3d relative_position
+perception_interface_msgs/Vector3d relative_velocity
+float32 obstacle_prob
+float32 exist_prob
+perception_interface_msgs/BoschRadarSensorStatus sensor_status
+string reserved_info

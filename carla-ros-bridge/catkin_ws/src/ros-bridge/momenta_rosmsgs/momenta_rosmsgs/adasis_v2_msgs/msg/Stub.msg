@@ -1,0 +1,16 @@
+uint8 cyclic_counter
+uint8 is_retransmission
+uint8 path_index
+uint16 offset
+uint8 is_update
+uint8 sub_path_index
+uint8 turn_angle
+uint8 relative_probability
+uint8 functional_road_class
+uint8 form_of_way
+uint8 lanes_num_of_driving_dir
+uint8 lanes_num_of_opposite_dir
+uint8 complex_intersection
+uint8 right_of_way
+uint8 part_of_calculated_route
+uint8 is_last_stub_at_offset

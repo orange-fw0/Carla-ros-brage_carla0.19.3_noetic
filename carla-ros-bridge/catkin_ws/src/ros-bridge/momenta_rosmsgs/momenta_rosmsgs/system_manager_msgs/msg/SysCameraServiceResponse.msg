@@ -1,0 +1,5 @@
+std_msgs/Header header
+uint32 request_seq
+bool success
+system_manager_msgs/SystemCmdTypeEnum request_cmd
+string payload

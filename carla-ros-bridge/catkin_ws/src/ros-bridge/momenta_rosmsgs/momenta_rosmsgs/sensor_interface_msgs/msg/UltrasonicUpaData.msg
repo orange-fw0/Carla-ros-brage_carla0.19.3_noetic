@@ -1,0 +1,4 @@
+uint8 available
+sensor_interface_msgs/UltrasonicResultMeta meta
+float32 upadistance
+string reserved_info

@@ -1,0 +1,9 @@
+mla_localization_msgs/MLAPosGlobal position
+uint32 radius_range
+system_manager_msgs/ParkingLotTypeEnum type
+uint32 parking_lot_id
+uint32[] target_partition_id_list
+system_manager_msgs/ParkingQueryModeEnum query_mode
+uint64 time_threshold_for_deleting
+uint32 amout_for_deleting
+system_manager_msgs/MapContentToUpdate map_content

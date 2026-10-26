@@ -1,0 +1,5 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionFusionResultMeta meta
+perception_interface_msgs/PerceptionFusionAEBStateEnum perception_fusion_aeb_state
+float32 min_ttc
+perception_interface_msgs/PerceptionFusionAEBObjects perception_fusion_aeb_objects

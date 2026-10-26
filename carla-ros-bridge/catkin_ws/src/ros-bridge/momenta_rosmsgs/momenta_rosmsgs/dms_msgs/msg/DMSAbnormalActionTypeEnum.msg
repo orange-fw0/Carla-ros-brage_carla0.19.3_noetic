@@ -1,0 +1,13 @@
+uint16 NORMAL = 1
+uint16 EYE_CLOSE = 2
+uint16 YAWN = 4
+uint16 DRINK = 8
+uint16 PHONE_CALL = 16
+uint16 SMOKE = 32
+uint16 EAT = 64
+uint16 PHONE_HAND = 128
+uint16 PHONE_EAR = 256
+uint16 RESERVED1 = 512
+uint16 RESERVED2 = 1024
+uint16 RESERVED3 = 2048
+uint16 value

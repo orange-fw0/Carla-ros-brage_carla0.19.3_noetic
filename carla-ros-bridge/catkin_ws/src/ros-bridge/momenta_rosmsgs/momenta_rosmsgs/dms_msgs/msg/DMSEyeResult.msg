@@ -1,0 +1,18 @@
+uint8 EYE_DISTANCE_AVAILABLE = 1
+uint8 EYE_EYELID_AVAILABLE = 2
+uint8 EYE_VECTOR_WCS_AVAILABLE = 4
+uint8 EYE_VECTOR_CCS_AVAILABLE = 8
+uint8 available
+float32 distance_left_eye
+float32 distance_right_eye
+float32 eyelid_left_score
+float32 eyelid_right_score
+dms_msgs/DMSEyelidStatusTypeEnum state_right_eye
+dms_msgs/DMSEyelidStatusTypeEnum state_left_eye
+dms_msgs/DMSEyeRelativeResult eye_relative_result
+dms_msgs/DMSVector3f vector_left_eye_wcs
+dms_msgs/DMSVector3f vector_right_eye_wcs
+dms_msgs/DMSVector3f vector_eye_center_wcs
+dms_msgs/DMSVector3f vector_left_eye_ccs
+dms_msgs/DMSVector3f vector_right_eye_ccs
+dms_msgs/DMSVector3f vector_eye_center_ccs

@@ -1,0 +1,2 @@
+landmark_msgs/ManeuverBase maneuver_base
+landmark_msgs/DestinationParkingInfo parking_info

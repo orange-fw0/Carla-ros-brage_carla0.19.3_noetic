@@ -1,0 +1,8 @@
+dms_msgs/DMSEventInfo dms_event_info
+dms_msgs/DMSFidInfo dms_fid_info
+dms_msgs/DMSFidRegInfo dms_fid_reg_info
+dms_msgs/DMSFidRecogInfo dms_fid_recog_info
+dms_msgs/DMSFidDelInfo dms_fid_del_info
+dms_msgs/DMSFidUserListInfo dms_user_list_info
+dms_msgs/DMSFidStateMachineTypeEnum dms_fid_state_machine_type
+dms_msgs/DMSExtCalibrationResult ext_calibration_info

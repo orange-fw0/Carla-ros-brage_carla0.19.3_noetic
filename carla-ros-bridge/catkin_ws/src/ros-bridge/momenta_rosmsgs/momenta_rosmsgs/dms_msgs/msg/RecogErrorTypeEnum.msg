@@ -1,0 +1,13 @@
+uint8 NO_ERROR = 0
+uint8 CAMERA_ABNORMAL = 1
+uint8 NO_FACE = 2
+uint8 LOW_FACE_QUALITY = 3
+uint8 FACE_NOT_ALIVE = 4
+uint8 USER_NOT_EXIST = 5
+uint8 TIME_OUT = 6
+uint8 EMPTY_USER_LIST = 7
+uint8 SYSTEM_ERROR = 8
+uint8 RESERVED = 9
+uint8 RESERVED1 = 10
+uint8 RESERVED2 = 11
+uint8 value

@@ -1,0 +1,5 @@
+uint64 object_id
+worldmodel_msgs/SceneObjectType object_type
+perception_interface_msgs/Point2d center_point
+float64 radius
+float64 height

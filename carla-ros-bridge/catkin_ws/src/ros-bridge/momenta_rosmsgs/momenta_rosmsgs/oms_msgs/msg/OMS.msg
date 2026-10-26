@@ -1,0 +1,7 @@
+std_msgs/Header header
+oms_msgs/OMSMeta meta
+oms_msgs/OMSFacepProperty face_property
+oms_msgs/OMSBodyProperty body_property
+oms_msgs/OMSGestureProperty gesture_property
+oms_msgs/OMSObjectProperty object_property
+oms_msgs/OMSFusaResult fusa

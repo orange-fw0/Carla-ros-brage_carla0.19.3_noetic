@@ -1,0 +1,4 @@
+uint8 NORMAL_WAYPOINT = 1
+uint8 INTERSECTION_WAYPOINT = 2
+uint8 RAMP_WAYPOINT = 4
+uint8 value

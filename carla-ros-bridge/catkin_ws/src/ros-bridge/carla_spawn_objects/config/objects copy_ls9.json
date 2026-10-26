@@ -1,0 +1,158 @@
+{
+    "objects": [
+        {
+            "type": "sensor.pseudo.traffic_lights",
+            "id": "traffic_lights"
+        },
+        {
+            "type": "sensor.pseudo.objects",
+            "id": "objects"
+        },
+        {
+            "type": "sensor.pseudo.actor_list",
+            "id": "actor_list"
+        },
+        {
+            "type": "sensor.pseudo.markers",
+            "id": "markers"
+        },
+        {
+            "type": "sensor.pseudo.opendrive_map",
+            "id": "map"
+        },
+        {
+            "type": "vehicle.nissan.patrol",
+            "id": "ego_vehicle",
+            "sensors": [
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_front_far",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 1.98,
+                        "y": 0.08,
+                        "z": 1.47,
+                        "roll": 23.6144,
+                        "pitch": 89.3106,
+                        "yaw": -113.2534
+                    },
+                    "image_size_x": 3840,
+                    "image_size_y": 2160,
+                    "fov": 29.35
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_front_wide",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 1.99,
+                        "y": 0.05,
+                        "z": 1.48,
+                        "roll": 71.4793,
+                        "pitch": 89.2259,
+                        "yaw": -161.1527
+                    },
+                    "image_size_x": 3840,
+                    "image_size_y": 2160,
+                    "fov": 90.44
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_left_front",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 1.31,
+                        "y": -0.68,
+                        "z": 1.43,
+                        "roll": -90.6217,
+                        "pitch": 5.9198,
+                        "yaw": 0.5492
+                    },
+                    "image_size_x": 1936,
+                    "image_size_y": 1216,
+                    "fov": 80.34
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_left_rear",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 2.62,
+                        "y": -0.94,
+                        "z": 0.98,
+                        "roll": -92.6979,
+                        "pitch": -64.1924,
+                        "yaw": 0.4842
+                    },
+                    "image_size_x": 1936,
+                    "image_size_y": 1216,
+                    "fov": 52.8
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_rear_mid",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 0.29,
+                        "y": 0.12,
+                        "z": 1.62,
+                        "roll": 19.6867,
+                        "pitch": -87.5245,
+                        "yaw": 111.5589
+                    },
+                    "image_size_x": 1936,
+                    "image_size_y": 1216,
+                    "fov": 52.82
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_right_front",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 1.32,
+                        "y": 0.67,
+                        "z": 1.43,
+                        "roll": 89.6237,
+                        "pitch": 5.5093,
+                        "yaw": -179.3249
+                    },
+                    "image_size_x": 1936,
+                    "image_size_y": 1216,
+                    "fov": 80.33
+                },
+                {
+                    "type": "sensor.camera.rgb",
+                    "id": "camera_right_rear",
+                    "sensor_tick": 0.1,
+                    "spawn_point": {
+                        "x": 2.63,
+                        "y": 0.93,
+                        "z": 0.98,
+                        "roll": 85.6248,
+                        "pitch": -64.2377,
+                        "yaw": 179.577
+                    },
+                    "image_size_x": 1936,
+                    "image_size_y": 1216,
+                    "fov": 52.85
+                },
+                {
+                    "type": "sensor.pseudo.tf",
+                    "id": "tf"
+                },
+                {
+                    "type": "sensor.pseudo.odom",
+                    "id": "odometry"
+                },
+                {
+                    "type": "sensor.pseudo.speedometer",
+                    "id": "speedometer"
+                },
+                {
+                    "type": "actor.pseudo.control",
+                    "id": "control"
+                }
+            ]
+        }
+    ]
+}

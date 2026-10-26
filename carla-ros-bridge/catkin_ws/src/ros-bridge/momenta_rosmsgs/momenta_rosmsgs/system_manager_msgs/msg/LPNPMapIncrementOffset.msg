@@ -1,0 +1,3 @@
+int32 parking_slot
+int32 speed_bump
+int32 trajectory_point

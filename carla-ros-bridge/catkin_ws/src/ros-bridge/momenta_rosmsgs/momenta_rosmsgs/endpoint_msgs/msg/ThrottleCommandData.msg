@@ -1,0 +1,4 @@
+uint64 timestamp_us
+bool throttle_enable
+endpoint_msgs/ThrottleType throttle_type
+float32 throttle_command

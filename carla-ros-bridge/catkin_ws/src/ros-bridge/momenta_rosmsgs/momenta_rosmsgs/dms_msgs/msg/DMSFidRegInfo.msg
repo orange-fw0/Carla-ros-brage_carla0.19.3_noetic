@@ -1,0 +1,10 @@
+uint8 REG_INFO_UN_AVAILABLE = 0
+uint8 REG_INFO_AVAILABLE = 1
+uint8 available
+string user_id
+uint64 register_timestamp_us
+uint64 register_cancel_timestamp_us
+dms_msgs/RegResponseTypeEnum reg_response
+dms_msgs/CancelResponseTypeEnum cancel_response
+dms_msgs/RegStatusTypeEnum reg_status
+dms_msgs/RegErrorTypeEnum reg_error

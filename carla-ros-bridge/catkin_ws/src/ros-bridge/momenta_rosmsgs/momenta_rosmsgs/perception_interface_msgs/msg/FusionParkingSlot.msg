@@ -1,0 +1,7 @@
+uint8 FUSION_PARKING_SLOT_AVAILABLE_DATA = 1
+uint8 FUSION_PARKING_SLOT_AVAILABLE_EGO_PARKING_SLOT = 2
+uint8 FUSION_PARKING_SLOT_AVAILABLE_RESERVED_INFO = 4
+uint8 available
+perception_interface_msgs/FusionParkingSlotData[] parking_slot_data
+perception_interface_msgs/EgoParkingSlot ego_parking_slot
+string[] reserved_info

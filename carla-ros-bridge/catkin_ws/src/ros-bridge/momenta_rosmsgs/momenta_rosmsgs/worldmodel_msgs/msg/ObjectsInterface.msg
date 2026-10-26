@@ -1,0 +1,3 @@
+std_msgs/Header header
+worldmodel_msgs/ObjectsInterfaceMeta meta
+worldmodel_msgs/ObjectInterface[] object_interface

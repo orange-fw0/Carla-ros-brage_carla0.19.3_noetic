@@ -1,0 +1,4 @@
+float32 blink_light_left_score
+float32 blink_light_right_score
+float32 blink_light_both_score
+perception_interface_msgs/VehicleBlinkLightEnum blink_light_state

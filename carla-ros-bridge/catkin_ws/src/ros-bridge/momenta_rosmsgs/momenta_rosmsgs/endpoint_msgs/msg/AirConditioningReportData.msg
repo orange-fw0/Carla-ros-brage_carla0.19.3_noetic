@@ -1,0 +1,8 @@
+uint64 timestamp_us
+endpoint_msgs/AirOutletMode[] air_outlet_mode_array
+bool air_outlet_mode_array_valid
+endpoint_msgs/AirTempMode[] air_temp_mode_array
+bool air_temp_mode_array_valid
+endpoint_msgs/AirDefrostMode[] air_defrost_mode_array
+bool air_defrost_mode_array_valid
+endpoint_msgs/AirWorkStatus air_work_status

@@ -1,0 +1,17 @@
+uint8 INVALID = 0
+uint8 NORMAL = 1
+uint8 WATER = 2
+uint8 MOISTURE = 3
+uint8 BLOCKAGE = 4
+uint8 DIZZY = 5
+uint8 DARKNESS = 6
+uint8 DIRTY = 7
+uint8 RESERVED1 = 8
+uint8 RESERVED2 = 9
+uint8 RESERVED3 = 10
+uint8 RESERVED4 = 11
+uint8 RESERVED5 = 12
+uint8 RESERVED6 = 13
+uint8 RESERVED7 = 14
+uint8 RESERVED8 = 15
+uint8 value

@@ -1,0 +1,8 @@
+prefix=/home/carla/carla_project/carla-ros-bridge/catkin_ws/install
+
+Name: adas_msgs
+Description: Description of adas_msgs
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

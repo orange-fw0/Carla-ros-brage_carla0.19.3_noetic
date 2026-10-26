@@ -1,0 +1,3 @@
+float32 ego_lane_overlap_score
+float32 ego_lane_no_overlap_score
+perception_interface_msgs/VehicleEgoLaneRelationEnum ego_lane_relation

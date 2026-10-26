@@ -1,0 +1,6 @@
+uint16 begin_index
+uint16 end_index
+worldmodel_msgs/LaneConnectDirection direction
+worldmodel_msgs/LaneType lane_type
+bool is_in_intersection
+bool is_in_route

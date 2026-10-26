@@ -1,0 +1,10 @@
+std_msgs/Header header
+submap_msgs/SubmapMeta meta
+submap_msgs/SubmapAuxiliaryInfo auxiliary_info
+submap_msgs/ParkingSlotMap parking_slot_map
+submap_msgs/RoadmarkMap roadmark_map
+submap_msgs/SlopeMap slope_map
+submap_msgs/StaticObstacleMap obs_map
+submap_msgs/VectorizedMap vectorized_map
+submap_msgs/TimeDisDiff time_dis_diff
+submap_msgs/SubmapReserved reserved_info

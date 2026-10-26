@@ -1,0 +1,6 @@
+(cl:in-package landmark_msgs-msg)
+(cl:export '(RELIABLE-VAL
+          RELIABLE
+          LANE_CENTER_INTERSECT_WITH_ROAD_BOUNDARIES-VAL
+          LANE_CENTER_INTERSECT_WITH_ROAD_BOUNDARIES
+))

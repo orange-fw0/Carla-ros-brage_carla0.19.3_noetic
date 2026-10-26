@@ -1,0 +1,3 @@
+e2e_planning_msgs/DLPTrajectory[] dlp_cruise_trajectories
+e2e_planning_msgs/DLPTrajectories dlp_agent_prediction_trajectories
+string reserved_info

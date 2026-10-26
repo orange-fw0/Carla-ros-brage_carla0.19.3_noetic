@@ -1,0 +1,3 @@
+std_msgs/Header header
+sensor_interface_msgs/CameraServiceStatusMeta meta
+sensor_interface_msgs/CameraServiceStatusData camera_service_status_data

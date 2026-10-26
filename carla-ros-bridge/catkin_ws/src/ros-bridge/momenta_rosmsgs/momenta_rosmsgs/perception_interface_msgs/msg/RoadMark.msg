@@ -1,0 +1,4 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+uint8 available
+perception_interface_msgs/RoadMarkLabelMap label_map_2d

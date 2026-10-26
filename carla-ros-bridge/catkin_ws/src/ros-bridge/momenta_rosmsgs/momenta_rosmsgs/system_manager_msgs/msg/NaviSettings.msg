@@ -1,0 +1,2 @@
+float32 navi_max_speed
+system_manager_msgs/NaviTimeDistance navi_time_distance

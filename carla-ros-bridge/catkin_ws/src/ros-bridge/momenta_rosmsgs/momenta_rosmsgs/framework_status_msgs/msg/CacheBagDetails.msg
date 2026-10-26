@@ -1,0 +1,3 @@
+uint8 CACHE_BAG_DETAILS_DATA = 1
+uint8 available
+framework_status_msgs/CacheBagDetailsData cache_bag_details_data

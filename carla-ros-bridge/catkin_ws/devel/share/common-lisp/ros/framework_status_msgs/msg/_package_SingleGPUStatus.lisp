@@ -1,0 +1,20 @@
+(cl:in-package framework_status_msgs-msg)
+(cl:export '(GPU_ID-VAL
+          GPU_ID
+          GPU_CURRENT_PERCENT-VAL
+          GPU_CURRENT_PERCENT
+          GPU_AVERAGE_PERCENT-VAL
+          GPU_AVERAGE_PERCENT
+          GPU_MEMORY_CURRENT_PERCENT-VAL
+          GPU_MEMORY_CURRENT_PERCENT
+          GPU_MEMORY_AVERAGE_PERCENT-VAL
+          GPU_MEMORY_AVERAGE_PERCENT
+          GPU_TEMPERATURE-VAL
+          GPU_TEMPERATURE
+          GPU_POWER-VAL
+          GPU_POWER
+          TOP_PROCESSES-VAL
+          TOP_PROCESSES
+          RESERVED_INFO-VAL
+          RESERVED_INFO
+))

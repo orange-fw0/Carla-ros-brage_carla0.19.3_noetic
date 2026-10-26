@@ -1,0 +1,5 @@
+uint64 id
+uint8 code
+system_manager_msgs/ParkingSpaceStatusEnum status
+system_manager_msgs/ParkingSpaceTypeEnum type
+mla_localization_msgs/MLAPosLocal[] corners

@@ -1,0 +1,13 @@
+uint8 cyclic_counter
+uint16 country_code
+uint16 region_code
+uint8 driving_side
+uint8 speed_units
+uint8 major_protocol_ver
+uint8 minor_protocol_ver
+uint8 minor_protocol_sub_ver
+uint16 hardware_ver
+uint8 map_provider
+uint8 map_ver_year
+uint8 map_ver_year_quarter
+uint8 reserved

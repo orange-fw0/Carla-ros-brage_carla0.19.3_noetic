@@ -1,0 +1,4 @@
+landmark_msgs/RoadBoundaryTypeEnum type
+float32 start_offset
+float32 end_offset
+lane_navi_info_msgs/Polyline polyline

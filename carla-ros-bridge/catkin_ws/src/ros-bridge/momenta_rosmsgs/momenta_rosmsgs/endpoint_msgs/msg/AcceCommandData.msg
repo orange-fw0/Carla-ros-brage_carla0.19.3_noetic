@@ -1,0 +1,3 @@
+uint64 timestamp_us
+float32 command_value
+bool acce_command_enable

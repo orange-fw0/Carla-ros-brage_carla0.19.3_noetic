@@ -1,0 +1,13 @@
+std_msgs/Header header
+planning_msgs/PlanMeta meta
+planning_msgs/Trajectory trajectory
+planning_msgs/Emergency emergency
+planning_msgs/TurnSignalCommand turn_signal_command
+planning_msgs/GearCommand gear_command
+planning_msgs/VehicleLockCommand vehicle_lock_command
+planning_msgs/PlanStatus plan_status
+planning_msgs/Comfort comfort
+planning_msgs/Decision decision
+planning_msgs/PlanExtra extra
+planning_msgs/APAExtra apa_extra
+planning_msgs/EpbCommand epb_command

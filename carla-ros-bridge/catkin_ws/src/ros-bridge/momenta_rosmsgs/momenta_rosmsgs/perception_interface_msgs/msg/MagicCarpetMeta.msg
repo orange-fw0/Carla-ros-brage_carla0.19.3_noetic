@@ -1,0 +1,2 @@
+uint32 sensor_timestamp_us
+string camera_tag

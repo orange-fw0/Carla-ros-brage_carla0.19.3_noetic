@@ -1,0 +1,4 @@
+---
+string[] sn
+string[] disk_type
+string[] status

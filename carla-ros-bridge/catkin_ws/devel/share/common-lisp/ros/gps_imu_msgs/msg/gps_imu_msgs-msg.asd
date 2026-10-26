@@ -1,0 +1,26 @@
+
+(cl:in-package :asdf)
+
+(defsystem "gps_imu_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "MLAGnss" :depends-on ("_package_MLAGnss"))
+    (:file "_package_MLAGnss" :depends-on ("_package"))
+    (:file "MLAGnssBasic" :depends-on ("_package_MLAGnssBasic"))
+    (:file "_package_MLAGnssBasic" :depends-on ("_package"))
+    (:file "MLAGnssExtend" :depends-on ("_package_MLAGnssExtend"))
+    (:file "_package_MLAGnssExtend" :depends-on ("_package"))
+    (:file "MLAGnssInfo" :depends-on ("_package_MLAGnssInfo"))
+    (:file "_package_MLAGnssInfo" :depends-on ("_package"))
+    (:file "MLAGnssMeta" :depends-on ("_package_MLAGnssMeta"))
+    (:file "_package_MLAGnssMeta" :depends-on ("_package"))
+    (:file "MLAImu" :depends-on ("_package_MLAImu"))
+    (:file "_package_MLAImu" :depends-on ("_package"))
+    (:file "MLAImuBasic" :depends-on ("_package_MLAImuBasic"))
+    (:file "_package_MLAImuBasic" :depends-on ("_package"))
+    (:file "MLAImuInfo" :depends-on ("_package_MLAImuInfo"))
+    (:file "_package_MLAImuInfo" :depends-on ("_package"))
+    (:file "MLAImuMeta" :depends-on ("_package_MLAImuMeta"))
+    (:file "_package_MLAImuMeta" :depends-on ("_package"))
+  ))

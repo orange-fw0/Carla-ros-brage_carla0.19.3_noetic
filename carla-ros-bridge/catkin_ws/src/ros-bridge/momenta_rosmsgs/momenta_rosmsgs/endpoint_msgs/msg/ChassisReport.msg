@@ -1,0 +1,11 @@
+std_msgs/Header header
+endpoint_msgs/StateReportMeta meta
+endpoint_msgs/BrakeReport brake_report
+endpoint_msgs/BrakeInfoReport brake_info_report
+endpoint_msgs/ThrottleReport throttle_report
+endpoint_msgs/ThrottleInfoReport throttle_info_report
+endpoint_msgs/SteeringReport steering_report
+endpoint_msgs/GearReport gear_report
+endpoint_msgs/EpbReport epb_report
+endpoint_msgs/MotorSpeedReport motor_speed_report
+endpoint_msgs/ExtraReport extra

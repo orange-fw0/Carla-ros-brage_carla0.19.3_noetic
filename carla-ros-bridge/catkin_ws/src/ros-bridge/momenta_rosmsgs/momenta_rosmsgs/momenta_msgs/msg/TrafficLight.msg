@@ -1,0 +1,10 @@
+std_msgs/Header header
+int8 left
+int8 right
+int8 mid
+bool can_go_straight
+bool can_right_turn
+bool can_left_turn
+bool can_u_turn
+geometry_msgs/Pose2D[] bbox_pts
+uint8 bbox_cnt

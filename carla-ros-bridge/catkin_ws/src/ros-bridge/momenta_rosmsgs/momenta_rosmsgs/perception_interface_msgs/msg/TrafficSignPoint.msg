@@ -1,0 +1,2 @@
+perception_interface_msgs/Point2f position
+float32 visibility

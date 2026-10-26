@@ -1,0 +1,15 @@
+std_msgs/Header header
+float32[] v_target
+float32[] a_target
+bool enable
+bool stop_flag
+float32 v_limit
+float32 stop_distance
+string which_lane
+int32 track_id
+string lc_request
+string lc_status
+bool lane_borrow
+int32 lane_borrow_range
+momenta_msgs/AvdMsg[] avd_info
+float32 lat_offset

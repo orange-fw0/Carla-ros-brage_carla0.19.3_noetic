@@ -1,0 +1,2 @@
+float64 length
+worldmodel_msgs/LaneBoundaryType type

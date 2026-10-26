@@ -1,0 +1,6 @@
+uint8 MOTOR_SPEED_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/MotorSpeedReportData motor_speed_report_data_fl
+endpoint_msgs/MotorSpeedReportData motor_speed_report_data_fr
+endpoint_msgs/MotorSpeedReportData motor_speed_report_data_rl
+endpoint_msgs/MotorSpeedReportData motor_speed_report_data_rr

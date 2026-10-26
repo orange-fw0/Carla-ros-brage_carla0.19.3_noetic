@@ -1,0 +1,18 @@
+(cl:in-package oms_msgs-msg)
+(cl:export '(AVAILABLE-VAL
+          AVAILABLE
+          TOO_DARK_BRIGHT_STATUS-VAL
+          TOO_DARK_BRIGHT_STATUS
+          OCCLUSION_STATUS-VAL
+          OCCLUSION_STATUS
+          GLASS_STATUS-VAL
+          GLASS_STATUS
+          OCCLUSION_SCORE-VAL
+          OCCLUSION_SCORE
+          FRAME_TEARING-VAL
+          FRAME_TEARING
+          FRAME_FREEZING-VAL
+          FRAME_FREEZING
+          FRAME_FPS_ABNORMAL-VAL
+          FRAME_FPS_ABNORMAL
+))

@@ -1,0 +1,3 @@
+uint8 SPEED_LIMIT_TYPE_DEFAULT = 0
+uint8 SPEED_LIMIT_TYPE_RAMP = 2
+uint8 type

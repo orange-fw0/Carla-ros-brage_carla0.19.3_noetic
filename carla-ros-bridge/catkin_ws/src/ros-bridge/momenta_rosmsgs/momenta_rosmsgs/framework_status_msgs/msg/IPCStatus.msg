@@ -1,0 +1,8 @@
+std_msgs/Header header
+framework_status_msgs/CPUStatus cpu_status
+framework_status_msgs/DiskStatus disk_status
+framework_status_msgs/GPUStatus gpu_status
+framework_status_msgs/MemoryStatus memory_status
+framework_status_msgs/NetStatus net_status
+framework_status_msgs/ProcessStatus process_status
+framework_status_msgs/TimeStatus time_status

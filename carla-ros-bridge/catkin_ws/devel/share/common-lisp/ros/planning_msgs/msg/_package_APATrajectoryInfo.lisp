@@ -1,0 +1,22 @@
+(cl:in-package planning_msgs-msg)
+(cl:export '(EXTEND_TYPE-VAL
+          EXTEND_TYPE
+          AT_LAST_SEGMENT-VAL
+          AT_LAST_SEGMENT
+          REMAIN_SAFE_DISTANCE-VAL
+          REMAIN_SAFE_DISTANCE
+          FIRST_REMAIN_DISTANCE-VAL
+          FIRST_REMAIN_DISTANCE
+          SECOND_REMAIN_DISTANCE-VAL
+          SECOND_REMAIN_DISTANCE
+          SECOND_TARGET_V-VAL
+          SECOND_TARGET_V
+          FIRST_GEAR-VAL
+          FIRST_GEAR
+          SECOND_GEAR-VAL
+          SECOND_GEAR
+          SECOND_START_INDEX-VAL
+          SECOND_START_INDEX
+          RESERVED-VAL
+          RESERVED
+))

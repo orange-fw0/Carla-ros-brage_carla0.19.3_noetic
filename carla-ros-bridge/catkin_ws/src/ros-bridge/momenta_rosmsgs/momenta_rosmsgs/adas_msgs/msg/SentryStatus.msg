@@ -1,0 +1,3 @@
+std_msgs/Header header
+uint8 approach_warning_state
+uint8 shake_warning_state

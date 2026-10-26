@@ -1,0 +1,2 @@
+bool turn_signal_enable
+endpoint_msgs/TurnSignal turn_signal_state

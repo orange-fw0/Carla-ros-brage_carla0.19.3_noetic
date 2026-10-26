@@ -1,0 +1,5 @@
+uint8 RESPOND_FAIL = 0
+uint8 RESPOND_SUCCESS = 1
+uint8 RESERVED = 2
+uint8 RESERVED1 = 3
+uint8 value

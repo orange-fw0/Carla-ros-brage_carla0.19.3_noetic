@@ -1,0 +1,10 @@
+e2e_planning_msgs/DLPTrajectoryPoint[] points
+e2e_planning_msgs/DLPTrajectoryTypeEnum type
+uint8 anchor_type
+uint64 anchor_id
+perception_interface_msgs/Point3d goal_point
+uint8 multi_modality_id
+uint64 object_id
+uint64 timestamp_us
+float64 score
+string reserved_info

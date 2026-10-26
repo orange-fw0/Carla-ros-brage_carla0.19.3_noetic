@@ -1,0 +1,17 @@
+uint64 timestamp_us
+endpoint_msgs/CtaState cta_lf
+endpoint_msgs/CtaState cta_rf
+endpoint_msgs/CtaState cta_lr
+endpoint_msgs/CtaState cta_rr
+bool cta_valid
+endpoint_msgs/DlpStatus dlp_state
+bool dlp_valid
+endpoint_msgs/HdcState hdc_state
+bool hdc_valid
+endpoint_msgs/LdpStatus ldp_status_left_lane
+endpoint_msgs/LdpStatus ldp_status_right_lane
+bool ldp_valid
+endpoint_msgs/LdwStatus ldw_status
+bool ldw_valid
+endpoint_msgs/SrsCollosion srs_collosion
+endpoint_msgs/ExtraReport extra

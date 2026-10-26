@@ -1,0 +1,2 @@
+perception_interface_msgs/HDMapIntersectionStopLine distance_to_stop_line
+perception_interface_msgs/HDMapTrafficLightGroup[] traffic_light_groups

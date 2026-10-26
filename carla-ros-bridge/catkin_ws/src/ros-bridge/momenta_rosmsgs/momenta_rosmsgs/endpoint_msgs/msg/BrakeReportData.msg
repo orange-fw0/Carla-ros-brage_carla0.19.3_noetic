@@ -1,0 +1,11 @@
+uint64 timestamp_us
+endpoint_msgs/WorkType driver_work_type
+endpoint_msgs/BrakeType brake_type
+float32 pedal_input
+float32 brake_command
+float32 brake_output
+bool override
+float32 ahb_exec_brake_force
+bool ahb_exec_brake_force_valid
+bool ready
+bool valid

@@ -1,0 +1,3 @@
+std_msgs/Header header
+uint64 timestamp_us
+framework_status_msgs/SingleMessageStatus[] message_status_list

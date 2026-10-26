@@ -1,0 +1,10 @@
+uint64 timestamp_us
+bool calibration_completed
+endpoint_msgs/HeightLevel requested_target_level
+endpoint_msgs/HeightLevel cur_height_status
+endpoint_msgs/SuspensionHeight suspension_height
+endpoint_msgs/SuspensionHeightValid suspension_hight_valid
+endpoint_msgs/FailureStatus failure_status
+float32 reserved1
+float32 reserved2
+endpoint_msgs/SuspensionAdjustStatus adjust_status

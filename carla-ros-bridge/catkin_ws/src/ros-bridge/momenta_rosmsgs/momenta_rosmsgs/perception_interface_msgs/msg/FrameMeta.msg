@@ -1,0 +1,4 @@
+uint64 timestamp_us
+uint64 sequence
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model

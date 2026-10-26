@@ -1,0 +1,3 @@
+perception_interface_msgs/PerceptionFusionObjectData object_fusion_data
+worldmodel_msgs/ObjectWorldModelData object_world_model_data
+bool is_ignore

@@ -1,0 +1,3 @@
+actionlib_msgs/TestRequestActionGoal action_goal
+actionlib_msgs/TestRequestActionResult action_result
+actionlib_msgs/TestRequestActionFeedback action_feedback

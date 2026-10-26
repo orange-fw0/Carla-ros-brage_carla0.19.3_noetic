@@ -1,0 +1,6 @@
+uint8 COMMON_USS_OBSTACLE_DATA = 0
+uint8 KEYPOINT_USS_OBSTACLE_DATA = 1
+std_msgs/Header header
+uint8 available
+sensor_interface_msgs/UssCommonObstacleResult uss_common_obstacle_result
+sensor_interface_msgs/UssKeyPointObstacleResult uss_keypoint_obstacle_result

@@ -1,0 +1,4 @@
+uint8 DMS_GENDER_MALE = 0
+uint8 DMS_GENDER_FEMALE = 1
+uint8 DMS_GENDER_OTHER = 2
+uint8 value

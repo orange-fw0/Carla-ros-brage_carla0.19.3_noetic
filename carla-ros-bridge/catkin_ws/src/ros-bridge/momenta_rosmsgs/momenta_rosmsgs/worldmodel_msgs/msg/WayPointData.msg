@@ -1,0 +1,4 @@
+worldmodel_msgs/WayPointType way_point_type
+float64 longtitude
+float64 latitude
+float64 altitude

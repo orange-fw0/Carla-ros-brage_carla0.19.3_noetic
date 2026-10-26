@@ -1,0 +1,9 @@
+string[] collect_type
+string[] name
+string[] export_type
+time since
+uint32 latest
+---
+bool success
+string message
+recorder_msgs/ExportJobInfoV2[] export_jobs

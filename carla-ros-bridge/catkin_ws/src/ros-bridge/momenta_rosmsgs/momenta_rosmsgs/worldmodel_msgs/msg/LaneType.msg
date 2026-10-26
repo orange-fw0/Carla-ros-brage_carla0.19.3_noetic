@@ -1,0 +1,12 @@
+uint8 UNKNOWN = 0
+uint8 NORMAL = 1
+uint8 VIRTUAL = 2
+uint8 PARKING = 3
+uint8 ACCELERATE = 4
+uint8 DECELERATE = 5
+uint8 BUS = 6
+uint8 EMERGENCY = 7
+uint8 ACCELERATE_DECELERATE = 8
+uint8 LEFT_TURN_WAITTING_AREA = 9
+uint8 NON_MOTOR = 10
+uint8 value

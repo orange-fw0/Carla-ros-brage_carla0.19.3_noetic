@@ -1,0 +1,16 @@
+uint64 timestamp_us
+endpoint_msgs/WorkType driver_work_type
+endpoint_msgs/TurnSignal turn_signal_type
+endpoint_msgs/FrontLightState front_light
+bool width_light
+bool reversing_light
+bool front_fog_light
+bool rear_fog_light
+endpoint_msgs/LeverStatus lever_state
+bool position_light_status
+endpoint_msgs/BrakeLightStatus brake_light
+endpoint_msgs/LeverType lever_type
+bool auto_light_ctrl_state
+endpoint_msgs/LightModeState light_mode_status
+endpoint_msgs/FrontLightSwitchState front_light_switch_state
+bool valid

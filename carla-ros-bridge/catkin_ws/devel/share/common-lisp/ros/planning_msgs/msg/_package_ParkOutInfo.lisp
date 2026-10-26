@@ -1,0 +1,12 @@
+(cl:in-package planning_msgs-msg)
+(cl:export '(AVAILABLE_DIRECTION-VAL
+          AVAILABLE_DIRECTION
+          RECOMMEND_DIRECTION-VAL
+          RECOMMEND_DIRECTION
+          DISABLE_REASON-VAL
+          DISABLE_REASON
+          REACHED_TAKE_OVER_POINT-VAL
+          REACHED_TAKE_OVER_POINT
+          RESERVED-VAL
+          RESERVED
+))

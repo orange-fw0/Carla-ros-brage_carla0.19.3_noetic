@@ -1,0 +1,2 @@
+uint64 timestamp_us
+endpoint_msgs/WireControlType wire_type

@@ -1,0 +1,2 @@
+int32 phase_id
+v2x_msgs/V2xPhaseState v2x_phase_state

@@ -1,0 +1,5 @@
+perception_interface_msgs/CameraSourceEnum camera_name
+uint32 camera_id
+perception_interface_msgs/CameraSourceEnum[] attach_camera_names
+uint32[] attach_camera_ids
+calib_interface_msgs/CamOffcalibDetailedErrorCodeEnum error_code

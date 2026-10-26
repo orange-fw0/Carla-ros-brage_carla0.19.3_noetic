@@ -1,0 +1,15 @@
+uint64 timestamp_us
+endpoint_msgs/ThrottleType type
+endpoint_msgs/WorkType driver_work_type
+float32 pedal_input
+float32 command
+float32 throttle_output
+bool override
+float32 vcu_max_neg_torque
+float32 vcu_max_pos_torque
+bool vcu_max_neg_torque_valid
+bool vcu_max_pos_torque_valid
+float32 vcu_exec_throttle_torque
+bool vcu_exec_throttle_torque_valid
+bool ready
+bool valid

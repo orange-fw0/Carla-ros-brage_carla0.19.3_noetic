@@ -1,0 +1,3 @@
+bool valid
+bool in_intersection
+perception_interface_msgs/HDMapIntersection[] hdmap_intersecions

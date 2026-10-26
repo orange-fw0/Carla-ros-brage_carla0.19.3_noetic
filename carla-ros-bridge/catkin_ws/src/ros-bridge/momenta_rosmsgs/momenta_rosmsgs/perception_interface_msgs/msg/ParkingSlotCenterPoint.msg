@@ -1,0 +1,7 @@
+perception_interface_msgs/Point2f position
+perception_interface_msgs/ParkingSlotTypeEnum available_type
+float32 confidence
+float32 center_line_angle
+perception_interface_msgs/ParkingSlotChargeTypeEnum charge_type
+perception_interface_msgs/ParkingSlotSpecialTypeEnum special_type
+float32 special_confidence

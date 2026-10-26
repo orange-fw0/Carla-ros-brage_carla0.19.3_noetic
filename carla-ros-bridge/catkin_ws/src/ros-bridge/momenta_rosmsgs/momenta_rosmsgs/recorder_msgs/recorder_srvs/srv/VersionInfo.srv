@@ -1,0 +1,5 @@
+---
+string image_version
+string recorder_version
+string config_variant
+string config_version

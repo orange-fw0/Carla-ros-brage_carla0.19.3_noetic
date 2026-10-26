@@ -1,0 +1,8 @@
+prefix=/home/carla/carla_project/carla-ros-bridge/catkin_ws/devel
+
+Name: sensor_interface_msgs
+Description: Description of sensor_interface_msgs
+Version: 0.0.1
+Cflags: -I/home/carla/carla_project/carla-ros-bridge/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

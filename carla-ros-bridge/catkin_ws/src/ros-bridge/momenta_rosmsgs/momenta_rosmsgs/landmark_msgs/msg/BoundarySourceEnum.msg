@@ -1,0 +1,9 @@
+uint8 OTHER = 0
+uint8 AUTO_MAPPING = 1
+uint8 MANUAL_VALID = 2
+uint8 MANUAL_GUESS = 3
+uint8 INTERNAL = 4
+uint8 EXTERNAL = 5
+uint8 INTERNAL_SHARED = 6
+uint8 NONE = 7
+uint8 value

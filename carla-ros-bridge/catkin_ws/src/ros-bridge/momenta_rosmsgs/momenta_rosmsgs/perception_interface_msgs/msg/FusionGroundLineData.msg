@@ -1,0 +1,15 @@
+uint8 FUSION_GROUND_LINE_SOURCE_VISON = 1
+uint8 FUSION_GROUND_LINE_SOURCE_ULTRASONIC = 2
+uint8 FUSION_GROUND_LINE_SOURCE_DDUSS = 3
+uint8 available
+perception_interface_msgs/GroundLineTypeEnum type
+uint64 track_id
+float32 score
+perception_interface_msgs/Point3f[] points_fusion
+float32[] points_fusion_confidence
+perception_interface_msgs/Point3f[] local_points_fusion
+float32[] local_points_fusion_confidence
+perception_interface_msgs/FusionObstacleTypeEnum obstacle_type
+perception_interface_msgs/FusionObstaclePointType obstacle_point_type
+string reserved_info
+float32[] points_height

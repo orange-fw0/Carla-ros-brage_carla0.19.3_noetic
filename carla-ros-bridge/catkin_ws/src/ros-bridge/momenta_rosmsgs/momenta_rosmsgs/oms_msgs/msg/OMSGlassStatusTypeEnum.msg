@@ -1,0 +1,3 @@
+uint8 OMS_GLASSES_UNKNOWN = 0
+uint8 OMS_GLASSES_IR_BLOCK_ON = 1
+uint8 value

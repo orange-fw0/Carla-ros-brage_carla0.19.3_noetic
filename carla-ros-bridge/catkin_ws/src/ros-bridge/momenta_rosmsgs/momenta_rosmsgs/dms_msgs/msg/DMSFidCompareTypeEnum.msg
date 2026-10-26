@@ -1,0 +1,3 @@
+uint8 DMS_FID_COMPARE_MISMATCH = 0
+uint8 DMS_FID_COMPARE_MATCH = 1
+uint8 value

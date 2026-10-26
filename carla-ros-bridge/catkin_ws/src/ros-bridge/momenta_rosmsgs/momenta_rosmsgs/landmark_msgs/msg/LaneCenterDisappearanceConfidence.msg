@@ -1,0 +1,2 @@
+bool reliable
+landmark_msgs/LaneCenterDisappearance[] lane_center_disappearances

@@ -1,0 +1,3 @@
+uint8 WHEEL_FRCT_TORQUE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WheelFrctTorqueReportData wheel_frct_torque_report_data

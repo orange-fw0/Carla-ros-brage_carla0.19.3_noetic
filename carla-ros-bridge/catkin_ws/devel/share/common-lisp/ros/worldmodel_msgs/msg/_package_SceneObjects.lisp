@@ -1,0 +1,16 @@
+(cl:in-package worldmodel_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          META-VAL
+          META
+          AVAILABLE-VAL
+          AVAILABLE
+          ON_PATH_POLYGON_OBJECTS-VAL
+          ON_PATH_POLYGON_OBJECTS
+          SURROUND_POLYGON_OBJECTS-VAL
+          SURROUND_POLYGON_OBJECTS
+          ON_PATH_CIRCLE_OBJECTS-VAL
+          ON_PATH_CIRCLE_OBJECTS
+          SURROUND_CIRCLE_OBJECTS-VAL
+          SURROUND_CIRCLE_OBJECTS
+))

@@ -1,0 +1,8 @@
+uint64 timestamp_us
+bool window_lock
+endpoint_msgs/WindowState window_state_left_front
+endpoint_msgs/WindowState window_state_right_front
+endpoint_msgs/WindowState window_state_left_rear
+endpoint_msgs/WindowState window_state_right_rear
+endpoint_msgs/WindowState window_state_top
+bool valid

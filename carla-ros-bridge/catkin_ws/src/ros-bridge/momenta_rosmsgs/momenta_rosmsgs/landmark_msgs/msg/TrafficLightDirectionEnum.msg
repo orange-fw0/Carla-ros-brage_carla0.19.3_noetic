@@ -1,0 +1,9 @@
+uint8 UNKNOWN = 0
+uint8 GO_STRAIGHT = 1
+uint8 TURN_RIGHT = 2
+uint8 TURN_LEFT = 3
+uint8 U_TURN_LEFT = 4
+uint8 U_TURN_RIGHT = 5
+uint8 LEFT_CONFLUENCE = 6
+uint8 RIGHT_CONFLUENCE = 7
+uint8 value

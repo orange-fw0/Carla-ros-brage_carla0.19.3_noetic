@@ -1,0 +1,5 @@
+uint8 HAT_USLOT_NON_CURB = 0
+uint8 HAT_USLOT_EXIST_CURB = 1
+uint8 UNKNOWN = 2
+uint8 RESERVED_INFO = 3
+uint8 value

@@ -1,0 +1,5 @@
+uint8 VISION_PERCEPTION_TRAFFIC_LIGHT_RESULT = 1
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+uint64 available
+perception_interface_msgs/TrafficLightPerceptionResult traffic_light_perception_result

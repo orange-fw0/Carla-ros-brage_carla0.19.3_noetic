@@ -1,0 +1,3 @@
+perception_interface_msgs/Point3d[] boundary
+perception_interface_msgs/TrafficLightPatternEnum pattern
+bool on_route

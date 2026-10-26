@@ -1,0 +1,51 @@
+uint32 POSITION_VALID = 1
+uint32 SHAPE_POINTS_VALID = 2
+uint32 TYPE_VALID = 4
+uint32 SHAPE_TYPE_VALID = 8
+uint32 SCORE_VALID = 16
+uint32 IGNORED_VALID = 32
+uint32 SPEED_LIMIT_VALID = 64
+uint32 HEIGHT_LIMIT_VALID = 128
+uint32 PARKING_SUBTYPE_VALID = 256
+uint32 PARKING_ARROW_VALID = 512
+uint32 LANE_POSITION_ARROW_VALID = 1024
+uint32 REGION_VALID = 2048
+uint32 SPEED_LIMIT_CONDITIONS_VALID = 4096
+uint32 DIRECTIONS_VALID = 8192
+uint32 IS_ELECTRONIC_VALID = 16384
+uint32 TOLL_STATION_VALID = 32768
+uint32 STAY_ON_VALID = 65536
+uint32 PASS_ON_VALID = 131072
+uint32 DRIVE_TO_VALID = 262144
+uint32 IS_LANE_LEVEL_LIMIT_VALID = 524288
+uint32 IS_DIRECTION_GROUPED_VALID = 1048576
+uint32 WAITING_AREA_ALLOW_VALID = 2097152
+uint32 WAITING_AREA_DIRECTIONS_VALID = 4194304
+uint32 ETC_DISTRIBUTION_DIRECTIONS_VALID = 8388608
+uint32 available
+landmark_msgs/TrackId track_id
+perception_interface_msgs/Point3f position
+perception_interface_msgs/Point3f[] shape_points
+landmark_msgs/TrafficSignNodeTypeEnum type
+landmark_msgs/TrafficSignShapeTypeEnum shape_type
+float32 score
+bool ignored
+landmark_msgs/TrafficSignNodeSpeedLimitEnum speed_limit
+landmark_msgs/TrafficSignNodeHeightLimitEnum height_limit_unit
+landmark_msgs/TrafficSignNodeHeightLimitEnum height_limit_tenths
+landmark_msgs/TrafficSignNodeParkingSubTypeEnum parking_subtype
+landmark_msgs/TrafficSignNodeParkingArrowEnum parking_arrow
+landmark_msgs/TrafficSignNodeLanePositionArrowEnum lane_position_arrow
+landmark_msgs/TrafficSignNodeRegionEnum region
+landmark_msgs/TrafficSignNodeSpeedLimitConditionEnum[] speed_limit_conditions
+landmark_msgs/TrafficSignNodeDirectionEnum[] directions
+bool is_electronic
+landmark_msgs/TrafficSignNodeTollStationEnum toll_station
+landmark_msgs/TrafficSignNodeStayOnEnum stay_on
+landmark_msgs/TrafficSignNodePassOnEnum pass_on
+landmark_msgs/TrafficSignNodeDriveToEnum drive_to
+bool is_lane_level_limit
+bool is_direction_grouped
+landmark_msgs/TrafficSignNodeWaitingAreaAllowEnum waiting_area_allow
+landmark_msgs/TrafficSignNodeWaitingAreaDirectionEnum[] waiting_area_directions
+landmark_msgs/TrafficSignNodeEtcDistributionDirectionEnum[] etc_distribution_directions

@@ -1,0 +1,22 @@
+uint8 FUSION_PARKING_SLOT_SOURCE_VISON = 1
+uint8 FUSION_PARKING_SLOT_SOURCE_ULTRASONIC = 2
+uint8 FUSION_PARKING_SLOT_SOURCE_MAP = 4
+uint8 FUSION_PARKING_SLOT_SOURCE_USER_SELECT = 8
+uint8 available
+uint8 charge_property
+uint64 track_id
+int32 empty_votes
+perception_interface_msgs/Point3f[] points_fusion
+float32[] points_fusion_confidence
+perception_interface_msgs/ParkingSlotPointTypeEnum[] points_fusion_type
+perception_interface_msgs/Point3f[] local_points_fusion
+float32[] local_points_fusion_confidence
+perception_interface_msgs/ParkingSlotPointTypeEnum[] local_points_fusion_type
+perception_interface_msgs/Point2f[] points_fusion_in_image
+float32[] points_fusion_in_image_confidence
+perception_interface_msgs/ParkingSlotPointTypeEnum[] points_fusion_in_image_type
+perception_interface_msgs/Point3f[] local_wheel_stop_points
+perception_interface_msgs/FusionParkingSlotType slot_type
+perception_interface_msgs/FusionSpecialParkingSlotType special_slot_type
+perception_interface_msgs/ParkingSlotVirtualPoint virtual_point
+string reserved_info

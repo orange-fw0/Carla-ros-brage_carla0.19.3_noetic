@@ -1,0 +1,2 @@
+uint64 track_id
+perception_interface_msgs/HDMapTrafficLight[] traffic_lights

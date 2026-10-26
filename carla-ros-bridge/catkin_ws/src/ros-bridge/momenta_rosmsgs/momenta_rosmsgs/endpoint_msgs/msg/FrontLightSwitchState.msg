@@ -1,0 +1,7 @@
+uint8 FRONT_LIGHT_OFF = 0
+uint8 FRONT_LIGHT_LOW = 1
+uint8 FRONT_LIGHT_HIGH = 2
+uint8 FRONT_LIGHT_FLASH = 3
+uint8 RESERVED1 = 4
+uint8 RESERVED2 = 5
+uint8 value

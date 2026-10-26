@@ -1,0 +1,9 @@
+std_msgs/Header header
+momenta_msgs/Line path
+float32[] vel_array
+float32[] curvature
+float32[] accleration
+float32[] s
+float32[] relative_time
+bool is_replan
+int32 type

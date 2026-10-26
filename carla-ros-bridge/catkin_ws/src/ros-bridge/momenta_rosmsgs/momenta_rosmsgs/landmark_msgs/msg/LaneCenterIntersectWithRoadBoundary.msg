@@ -1,0 +1,4 @@
+landmark_msgs/LaneRecordConfidence lane_center
+landmark_msgs/LaneRecordConfidence road_boundary
+landmark_msgs/IntersectTypeEnum intersect_type
+float64 min_distance

@@ -1,0 +1,1 @@
+system_manager_msgs/FunctionModeEnum function_mode

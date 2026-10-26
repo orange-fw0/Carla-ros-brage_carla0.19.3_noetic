@@ -1,0 +1,7 @@
+uint8 SUCCESS = 0
+uint8 SEARCH_RESULT_EMPTY = 1
+uint8 LOAD_LPNP_FAILED = 2
+uint8 LOAD_PNP_FAILED = 3
+uint8 DELETE_FAILED = 4
+uint8 RENAME_FAILED = 5
+uint8 value

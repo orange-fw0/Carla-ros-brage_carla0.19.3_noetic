@@ -1,0 +1,5 @@
+string sn
+string disk_type
+---
+bool success
+string message

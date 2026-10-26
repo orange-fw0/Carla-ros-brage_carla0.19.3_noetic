@@ -1,0 +1,8 @@
+(cl:in-package endpoint_msgs-msg)
+(cl:export '(REARVIEW_MIRROR_ENABLE-VAL
+          REARVIEW_MIRROR_ENABLE
+          REARVIEW_MIRROR_COMMAND-VAL
+          REARVIEW_MIRROR_COMMAND
+          RWHEEL_STEER_MODE-VAL
+          RWHEEL_STEER_MODE
+))

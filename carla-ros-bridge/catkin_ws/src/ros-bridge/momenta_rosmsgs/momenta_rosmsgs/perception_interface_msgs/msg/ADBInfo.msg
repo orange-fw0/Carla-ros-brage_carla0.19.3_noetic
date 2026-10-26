@@ -1,0 +1,9 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionFusionResultMeta meta
+perception_interface_msgs/ADBSysStatusEnum adb_sys_status
+perception_interface_msgs/ADBObjectData[] adb_objects_data
+uint8 object_num
+bool too_many_obj
+perception_interface_msgs/ADASPerceptionResult ihc_info
+uint8 road_illuminate_state
+string[] reserved_infos

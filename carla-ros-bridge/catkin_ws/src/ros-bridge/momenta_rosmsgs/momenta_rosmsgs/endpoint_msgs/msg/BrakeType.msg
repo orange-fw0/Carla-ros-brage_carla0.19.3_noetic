@@ -1,0 +1,9 @@
+uint8 PEDAL = 1
+uint8 DECELERATION = 2
+uint8 MASTER_CYLINDERPRESSURE = 3
+uint8 WHEEL_CYLINDERPRESSURE = 4
+uint8 TORQUE = 5
+uint8 DISTANCE = 6
+uint8 SV = 7
+uint8 RESERVED = 8
+uint8 value

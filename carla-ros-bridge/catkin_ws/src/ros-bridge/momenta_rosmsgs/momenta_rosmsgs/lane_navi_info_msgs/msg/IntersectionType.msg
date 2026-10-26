@@ -1,0 +1,10 @@
+uint8 UNKNOWN = 0
+uint8 HIGHWAY_SPLIT = 1
+uint8 URBAN_NORMAL = 2
+uint8 NORMAL_SPLIT_MERGE = 3
+uint8 T_JUNCTION = 4
+uint8 Y_JUNCTION = 5
+uint8 ROUNDABOUT = 6
+uint8 OVERPASS = 7
+uint8 OTHERS = 255
+uint8 value

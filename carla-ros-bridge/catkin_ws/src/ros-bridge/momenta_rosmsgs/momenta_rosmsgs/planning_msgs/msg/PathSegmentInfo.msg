@@ -1,0 +1,3 @@
+float64 end_segment_control_point_s
+planning_msgs/RefPointInfo end_segment_refline_info
+planning_msgs/PathSampleInfo[] quad_point_info

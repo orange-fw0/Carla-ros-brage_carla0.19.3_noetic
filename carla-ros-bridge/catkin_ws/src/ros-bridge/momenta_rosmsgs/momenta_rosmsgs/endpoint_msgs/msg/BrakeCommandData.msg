@@ -1,0 +1,10 @@
+uint64 timestamp_us
+bool brake_enable
+endpoint_msgs/BrakeType brake_type
+float32 brake_command
+endpoint_msgs/BrakeControlType brake_control_type
+endpoint_msgs/AccStandstillType brake_acc_standstill
+bool brake_acc_go
+bool epb_enable
+bool epb_command
+bool auto_hold_command

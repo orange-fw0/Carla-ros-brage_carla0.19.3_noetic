@@ -1,0 +1,16 @@
+uint8 UNKNOWN = 0
+uint8 GATE = 1
+uint8 ARROW = 2
+uint8 STOP_LINE = 3
+uint8 DASH_LINE = 4
+uint8 SPEED_BUMP = 5
+uint8 ZWBRA_LINE = 6
+uint8 DDLD_ROAD_BOUNDARY = 7
+uint8 DDLD_LANE_BOUNDARY = 8
+uint8 DDLD_STOP_LINE = 9
+uint8 DDLD_CROSS_WALK = 10
+uint8 DDLD_ROAD_MARK = 11
+uint8 DDLD_TRAFFIC_SIGN = 12
+uint8 DDLD_TRAFFIC_LIGHT = 13
+uint8 value
+float32 score

@@ -1,0 +1,12 @@
+uint64 track_id
+perception_interface_msgs/ObjectTypeInfo type_info
+float32 score
+float32 ttc
+perception_interface_msgs/Shape3d shape
+perception_interface_msgs/Point3d relative_position
+perception_interface_msgs/Vector3d relative_velocity
+perception_interface_msgs/Vector3d relative_acceleration
+float32 relative_heading_yaw
+float32 relative_angular_velocity
+perception_interface_msgs/Vector3d velocity_relative_to_ground
+perception_interface_msgs/Vector3d acceleration_relative_to_ground

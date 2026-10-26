@@ -1,0 +1,5 @@
+std_msgs/Header header
+uint32 request_seq
+system_manager_msgs/ParkingResponseErrorEnum error_code
+system_manager_msgs/ParkingLotInfo[] parking_lot_lists
+int64 storage_size

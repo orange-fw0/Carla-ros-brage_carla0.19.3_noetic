@@ -1,0 +1,10 @@
+std_msgs/Header header
+lane_navi_info_msgs/Path path
+lane_navi_info_msgs/StaticManeuvers static_maneuvers
+lane_navi_info_msgs/Path[] sd_paths
+lane_navi_info_msgs/Road[] roads
+lane_navi_info_msgs/LaneGroup[] lane_groups
+lane_navi_info_msgs/Intersection[] intersections
+lane_navi_info_msgs/Meta meta
+lane_navi_info_msgs/TBTInfo tbt_info
+string reserved

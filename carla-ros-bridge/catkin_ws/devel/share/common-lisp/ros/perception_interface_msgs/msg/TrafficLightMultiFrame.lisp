@@ -1,0 +1,428 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package perception_interface_msgs-msg)
+
+
+;//! \htmlinclude TrafficLightMultiFrame.msg.html
+
+(cl:defclass <TrafficLightMultiFrame> (roslisp-msg-protocol:ros-message)
+  ((camera_source
+    :reader camera_source
+    :initarg :camera_source
+    :type perception_interface_msgs-msg:CameraSourceEnum
+    :initform (cl:make-instance 'perception_interface_msgs-msg:CameraSourceEnum))
+   (camera_model
+    :reader camera_model
+    :initarg :camera_model
+    :type perception_interface_msgs-msg:CameraModelEnum
+    :initform (cl:make-instance 'perception_interface_msgs-msg:CameraModelEnum))
+   (type
+    :reader type
+    :initarg :type
+    :type perception_interface_msgs-msg:TrafficLightTypeEnum
+    :initform (cl:make-instance 'perception_interface_msgs-msg:TrafficLightTypeEnum))
+   (track_id
+    :reader track_id
+    :initarg :track_id
+    :type cl:integer
+    :initform 0)
+   (pattern
+    :reader pattern
+    :initarg :pattern
+    :type (cl:vector perception_interface_msgs-msg:TrafficLightPatternEnum)
+   :initform (cl:make-array 0 :element-type 'perception_interface_msgs-msg:TrafficLightPatternEnum :initial-element (cl:make-instance 'perception_interface_msgs-msg:TrafficLightPatternEnum)))
+   (status
+    :reader status
+    :initarg :status
+    :type (cl:vector perception_interface_msgs-msg:TrafficLightStatusEnum)
+   :initform (cl:make-array 0 :element-type 'perception_interface_msgs-msg:TrafficLightStatusEnum :initial-element (cl:make-instance 'perception_interface_msgs-msg:TrafficLightStatusEnum)))
+   (pattern_score
+    :reader pattern_score
+    :initarg :pattern_score
+    :type (cl:vector cl:float)
+   :initform (cl:make-array 0 :element-type 'cl:float :initial-element 0.0))
+   (status_score
+    :reader status_score
+    :initarg :status_score
+    :type (cl:vector cl:float)
+   :initform (cl:make-array 0 :element-type 'cl:float :initial-element 0.0))
+   (duration
+    :reader duration
+    :initarg :duration
+    :type cl:float
+    :initform 0.0)
+   (remaining
+    :reader remaining
+    :initarg :remaining
+    :type cl:float
+    :initform 0.0)
+   (count_number
+    :reader count_number
+    :initarg :count_number
+    :type cl:fixnum
+    :initform 0)
+   (shape_3d
+    :reader shape_3d
+    :initarg :shape_3d
+    :type perception_interface_msgs-msg:Shape3f
+    :initform (cl:make-instance 'perception_interface_msgs-msg:Shape3f))
+   (location_bv
+    :reader location_bv
+    :initarg :location_bv
+    :type perception_interface_msgs-msg:Point3f
+    :initform (cl:make-instance 'perception_interface_msgs-msg:Point3f))
+   (heading_theta_bv
+    :reader heading_theta_bv
+    :initarg :heading_theta_bv
+    :type cl:float
+    :initform 0.0)
+   (velocity_bv
+    :reader velocity_bv
+    :initarg :velocity_bv
+    :type perception_interface_msgs-msg:Vector2f
+    :initform (cl:make-instance 'perception_interface_msgs-msg:Vector2f))
+   (associated_infos
+    :reader associated_infos
+    :initarg :associated_infos
+    :type (cl:vector perception_interface_msgs-msg:TrafficLightAssociatedInfo)
+   :initform (cl:make-array 0 :element-type 'perception_interface_msgs-msg:TrafficLightAssociatedInfo :initial-element (cl:make-instance 'perception_interface_msgs-msg:TrafficLightAssociatedInfo)))
+   (reserved_info
+    :reader reserved_info
+    :initarg :reserved_info
+    :type cl:string
+    :initform ""))
+)
+
+(cl:defclass TrafficLightMultiFrame (<TrafficLightMultiFrame>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <TrafficLightMultiFrame>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'TrafficLightMultiFrame)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name perception_interface_msgs-msg:<TrafficLightMultiFrame> is deprecated: use perception_interface_msgs-msg:TrafficLightMultiFrame instead.")))
+
+(cl:ensure-generic-function 'camera_source-val :lambda-list '(m))
+(cl:defmethod camera_source-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:camera_source-val is deprecated.  Use perception_interface_msgs-msg:camera_source instead.")
+  (camera_source m))
+
+(cl:ensure-generic-function 'camera_model-val :lambda-list '(m))
+(cl:defmethod camera_model-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:camera_model-val is deprecated.  Use perception_interface_msgs-msg:camera_model instead.")
+  (camera_model m))
+
+(cl:ensure-generic-function 'type-val :lambda-list '(m))
+(cl:defmethod type-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:type-val is deprecated.  Use perception_interface_msgs-msg:type instead.")
+  (type m))
+
+(cl:ensure-generic-function 'track_id-val :lambda-list '(m))
+(cl:defmethod track_id-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:track_id-val is deprecated.  Use perception_interface_msgs-msg:track_id instead.")
+  (track_id m))
+
+(cl:ensure-generic-function 'pattern-val :lambda-list '(m))
+(cl:defmethod pattern-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:pattern-val is deprecated.  Use perception_interface_msgs-msg:pattern instead.")
+  (pattern m))
+
+(cl:ensure-generic-function 'status-val :lambda-list '(m))
+(cl:defmethod status-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:status-val is deprecated.  Use perception_interface_msgs-msg:status instead.")
+  (status m))
+
+(cl:ensure-generic-function 'pattern_score-val :lambda-list '(m))
+(cl:defmethod pattern_score-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:pattern_score-val is deprecated.  Use perception_interface_msgs-msg:pattern_score instead.")
+  (pattern_score m))
+
+(cl:ensure-generic-function 'status_score-val :lambda-list '(m))
+(cl:defmethod status_score-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:status_score-val is deprecated.  Use perception_interface_msgs-msg:status_score instead.")
+  (status_score m))
+
+(cl:ensure-generic-function 'duration-val :lambda-list '(m))
+(cl:defmethod duration-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:duration-val is deprecated.  Use perception_interface_msgs-msg:duration instead.")
+  (duration m))
+
+(cl:ensure-generic-function 'remaining-val :lambda-list '(m))
+(cl:defmethod remaining-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:remaining-val is deprecated.  Use perception_interface_msgs-msg:remaining instead.")
+  (remaining m))
+
+(cl:ensure-generic-function 'count_number-val :lambda-list '(m))
+(cl:defmethod count_number-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:count_number-val is deprecated.  Use perception_interface_msgs-msg:count_number instead.")
+  (count_number m))
+
+(cl:ensure-generic-function 'shape_3d-val :lambda-list '(m))
+(cl:defmethod shape_3d-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:shape_3d-val is deprecated.  Use perception_interface_msgs-msg:shape_3d instead.")
+  (shape_3d m))
+
+(cl:ensure-generic-function 'location_bv-val :lambda-list '(m))
+(cl:defmethod location_bv-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:location_bv-val is deprecated.  Use perception_interface_msgs-msg:location_bv instead.")
+  (location_bv m))
+
+(cl:ensure-generic-function 'heading_theta_bv-val :lambda-list '(m))
+(cl:defmethod heading_theta_bv-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:heading_theta_bv-val is deprecated.  Use perception_interface_msgs-msg:heading_theta_bv instead.")
+  (heading_theta_bv m))
+
+(cl:ensure-generic-function 'velocity_bv-val :lambda-list '(m))
+(cl:defmethod velocity_bv-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:velocity_bv-val is deprecated.  Use perception_interface_msgs-msg:velocity_bv instead.")
+  (velocity_bv m))
+
+(cl:ensure-generic-function 'associated_infos-val :lambda-list '(m))
+(cl:defmethod associated_infos-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:associated_infos-val is deprecated.  Use perception_interface_msgs-msg:associated_infos instead.")
+  (associated_infos m))
+
+(cl:ensure-generic-function 'reserved_info-val :lambda-list '(m))
+(cl:defmethod reserved_info-val ((m <TrafficLightMultiFrame>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader perception_interface_msgs-msg:reserved_info-val is deprecated.  Use perception_interface_msgs-msg:reserved_info instead.")
+  (reserved_info m))
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <TrafficLightMultiFrame>) ostream)
+  "Serializes a message object of type '<TrafficLightMultiFrame>"
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'camera_source) ostream)
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'camera_model) ostream)
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'type) ostream)
+  (cl:let* ((signed (cl:slot-value msg 'track_id)) (unsigned (cl:if (cl:< signed 0) (cl:+ signed 4294967296) signed)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) unsigned) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) unsigned) ostream)
+    )
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'pattern))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (roslisp-msg-protocol:serialize ele ostream))
+   (cl:slot-value msg 'pattern))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'status))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (roslisp-msg-protocol:serialize ele ostream))
+   (cl:slot-value msg 'status))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'pattern_score))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((bits (roslisp-utils:encode-single-float-bits ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)))
+   (cl:slot-value msg 'pattern_score))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'status_score))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((bits (roslisp-utils:encode-single-float-bits ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)))
+   (cl:slot-value msg 'status_score))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'duration))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'remaining))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:write-byte (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'count_number)) ostream)
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'shape_3d) ostream)
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'location_bv) ostream)
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'heading_theta_bv))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (roslisp-msg-protocol:serialize (cl:slot-value msg 'velocity_bv) ostream)
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'associated_infos))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (roslisp-msg-protocol:serialize ele ostream))
+   (cl:slot-value msg 'associated_infos))
+  (cl:let ((__ros_str_len (cl:length (cl:slot-value msg 'reserved_info))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_str_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (c) (cl:write-byte (cl:char-code c) ostream)) (cl:slot-value msg 'reserved_info))
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <TrafficLightMultiFrame>) istream)
+  "Deserializes a message object of type '<TrafficLightMultiFrame>"
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'camera_source) istream)
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'camera_model) istream)
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'type) istream)
+    (cl:let ((unsigned 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) unsigned) (cl:read-byte istream))
+      (cl:setf (cl:slot-value msg 'track_id) (cl:if (cl:< unsigned 2147483648) unsigned (cl:- unsigned 4294967296))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'pattern) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'pattern)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:setf (cl:aref vals i) (cl:make-instance 'perception_interface_msgs-msg:TrafficLightPatternEnum))
+  (roslisp-msg-protocol:deserialize (cl:aref vals i) istream))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'status) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'status)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:setf (cl:aref vals i) (cl:make-instance 'perception_interface_msgs-msg:TrafficLightStatusEnum))
+  (roslisp-msg-protocol:deserialize (cl:aref vals i) istream))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'pattern_score) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'pattern_score)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:aref vals i) (roslisp-utils:decode-single-float-bits bits))))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'status_score) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'status_score)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:aref vals i) (roslisp-utils:decode-single-float-bits bits))))))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'duration) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'remaining) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:setf (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'count_number)) (cl:read-byte istream))
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'shape_3d) istream)
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'location_bv) istream)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'heading_theta_bv) (roslisp-utils:decode-single-float-bits bits)))
+  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'velocity_bv) istream)
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'associated_infos) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'associated_infos)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:setf (cl:aref vals i) (cl:make-instance 'perception_interface_msgs-msg:TrafficLightAssociatedInfo))
+  (roslisp-msg-protocol:deserialize (cl:aref vals i) istream))))
+    (cl:let ((__ros_str_len 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:slot-value msg 'reserved_info) (cl:make-string __ros_str_len))
+      (cl:dotimes (__ros_str_idx __ros_str_len msg)
+        (cl:setf (cl:char (cl:slot-value msg 'reserved_info) __ros_str_idx) (cl:code-char (cl:read-byte istream)))))
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<TrafficLightMultiFrame>)))
+  "Returns string type for a message object of type '<TrafficLightMultiFrame>"
+  "perception_interface_msgs/TrafficLightMultiFrame")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'TrafficLightMultiFrame)))
+  "Returns string type for a message object of type 'TrafficLightMultiFrame"
+  "perception_interface_msgs/TrafficLightMultiFrame")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<TrafficLightMultiFrame>)))
+  "Returns md5sum for a message object of type '<TrafficLightMultiFrame>"
+  "863e752ca74c70f882765df81798bc73")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'TrafficLightMultiFrame)))
+  "Returns md5sum for a message object of type 'TrafficLightMultiFrame"
+  "863e752ca74c70f882765df81798bc73")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<TrafficLightMultiFrame>)))
+  "Returns full string definition for message of type '<TrafficLightMultiFrame>"
+  (cl:format cl:nil "perception_interface_msgs/CameraSourceEnum camera_source~%perception_interface_msgs/CameraModelEnum camera_model~%perception_interface_msgs/TrafficLightTypeEnum type~%int32 track_id~%perception_interface_msgs/TrafficLightPatternEnum[] pattern~%perception_interface_msgs/TrafficLightStatusEnum[] status~%float32[] pattern_score~%float32[] status_score~%float32 duration~%float32 remaining~%uint8 count_number~%perception_interface_msgs/Shape3f shape_3d~%perception_interface_msgs/Point3f location_bv~%float32 heading_theta_bv~%perception_interface_msgs/Vector2f velocity_bv~%perception_interface_msgs/TrafficLightAssociatedInfo[] associated_infos~%string reserved_info~%~%================================================================================~%MSG: perception_interface_msgs/CameraSourceEnum~%uint8 CAMERA_SOURCE_FRONT_FAR = 0~%uint8 CAMERA_SOURCE_FRONT_MID = 1~%uint8 CAMERA_SOURCE_FRONT_WIDE = 2~%uint8 CAMERA_SOURCE_LEFT_FRONT = 3~%uint8 CAMERA_SOURCE_LEFT_REAR = 4~%uint8 CAMERA_SOURCE_REAR_MID = 5~%uint8 CAMERA_SOURCE_REAR_MID_UP = 6~%uint8 CAMERA_SOURCE_REAR_MID_DOWN = 7~%uint8 CAMERA_SOURCE_RIGHT_FRONT = 8~%uint8 CAMERA_SOURCE_RIGHT_REAR = 9~%uint8 CAMERA_SOURCE_FRONT_FISHEYE = 10~%uint8 CAMERA_SOURCE_LEFT_FISHEYE = 11~%uint8 CAMERA_SOURCE_RIGHT_FISHEYE = 12~%uint8 CAMERA_SOURCE_REAR_FISHEYE = 13~%uint8 CAMERA_SOURCE_FISHEYE = 14~%uint8 CAMERA_SOURCE_FRONT_WIDE_SUB_LEFT = 15~%uint8 CAMERA_SOURCE_FRONT_WIDE_SUB_RIGHT = 16~%uint8 CAMERA_SOURCE_RIGHT_FRONT_SUB_LEFT = 17~%uint8 CAMERA_SOURCE_RIGHT_FRONT_SUB_RIGHT = 18~%uint8 CAMERA_SOURCE_LEFT_FRONT_SUB_LEFT = 19~%uint8 CAMERA_SOURCE_LEFT_FRONT_SUB_RIGHT = 20~%uint8 CAMERA_SOURCE_LEFT_REAR_SUB_LEFT = 21~%uint8 CAMERA_SOURCE_RIGHT_REAR_SUB_RIGHT = 22~%uint8 CAMERA_SOURCE_FRONT_MID_FAR = 23~%uint8 CAMERA_SOURCE_FRONT_SUPER_FAR = 24~%uint8 CAMERA_SOURCE_BEV = 25~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/CameraModelEnum~%uint8 CAMERA_MODEL_UNKNOWN = 0~%uint8 CAMERA_MODEL_RAW = 1~%uint8 CAMERA_MODEL_CYLINDER = 2~%uint8 CAMERA_MODEL_DEDISTORT = 3~%uint8 CAMERA_MODEL_PSTITCH = 4~%uint8 CAMERA_MODEL_RESERVED_A = 5~%uint8 CAMERA_MODEL_RESERVED_B = 6~%uint8 CAMERA_MODEL_RESERVED_C = 7~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightTypeEnum~%uint8 TRAFFIC_LIGHT_TYPE_UNKNOWN = 0~%uint8 TRAFFIC_LIGHT_TYPE_GROUP = 1~%uint8 TRAFFIC_LIGHT_TYPE_GLIM_BULB = 2~%uint8 TRAFFIC_LIGHT_TYPE_GLIM_HALO = 3~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightPatternEnum~%uint8 TRAFFIC_LIGHT_PATTERN_SOLID_CIRCLE = 0~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_ARROW = 1~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_ARROW = 2~%uint8 TRAFFIC_LIGHT_PATTERN_UP_ARROW = 3~%uint8 TRAFFIC_LIGHT_PATTERN_DOWN_ARROW = 4~%uint8 TRAFFIC_LIGHT_PATTERN_PEDESTRIAN = 5~%uint8 TRAFFIC_LIGHT_PATTERN_NON_MOTOR = 6~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_UTURN = 7~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_UTURN = 8~%uint8 TRAFFIC_LIGHT_PATTERN_NUMBER = 9~%uint8 TRAFFIC_LIGHT_PATTERN_PROGRESS_BAR = 10~%uint8 TRAFFIC_LIGHT_PATTERN_TEXT_LIGHT = 11~%uint8 TRAFFIC_LIGHT_PATTERN_X_SHAPED_LIGHT = 12~%uint8 TRAFFIC_LIGHT_PATTERN_LEFTUP_ARROW = 13~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHTUP_ARROW = 14~%uint8 TRAFFIC_LIGHT_PATTERN_LEFTDOWN_ARROW = 15~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHTDOWN_ARROW = 16~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_UP_ARROW = 17~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_AND_UP_ARROW = 18~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_RIGHT_ARROW = 19~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_RIGHT_AND_UP_ARROW = 20~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_LEFT_UTURN_ARROW = 21~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_AND_RIGHT_UTURN_ARROW = 22~%uint8 TRAFFIC_LIGHT_PATTERN_OTHER = 23~%uint8 TRAFFIC_LIGHT_PATTERN_UNKNOW = 24~%uint8 TRAFFIC_LIGHT_PATTERN_OFF = 25~%uint8 TRAFFIC_LIGHT_PATTERN_UNMARKED = 26~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE1 = 27~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE2 = 28~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE3 = 29~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightStatusEnum~%uint8 TRAFFIC_LIGHT_STATUS_RED = 0~%uint8 TRAFFIC_LIGHT_STATUS_YELLOW = 1~%uint8 TRAFFIC_LIGHT_STATUS_GREEN = 2~%uint8 TRAFFIC_LIGHT_STATUS_YELLOW_BLINKING = 3~%uint8 TRAFFIC_LIGHT_STATUS_GREEN_BLINKING = 4~%uint8 TRAFFIC_LIGHT_STATUS_OFF = 5~%uint8 TRAFFIC_LIGHT_STATUS_OTHER = 6~%uint8 TRAFFIC_LIGHT_STATUS_UNKNOWN = 7~%uint8 TRAFFIC_LIGHT_STATUS_RED_BLINKING = 8~%uint8 TRAFFIC_LIGHT_STATUS_UNMARKED = 9~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE1 = 10~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE2 = 11~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE3 = 12~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/Shape3f~%float32 length~%float32 height~%float32 width~%~%================================================================================~%MSG: perception_interface_msgs/Point3f~%float32 x~%float32 y~%float32 z~%~%================================================================================~%MSG: perception_interface_msgs/Vector2f~%float32 x~%float32 y~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightAssociatedInfo~%perception_interface_msgs/CameraSourceEnum camera_source~%perception_interface_msgs/CameraModelEnum camera_model~%uint32 track_id~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'TrafficLightMultiFrame)))
+  "Returns full string definition for message of type 'TrafficLightMultiFrame"
+  (cl:format cl:nil "perception_interface_msgs/CameraSourceEnum camera_source~%perception_interface_msgs/CameraModelEnum camera_model~%perception_interface_msgs/TrafficLightTypeEnum type~%int32 track_id~%perception_interface_msgs/TrafficLightPatternEnum[] pattern~%perception_interface_msgs/TrafficLightStatusEnum[] status~%float32[] pattern_score~%float32[] status_score~%float32 duration~%float32 remaining~%uint8 count_number~%perception_interface_msgs/Shape3f shape_3d~%perception_interface_msgs/Point3f location_bv~%float32 heading_theta_bv~%perception_interface_msgs/Vector2f velocity_bv~%perception_interface_msgs/TrafficLightAssociatedInfo[] associated_infos~%string reserved_info~%~%================================================================================~%MSG: perception_interface_msgs/CameraSourceEnum~%uint8 CAMERA_SOURCE_FRONT_FAR = 0~%uint8 CAMERA_SOURCE_FRONT_MID = 1~%uint8 CAMERA_SOURCE_FRONT_WIDE = 2~%uint8 CAMERA_SOURCE_LEFT_FRONT = 3~%uint8 CAMERA_SOURCE_LEFT_REAR = 4~%uint8 CAMERA_SOURCE_REAR_MID = 5~%uint8 CAMERA_SOURCE_REAR_MID_UP = 6~%uint8 CAMERA_SOURCE_REAR_MID_DOWN = 7~%uint8 CAMERA_SOURCE_RIGHT_FRONT = 8~%uint8 CAMERA_SOURCE_RIGHT_REAR = 9~%uint8 CAMERA_SOURCE_FRONT_FISHEYE = 10~%uint8 CAMERA_SOURCE_LEFT_FISHEYE = 11~%uint8 CAMERA_SOURCE_RIGHT_FISHEYE = 12~%uint8 CAMERA_SOURCE_REAR_FISHEYE = 13~%uint8 CAMERA_SOURCE_FISHEYE = 14~%uint8 CAMERA_SOURCE_FRONT_WIDE_SUB_LEFT = 15~%uint8 CAMERA_SOURCE_FRONT_WIDE_SUB_RIGHT = 16~%uint8 CAMERA_SOURCE_RIGHT_FRONT_SUB_LEFT = 17~%uint8 CAMERA_SOURCE_RIGHT_FRONT_SUB_RIGHT = 18~%uint8 CAMERA_SOURCE_LEFT_FRONT_SUB_LEFT = 19~%uint8 CAMERA_SOURCE_LEFT_FRONT_SUB_RIGHT = 20~%uint8 CAMERA_SOURCE_LEFT_REAR_SUB_LEFT = 21~%uint8 CAMERA_SOURCE_RIGHT_REAR_SUB_RIGHT = 22~%uint8 CAMERA_SOURCE_FRONT_MID_FAR = 23~%uint8 CAMERA_SOURCE_FRONT_SUPER_FAR = 24~%uint8 CAMERA_SOURCE_BEV = 25~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/CameraModelEnum~%uint8 CAMERA_MODEL_UNKNOWN = 0~%uint8 CAMERA_MODEL_RAW = 1~%uint8 CAMERA_MODEL_CYLINDER = 2~%uint8 CAMERA_MODEL_DEDISTORT = 3~%uint8 CAMERA_MODEL_PSTITCH = 4~%uint8 CAMERA_MODEL_RESERVED_A = 5~%uint8 CAMERA_MODEL_RESERVED_B = 6~%uint8 CAMERA_MODEL_RESERVED_C = 7~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightTypeEnum~%uint8 TRAFFIC_LIGHT_TYPE_UNKNOWN = 0~%uint8 TRAFFIC_LIGHT_TYPE_GROUP = 1~%uint8 TRAFFIC_LIGHT_TYPE_GLIM_BULB = 2~%uint8 TRAFFIC_LIGHT_TYPE_GLIM_HALO = 3~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightPatternEnum~%uint8 TRAFFIC_LIGHT_PATTERN_SOLID_CIRCLE = 0~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_ARROW = 1~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_ARROW = 2~%uint8 TRAFFIC_LIGHT_PATTERN_UP_ARROW = 3~%uint8 TRAFFIC_LIGHT_PATTERN_DOWN_ARROW = 4~%uint8 TRAFFIC_LIGHT_PATTERN_PEDESTRIAN = 5~%uint8 TRAFFIC_LIGHT_PATTERN_NON_MOTOR = 6~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_UTURN = 7~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_UTURN = 8~%uint8 TRAFFIC_LIGHT_PATTERN_NUMBER = 9~%uint8 TRAFFIC_LIGHT_PATTERN_PROGRESS_BAR = 10~%uint8 TRAFFIC_LIGHT_PATTERN_TEXT_LIGHT = 11~%uint8 TRAFFIC_LIGHT_PATTERN_X_SHAPED_LIGHT = 12~%uint8 TRAFFIC_LIGHT_PATTERN_LEFTUP_ARROW = 13~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHTUP_ARROW = 14~%uint8 TRAFFIC_LIGHT_PATTERN_LEFTDOWN_ARROW = 15~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHTDOWN_ARROW = 16~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_UP_ARROW = 17~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_AND_UP_ARROW = 18~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_RIGHT_ARROW = 19~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_RIGHT_AND_UP_ARROW = 20~%uint8 TRAFFIC_LIGHT_PATTERN_LEFT_AND_LEFT_UTURN_ARROW = 21~%uint8 TRAFFIC_LIGHT_PATTERN_RIGHT_AND_RIGHT_UTURN_ARROW = 22~%uint8 TRAFFIC_LIGHT_PATTERN_OTHER = 23~%uint8 TRAFFIC_LIGHT_PATTERN_UNKNOW = 24~%uint8 TRAFFIC_LIGHT_PATTERN_OFF = 25~%uint8 TRAFFIC_LIGHT_PATTERN_UNMARKED = 26~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE1 = 27~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE2 = 28~%uint8 TRAFFIC_LIGHT_PATTERN_RESERVE3 = 29~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightStatusEnum~%uint8 TRAFFIC_LIGHT_STATUS_RED = 0~%uint8 TRAFFIC_LIGHT_STATUS_YELLOW = 1~%uint8 TRAFFIC_LIGHT_STATUS_GREEN = 2~%uint8 TRAFFIC_LIGHT_STATUS_YELLOW_BLINKING = 3~%uint8 TRAFFIC_LIGHT_STATUS_GREEN_BLINKING = 4~%uint8 TRAFFIC_LIGHT_STATUS_OFF = 5~%uint8 TRAFFIC_LIGHT_STATUS_OTHER = 6~%uint8 TRAFFIC_LIGHT_STATUS_UNKNOWN = 7~%uint8 TRAFFIC_LIGHT_STATUS_RED_BLINKING = 8~%uint8 TRAFFIC_LIGHT_STATUS_UNMARKED = 9~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE1 = 10~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE2 = 11~%uint8 TRAFFIC_LIGHT_STATUS_RESERVE3 = 12~%uint8 value~%~%================================================================================~%MSG: perception_interface_msgs/Shape3f~%float32 length~%float32 height~%float32 width~%~%================================================================================~%MSG: perception_interface_msgs/Point3f~%float32 x~%float32 y~%float32 z~%~%================================================================================~%MSG: perception_interface_msgs/Vector2f~%float32 x~%float32 y~%~%================================================================================~%MSG: perception_interface_msgs/TrafficLightAssociatedInfo~%perception_interface_msgs/CameraSourceEnum camera_source~%perception_interface_msgs/CameraModelEnum camera_model~%uint32 track_id~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <TrafficLightMultiFrame>))
+  (cl:+ 0
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'camera_source))
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'camera_model))
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'type))
+     4
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'pattern) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ (roslisp-msg-protocol:serialization-length ele))))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'status) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ (roslisp-msg-protocol:serialization-length ele))))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'pattern_score) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 4)))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'status_score) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 4)))
+     4
+     4
+     1
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'shape_3d))
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'location_bv))
+     4
+     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'velocity_bv))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'associated_infos) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ (roslisp-msg-protocol:serialization-length ele))))
+     4 (cl:length (cl:slot-value msg 'reserved_info))
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <TrafficLightMultiFrame>))
+  "Converts a ROS message object to a list"
+  (cl:list 'TrafficLightMultiFrame
+    (cl:cons ':camera_source (camera_source msg))
+    (cl:cons ':camera_model (camera_model msg))
+    (cl:cons ':type (type msg))
+    (cl:cons ':track_id (track_id msg))
+    (cl:cons ':pattern (pattern msg))
+    (cl:cons ':status (status msg))
+    (cl:cons ':pattern_score (pattern_score msg))
+    (cl:cons ':status_score (status_score msg))
+    (cl:cons ':duration (duration msg))
+    (cl:cons ':remaining (remaining msg))
+    (cl:cons ':count_number (count_number msg))
+    (cl:cons ':shape_3d (shape_3d msg))
+    (cl:cons ':location_bv (location_bv msg))
+    (cl:cons ':heading_theta_bv (heading_theta_bv msg))
+    (cl:cons ':velocity_bv (velocity_bv msg))
+    (cl:cons ':associated_infos (associated_infos msg))
+    (cl:cons ':reserved_info (reserved_info msg))
+))

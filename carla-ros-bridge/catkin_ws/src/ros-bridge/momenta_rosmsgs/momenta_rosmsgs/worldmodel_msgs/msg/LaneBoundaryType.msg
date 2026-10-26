@@ -1,0 +1,3 @@
+worldmodel_msgs/LaneBoundaryForm value
+worldmodel_msgs/LaneBoundaryColor color
+worldmodel_msgs/LaneBoundaryWidth width

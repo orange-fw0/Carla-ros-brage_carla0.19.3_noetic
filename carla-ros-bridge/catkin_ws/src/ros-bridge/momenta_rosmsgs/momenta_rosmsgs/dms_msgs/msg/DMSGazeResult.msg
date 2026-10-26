@@ -1,0 +1,13 @@
+uint8 GAZE_SCORE_AVAILABLE = 1
+uint8 GAZE_ORIENTATION_AVAILABLE = 2
+uint8 GAZE_ORIENTATION_WCS_AVAILABLE = 4
+uint8 available
+float32 gaze_left_score
+float32 gaze_right_score
+float32 gaze_center_score
+dms_msgs/DMSOrientation3f gaze_left
+dms_msgs/DMSOrientation3f gaze_right
+dms_msgs/DMSOrientation3f gaze_center
+dms_msgs/DMSOrientation3f gaze_left_wcs
+dms_msgs/DMSOrientation3f gaze_right_wcs
+dms_msgs/DMSOrientation3f gaze_center_wcs

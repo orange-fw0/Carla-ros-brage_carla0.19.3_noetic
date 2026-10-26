@@ -1,0 +1,1 @@
+sensor_interface_msgs/UssParkSlotData[] uss_park_slot_data

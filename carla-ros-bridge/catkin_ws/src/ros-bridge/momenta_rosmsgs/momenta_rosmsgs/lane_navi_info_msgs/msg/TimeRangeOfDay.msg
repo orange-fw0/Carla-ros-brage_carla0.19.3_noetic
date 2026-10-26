@@ -1,0 +1,3 @@
+lane_navi_info_msgs/TimeOfDay start_time
+lane_navi_info_msgs/TimeOfDay end_time
+bool is_limited

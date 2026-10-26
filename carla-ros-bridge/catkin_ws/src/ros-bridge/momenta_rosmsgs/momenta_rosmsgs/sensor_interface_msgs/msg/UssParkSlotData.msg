@@ -1,0 +1,15 @@
+uint8 available
+sensor_interface_msgs/UltrasonicResultMeta meta
+uint32 parkslot_id
+sensor_interface_msgs/UltrasonicPaingslotType parking_slot_type
+sensor_interface_msgs/BordertType[] border_type_data
+float32 veh_obj1_x
+float32 veh_obj1_y
+float32 veh_obj2_x
+float32 veh_obj2_y
+float32 veh_obj3_x
+float32 veh_obj3_y
+float32 veh_obj4_x
+float32 veh_obj4_y
+float32 parkslot_prob
+string reserved_info

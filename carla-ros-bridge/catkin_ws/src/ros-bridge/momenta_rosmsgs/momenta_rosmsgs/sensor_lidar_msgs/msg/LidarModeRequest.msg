@@ -1,0 +1,2 @@
+sensor_lidar_msgs/LidarID id
+sensor_lidar_msgs/LidarMode mode

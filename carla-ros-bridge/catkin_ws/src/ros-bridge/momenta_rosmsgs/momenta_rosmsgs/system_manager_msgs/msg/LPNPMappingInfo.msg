@@ -1,0 +1,16 @@
+std_msgs/Header header
+string summary
+uint8 path_verify_rate
+system_manager_msgs/LPNPMappingStatusEnum status
+system_manager_msgs/LPNPMappingFailureCase failure_case
+system_manager_msgs/LPNPMappingParkingSpaceBuildingWayEnum parking_space_building_way
+float32 learning_distance
+float32 total_distance
+uint32 speed_bump_num
+uint32 slope_num
+uint32 parking_slot_num
+uint32 current_map_id
+float64 floor_id
+bool in_parking_space
+system_manager_msgs/LiveLPNPMap[] live_map
+system_manager_msgs/LPNPMapIncrementOffset increment_offset

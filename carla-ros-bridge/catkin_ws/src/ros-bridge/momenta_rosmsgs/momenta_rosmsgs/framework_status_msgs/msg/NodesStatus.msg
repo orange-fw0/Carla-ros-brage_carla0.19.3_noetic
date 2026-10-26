@@ -1,0 +1,3 @@
+std_msgs/Header header
+framework_status_msgs/NodeStatus[] nodes_status
+system_manager_msgs/RunningModeEnum running_mode

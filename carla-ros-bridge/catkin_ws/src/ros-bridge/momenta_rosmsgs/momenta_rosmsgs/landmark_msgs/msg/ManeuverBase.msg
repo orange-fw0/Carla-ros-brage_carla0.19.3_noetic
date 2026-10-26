@@ -1,0 +1,3 @@
+landmark_msgs/ManeuverType type
+float32 start_offset
+float32 end_offset

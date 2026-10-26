@@ -1,0 +1,8 @@
+(cl:in-package endpoint_msgs-msg)
+(cl:export '(AVAILABLE-VAL
+          AVAILABLE
+          HUMAN_PROTECTED_DEVICE_REPORT_DATA-VAL
+          HUMAN_PROTECTED_DEVICE_REPORT_DATA
+          SEAT_SENSOR_STATUS_REPORT_DATA-VAL
+          SEAT_SENSOR_STATUS_REPORT_DATA
+))

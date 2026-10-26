@@ -1,0 +1,6 @@
+uint8 NONE = 0
+uint8 ON = 1
+uint8 OFF = 2
+uint8 RESVERD = 3
+uint8 INVALID = 255
+uint8 value

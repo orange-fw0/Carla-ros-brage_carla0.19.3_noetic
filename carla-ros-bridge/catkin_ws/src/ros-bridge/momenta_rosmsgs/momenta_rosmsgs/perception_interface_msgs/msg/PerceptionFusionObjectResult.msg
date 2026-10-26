@@ -1,0 +1,4 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionFusionResultMeta meta
+perception_interface_msgs/PerceptionFusionObjectData[] perception_fusion_objects_data
+string[] reserved_infos

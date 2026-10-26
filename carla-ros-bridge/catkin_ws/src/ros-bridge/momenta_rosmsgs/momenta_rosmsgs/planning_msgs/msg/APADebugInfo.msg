@@ -1,0 +1,2 @@
+planning_msgs/MultiCircleFootprintModel mc_footprint_model
+string reserved

@@ -1,0 +1,7 @@
+float32 confidence
+float32 prediction_interval
+worldmodel_msgs/IntentionType intention
+worldmodel_msgs/LateralIntention[] lateral_intents
+worldmodel_msgs/LongitudinalIntention[] longtudinal_intents
+worldmodel_msgs/PredictionTrajectoryPoint[] trajectory_points
+string extra_json

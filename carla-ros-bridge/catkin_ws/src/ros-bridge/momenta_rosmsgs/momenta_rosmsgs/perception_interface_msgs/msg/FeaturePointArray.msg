@@ -1,0 +1,10 @@
+string tag
+uint8 available
+int32 num_point
+uint32[] track_ids
+float32[] point_xs
+float32[] point_ys
+int32 descriptor_size
+float32[] descriptors
+string log_info_2d
+string reserved_info

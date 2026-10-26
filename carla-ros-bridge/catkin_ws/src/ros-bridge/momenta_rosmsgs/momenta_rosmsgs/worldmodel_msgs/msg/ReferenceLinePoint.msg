@@ -1,0 +1,17 @@
+perception_interface_msgs/Point3d enu_point
+float32 curvature
+float32 distance_to_left_road_border
+float32 distance_to_right_road_border
+float32 distance_to_left_lane_border
+float32 distance_to_right_lane_border
+float32 distance_to_left_obstacle
+float32 distance_to_right_obstacle
+float32 lane_width
+int32 max_velocity
+uint64 track_id
+bool is_experience_data
+worldmodel_msgs/LaneBoundaryType left_road_border_type
+worldmodel_msgs/LaneBoundaryType right_road_border_type
+bool on_route
+float64 longitudinal_slope
+float64 horizontal_slope

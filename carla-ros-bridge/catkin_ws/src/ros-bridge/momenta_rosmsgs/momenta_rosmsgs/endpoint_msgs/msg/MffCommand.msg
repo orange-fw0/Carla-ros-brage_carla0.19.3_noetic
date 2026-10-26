@@ -1,0 +1,2 @@
+std_msgs/Header header
+endpoint_msgs/MffVehicleCommand mff_vehicle_command

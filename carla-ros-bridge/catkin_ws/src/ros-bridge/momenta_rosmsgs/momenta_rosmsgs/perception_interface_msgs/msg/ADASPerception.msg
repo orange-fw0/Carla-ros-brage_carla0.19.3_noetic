@@ -1,0 +1,5 @@
+uint8 VISION_PERCEPTION_ADAS_PERCEPTION_RESULT = 1
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+uint64 available
+perception_interface_msgs/ADASPerceptionResult adas_perception_result

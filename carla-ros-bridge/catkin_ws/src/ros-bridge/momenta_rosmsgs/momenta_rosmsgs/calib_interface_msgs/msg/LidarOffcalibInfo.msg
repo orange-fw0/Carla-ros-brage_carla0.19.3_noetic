@@ -1,0 +1,5 @@
+string lidar_name
+uint32 lidar_id
+perception_interface_msgs/CameraSourceEnum[] attach_camera_names
+uint32[] attach_camera_ids
+calib_interface_msgs/LidarOffcalibDetailedErrorCodeEnum error_code

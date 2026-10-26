@@ -1,0 +1,5 @@
+uint8 NO_REQUEST = 0
+uint8 REQUEST_UNFOLD = 1
+uint8 REQUEST_FOLD = 2
+uint8 RESERVED1 = 3
+uint8 value

@@ -1,0 +1,3 @@
+uint8 PARKING_TARGET_POSITION = 1
+uint8 available
+worldmodel_msgs/ParkingTargetPosition parking_target_position

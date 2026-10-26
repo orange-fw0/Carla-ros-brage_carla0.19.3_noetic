@@ -1,0 +1,3 @@
+sensor_interface_msgs/UssEnvelopeMeas meas
+sensor_interface_msgs/UssEnvelopeDiag diag
+sensor_interface_msgs/UssEnvelopeId id

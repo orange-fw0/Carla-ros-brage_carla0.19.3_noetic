@@ -1,0 +1,4 @@
+std_msgs/Header header
+system_manager_msgs/SystemCmdTypeEnum cmd
+system_manager_msgs/SysWorldModelInfoForParking parking_info
+system_manager_msgs/SysWorldModelInfoForHighway highway_info

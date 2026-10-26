@@ -1,0 +1,1 @@
+bool mfrmsg_empty_value

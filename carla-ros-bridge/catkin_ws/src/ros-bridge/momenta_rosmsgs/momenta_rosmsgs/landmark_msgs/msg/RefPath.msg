@@ -1,0 +1,9 @@
+float32 score
+int32 index
+landmark_msgs/TrackId id
+landmark_msgs/RefPathTypeEnum type
+landmark_msgs/WayPoint[] points
+landmark_msgs/TrackId[] goal_ids
+landmark_msgs/NaviInfoSource navi_info_source
+landmark_msgs/NaviOnrouteDisInfo navi_onroutedis_info
+string reserved_info

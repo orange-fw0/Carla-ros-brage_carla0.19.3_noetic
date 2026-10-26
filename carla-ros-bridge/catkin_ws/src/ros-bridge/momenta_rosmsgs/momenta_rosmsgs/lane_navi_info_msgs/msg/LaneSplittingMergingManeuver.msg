@@ -1,0 +1,5 @@
+lane_navi_info_msgs/StaticManeuverBase maneuver_base
+bool is_continue
+bool is_none_continue
+landmark_msgs/Orientation direction
+landmark_msgs/TrackId[] linked_lane_ids

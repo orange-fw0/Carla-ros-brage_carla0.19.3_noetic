@@ -1,0 +1,3 @@
+std_msgs/Header header
+v2x_msgs/V2xMeta meta
+v2x_msgs/V2xPerceptionInfo v2x_perception_info

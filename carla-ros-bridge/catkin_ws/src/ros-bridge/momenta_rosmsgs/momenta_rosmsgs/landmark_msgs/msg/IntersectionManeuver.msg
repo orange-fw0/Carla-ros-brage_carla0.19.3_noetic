@@ -1,0 +1,6 @@
+landmark_msgs/ManeuverBase maneuver_base
+bool is_traffic_light_exist
+bool has_traffic_light_detail
+landmark_msgs/Direction direction
+float32 distance_to_turn_left_waiting_area
+landmark_msgs/TrafficLightGroup[] light_groups

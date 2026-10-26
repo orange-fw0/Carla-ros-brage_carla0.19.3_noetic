@@ -1,0 +1,14 @@
+uint16 detection_id
+geometry_msgs/Point position
+geometry_msgs/Vector3 velocity
+uint8 dyn_prop
+float32 rcs
+uint8 dislong_rms
+uint8 dislat_rms
+uint8 verllong_rms
+uint8 verllat_rms
+uint8 arellong_rms
+uint8 arellat_rms
+uint8 pdh0
+uint8 ambigstate
+uint8 invalidstate

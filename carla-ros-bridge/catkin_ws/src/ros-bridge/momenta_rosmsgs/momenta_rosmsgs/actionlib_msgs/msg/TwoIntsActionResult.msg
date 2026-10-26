@@ -1,0 +1,3 @@
+std_msgs/Header header
+actionlib_msgs/GoalStatus status
+actionlib_msgs/TwoIntsResult result

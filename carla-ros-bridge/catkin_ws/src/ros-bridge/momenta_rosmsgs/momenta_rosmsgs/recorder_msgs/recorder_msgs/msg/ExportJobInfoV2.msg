@@ -1,0 +1,10 @@
+int32 sequence
+time stamp
+string collect_type
+string name
+string export_type
+string status
+string reason
+EventParamV2[] event_param
+RecordingParamV2[] recording_param
+FilterParamV2[] filter_param

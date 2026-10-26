@@ -1,0 +1,11 @@
+uint8 ATTENTION_DRIVE_AVAILABLE = 1
+uint8 L2_ATTENTION_DRIVE_AVAILABLE = 2
+uint8 L3_ATTENTION_DRIVE_AVAILABLE = 4
+uint8 RESERVED_AVAILABLE = 8
+uint8 available
+dms_msgs/DMSAttentionDriveTypeEnum attention_drive_type
+dms_msgs/L2DMSAttentionDriveTypeEnum l2_attention_drive_type
+dms_msgs/L3DMSAttentionDriveTypeEnum l3_attention_drive_type
+string reserved
+int32 attention_sensitivity
+string attention_params

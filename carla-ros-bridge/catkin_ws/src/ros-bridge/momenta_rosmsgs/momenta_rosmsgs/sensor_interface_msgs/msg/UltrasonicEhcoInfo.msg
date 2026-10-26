@@ -1,0 +1,2 @@
+float32 uss_echo_distance
+uint64 uss_echo_width

@@ -1,0 +1,4 @@
+lane_navi_info_msgs/SDArrowType[] arrow_types
+lane_navi_info_msgs/TimeRegulationRange[] time
+lane_navi_info_msgs/HolidayType holiday
+lane_navi_info_msgs/WorkHolidayType work_holiday

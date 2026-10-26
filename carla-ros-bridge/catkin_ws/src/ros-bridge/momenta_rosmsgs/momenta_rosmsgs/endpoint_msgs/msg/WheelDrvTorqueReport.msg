@@ -1,0 +1,3 @@
+uint8 WHEEL_DRV_TORQUE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WheelDrvTorqueReportData wheel_drv_torque_report_data

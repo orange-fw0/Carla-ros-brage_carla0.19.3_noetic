@@ -1,0 +1,11 @@
+geometry_msgs/Point[] optimized_corners
+planning_msgs/ParkingSlotType slot_type
+bool has_wheel_stopper
+float32 ego_slot_iou
+float32 front_wheel_to_stopper
+float32 front_wheel_to_opening
+float32 front_wheel_to_bottom
+float32 rear_wheel_to_stopper
+float32 rear_wheel_to_opening
+float32 rear_wheel_to_bottom
+string reserved

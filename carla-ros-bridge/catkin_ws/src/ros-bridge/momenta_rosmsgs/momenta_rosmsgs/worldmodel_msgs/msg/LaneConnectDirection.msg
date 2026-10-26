@@ -1,0 +1,6 @@
+uint8 NORMAL = 0
+uint8 SPLIT_TO_LEFT = 1
+uint8 SPLIT_TO_RIGHT = 2
+uint8 MERGE_FROM_LEFT = 3
+uint8 MERGE_FROM_RIGHT = 4
+uint8 value

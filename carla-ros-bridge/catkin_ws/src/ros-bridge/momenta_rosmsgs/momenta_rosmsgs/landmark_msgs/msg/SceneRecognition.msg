@@ -1,0 +1,2 @@
+landmark_msgs/SceneRecognitionType[] scene_types
+string reserved_info

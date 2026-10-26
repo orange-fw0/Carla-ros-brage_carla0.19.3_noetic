@@ -1,0 +1,2 @@
+lane_navi_info_msgs/DaysOfWeekType[] days_of_week_type
+bool is_limited

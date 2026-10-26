@@ -1,0 +1,6 @@
+worldmodel_msgs/Direction direction
+float64 length
+worldmodel_msgs/MapTrafficLightGroup[] traffic_light_groups
+worldmodel_msgs/LeftWaitingArea left_waiting_area
+worldmodel_msgs/StopLine distance_to_stop_line
+worldmodel_msgs/LaneData[] lanes_out

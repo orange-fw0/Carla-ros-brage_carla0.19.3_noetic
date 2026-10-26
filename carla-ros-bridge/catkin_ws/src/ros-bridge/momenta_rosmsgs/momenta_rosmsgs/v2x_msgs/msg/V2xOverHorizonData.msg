@@ -1,0 +1,2 @@
+int32 intersection_id
+string video_url

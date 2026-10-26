@@ -1,0 +1,2 @@
+landmark_msgs/MapChangeTypeEnum change_type
+float32 score

@@ -1,0 +1,4 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+perception_interface_msgs/ImageRetrievalDescriptorPerception image_retrieval_descriptor_perception
+perception_interface_msgs/FeaturePointPerception feature_point_perception

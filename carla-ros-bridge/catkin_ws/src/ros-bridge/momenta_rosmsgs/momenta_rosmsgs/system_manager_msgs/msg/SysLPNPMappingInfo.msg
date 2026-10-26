@@ -1,0 +1,7 @@
+system_manager_msgs/FunctionModeEnum function_mode
+string map_dir
+uint32 map_name
+system_manager_msgs/SysLPNPMappingTaskType task_type
+system_manager_msgs/SysLPNPMappingCommand command
+string parking_name
+int32 target_parking_space_id

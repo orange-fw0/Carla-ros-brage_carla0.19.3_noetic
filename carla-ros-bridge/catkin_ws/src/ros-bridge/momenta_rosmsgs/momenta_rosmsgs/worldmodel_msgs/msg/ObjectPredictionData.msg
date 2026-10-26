@@ -1,0 +1,4 @@
+uint64 object_id
+worldmodel_msgs/PredictionTrajectory[] trajectories
+string extra_json
+perception_interface_msgs/PerceptionObjectTypeEnum object_type

@@ -1,0 +1,3 @@
+uint8 DMS_CAMERA_BLOCK = 0
+uint8 DMS_CAMERA_NO_BLOCK = 1
+uint8 value

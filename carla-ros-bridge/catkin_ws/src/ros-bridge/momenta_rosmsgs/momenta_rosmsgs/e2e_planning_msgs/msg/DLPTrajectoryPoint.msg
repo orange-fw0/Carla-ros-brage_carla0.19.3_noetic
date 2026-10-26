@@ -1,0 +1,8 @@
+perception_interface_msgs/Point3d position
+perception_interface_msgs/Vector3d velocity
+perception_interface_msgs/Vector3d acceleration
+perception_interface_msgs/Vector3d jerk
+float64 heading_angle
+float64 score
+uint64 timestamp_us
+bool valid

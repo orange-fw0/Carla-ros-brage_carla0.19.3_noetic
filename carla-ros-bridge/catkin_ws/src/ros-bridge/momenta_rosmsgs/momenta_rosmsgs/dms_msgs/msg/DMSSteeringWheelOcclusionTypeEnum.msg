@@ -1,0 +1,3 @@
+uint8 STEERING_WHEEL_BLOCK = 0
+uint8 STEERING_WHEEL_NO_BLOCK = 1
+uint8 value

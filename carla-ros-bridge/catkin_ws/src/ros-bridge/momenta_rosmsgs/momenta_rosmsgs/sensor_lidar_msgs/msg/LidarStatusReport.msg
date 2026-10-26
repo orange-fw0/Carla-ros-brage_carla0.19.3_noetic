@@ -1,0 +1,2 @@
+sensor_lidar_msgs/LidarMode lidar_service_mode
+sensor_lidar_msgs/LidarStatus[] status

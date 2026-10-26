@@ -1,0 +1,4 @@
+lane_navi_info_msgs/Polyline polyline
+landmark_msgs/TrackId[] related_lane_id
+lane_navi_info_msgs/Lane_Cursor start_lane
+lane_navi_info_msgs/Lane_Cursor end_lane

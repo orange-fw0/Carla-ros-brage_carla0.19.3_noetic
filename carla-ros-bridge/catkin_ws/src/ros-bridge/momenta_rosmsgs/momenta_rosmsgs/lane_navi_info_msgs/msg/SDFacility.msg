@@ -1,0 +1,6 @@
+float32 offset
+lane_navi_info_msgs/SDFacilityType facility_type
+lane_navi_info_msgs/SDSpeedLimitType speed_limit_type
+uint16 speed_limit_value
+lane_navi_info_msgs/TimeRegulationRange[] time_limit_list
+lane_navi_info_msgs/WeatherRule weather_limit

@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint64 request_id
+pnp_msgs/RoutingActionEnum action
+uint32 parking_lotId
+uint32 ego_parking_spaceId
+uint32 parking_spaceId
+pnp_msgs/PNPRoadId target_roadId
+float32 target_road_offset
+pnp_msgs/PNPRoadId[] obstacle_roadId_list

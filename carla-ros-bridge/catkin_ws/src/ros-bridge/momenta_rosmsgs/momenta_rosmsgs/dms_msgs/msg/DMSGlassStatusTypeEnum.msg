@@ -1,0 +1,3 @@
+uint8 DMS_GLASSES_IR_BLOCK_ON = 0
+uint8 DMS_GLASSES_UNKNOWN = 1
+uint8 value

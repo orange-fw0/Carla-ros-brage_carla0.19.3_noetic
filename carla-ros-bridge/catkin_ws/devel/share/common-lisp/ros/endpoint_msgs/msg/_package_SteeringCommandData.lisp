@@ -1,0 +1,18 @@
+(cl:in-package endpoint_msgs-msg)
+(cl:export '(TIMESTAMP_US-VAL
+          TIMESTAMP_US
+          STEERING_ENABLE-VAL
+          STEERING_ENABLE
+          STEERING_TYPE-VAL
+          STEERING_TYPE
+          STEERING_COMMAND-VAL
+          STEERING_COMMAND
+          STEERING_RATE-VAL
+          STEERING_RATE
+          RWHEEL_STEER_MODE-VAL
+          RWHEEL_STEER_MODE
+          RWHEEL_COMMAND-VAL
+          RWHEEL_COMMAND
+          RWHEEL_STEER_DIRECTION-VAL
+          RWHEEL_STEER_DIRECTION
+))

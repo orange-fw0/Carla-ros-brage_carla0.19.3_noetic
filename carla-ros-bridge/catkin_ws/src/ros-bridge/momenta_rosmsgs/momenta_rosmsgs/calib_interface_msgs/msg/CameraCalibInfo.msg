@@ -1,0 +1,13 @@
+perception_interface_msgs/CameraSourceEnum camera_name
+float64[] r_s2b
+float64[] r_s2b_diff
+float64[] t_s2b
+calib_interface_msgs/CameraModelEnum camera_model
+float64 fx
+float64 fy
+float64 cx
+float64 cy
+calib_interface_msgs/RadTan radtan_type
+calib_interface_msgs/Polyn polyn_type
+calib_interface_msgs/CamCalibDetailedErrorCodeEnum error_code
+float64[] t_s2b_diff

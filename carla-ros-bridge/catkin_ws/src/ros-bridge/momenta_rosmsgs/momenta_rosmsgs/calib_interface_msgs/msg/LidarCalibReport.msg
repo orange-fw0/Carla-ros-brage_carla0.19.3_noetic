@@ -1,0 +1,5 @@
+uint8 available
+calib_interface_msgs/LidarCalibInfo[] lidar_calib_data
+float32 travel_distance
+float32 post_processing_progress
+calib_interface_msgs/LidarCalibDetailedErrorCodeEnum error_code

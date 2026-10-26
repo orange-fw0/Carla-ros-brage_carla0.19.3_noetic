@@ -1,0 +1,3 @@
+uint8 V2X_INTERSECTION_DATA = 1
+uint8 available
+v2x_msgs/V2xIntersectionData v2x_intersection_data

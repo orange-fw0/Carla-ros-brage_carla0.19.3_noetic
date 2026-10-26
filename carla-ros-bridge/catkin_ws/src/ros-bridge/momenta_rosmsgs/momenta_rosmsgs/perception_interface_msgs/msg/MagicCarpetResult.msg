@@ -1,0 +1,13 @@
+std_msgs/Header header
+perception_interface_msgs/MagicCarpetMeta[] camera_meta
+perception_interface_msgs/MagicCarpetObject[] left_front_objects
+perception_interface_msgs/MagicCarpetObject[] right_front_objects
+float32[] left_front_elevation_points_cm
+float32[] right_front_elevation_points_cm
+perception_interface_msgs/MagicCarpetRawObject[] raw_objects
+uint8 system_status
+uint8 road_scene
+string source
+perception_interface_msgs/Point3f[] left_wheel_traj
+perception_interface_msgs/Point3f[] right_wheel_traj
+string reserved

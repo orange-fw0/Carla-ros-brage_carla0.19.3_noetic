@@ -1,0 +1,4 @@
+---
+bool collection_disk_recording
+bool export_disk_recording
+bool any_disk_recording

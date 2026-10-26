@@ -1,0 +1,10 @@
+time since
+time until
+---
+bool success
+string message
+recorder_msgs/BagInfo[] bags_info
+float64 start_time
+float64 end_time
+float64 duration
+recorder_msgs/TopicInfo[] topics_info

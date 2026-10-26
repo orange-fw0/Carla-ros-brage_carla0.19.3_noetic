@@ -1,0 +1,5 @@
+uint8 VISION_PERCEPTION_FEATURE_POINT_RESULT = 1
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+uint8 available
+perception_interface_msgs/FeaturePointArray[] feature_point_arrays

@@ -1,0 +1,3 @@
+float32 offset
+lane_navi_info_msgs/ECameraType ecamera_type
+uint32 speed_limit_value

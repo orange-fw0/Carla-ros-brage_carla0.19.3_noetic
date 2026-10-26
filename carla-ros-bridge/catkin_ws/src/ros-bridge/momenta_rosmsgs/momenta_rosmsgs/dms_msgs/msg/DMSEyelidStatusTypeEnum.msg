@@ -1,0 +1,3 @@
+uint8 DMS_EYELID_STATE_OPEN = 0
+uint8 DMS_EYELID_STATE_CLOSED = 1
+uint8 value

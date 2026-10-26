@@ -1,0 +1,3 @@
+uint8 V2X_COLLISION_WARNING_DATA = 1
+uint8 available
+v2x_msgs/V2xCollisionWarningData v2x_collision_warning_data

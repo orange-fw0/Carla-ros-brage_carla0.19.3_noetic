@@ -1,0 +1,3 @@
+std_msgs/Header header
+worldmodel_msgs/ProcessedMapMeta meta
+worldmodel_msgs/ProcessedMapData processed_map_data

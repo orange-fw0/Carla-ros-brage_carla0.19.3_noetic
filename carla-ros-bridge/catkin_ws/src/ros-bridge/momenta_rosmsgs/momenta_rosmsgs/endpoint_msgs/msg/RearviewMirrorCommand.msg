@@ -1,0 +1,3 @@
+bool rearview_mirror_enable
+endpoint_msgs/MirrorState rearview_mirror_command
+endpoint_msgs/RWhSteerModType rwheel_steer_mode

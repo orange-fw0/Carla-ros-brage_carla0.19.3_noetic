@@ -1,0 +1,1 @@
+sensor_interface_msgs/CommonUltrasonicObstacleData[] uss_obstacle_data

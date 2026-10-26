@@ -1,0 +1,3 @@
+lane_navi_info_msgs/StaticManeuverBase maneuver_base
+landmark_msgs/DirectionInfo direction_info
+float64[] angles

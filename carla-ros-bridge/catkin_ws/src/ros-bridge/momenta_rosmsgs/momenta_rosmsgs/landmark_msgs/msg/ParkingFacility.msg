@@ -1,0 +1,4 @@
+uint8 available
+landmark_msgs/TrackId track_id
+landmark_msgs/ParkingFacilityTypeEnum type
+int8 floor

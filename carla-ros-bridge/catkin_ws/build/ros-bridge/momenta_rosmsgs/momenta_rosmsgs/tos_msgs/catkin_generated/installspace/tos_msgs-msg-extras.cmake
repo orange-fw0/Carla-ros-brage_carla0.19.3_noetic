@@ -1,0 +1,2 @@
+set(tos_msgs_MESSAGE_FILES "msg/TOSCommand.msg;msg/TOSDecisionEnum.msg;msg/TOSNudgeCmd.msg;msg/TOSNudgeEnum.msg;msg/TOSRequest.msg;msg/TOSRequestCandidate.msg;msg/TOSRequestRenderInfo.msg;msg/TOSRequestRenderLDInfo.msg;msg/TOSRequestRenderODInfo.msg;msg/TOSResponse.msg;msg/TOSResponseCandidate.msg;msg/TOSResponseDecisionEnum.msg;msg/TOSScenarioEnum.msg;msg/TOSSetSpeedCmd.msg")
+set(tos_msgs_SERVICE_FILES "")

@@ -1,0 +1,13 @@
+std_msgs/Header header
+float32 v_target
+float32 a_target
+float32 dis_to_stop
+float32[] v_array
+float32[] a_array
+uint8[] traffic_light_decision
+momenta_msgs/Trajectory traj
+geometry_msgs/Pose2D[] pose_array
+uint32[] lon_follow_obstacles
+uint32[] lon_overtake_obstacles
+uint32[] lat_nudge_obstacles
+uint32 blocking_obstacle_id

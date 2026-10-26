@@ -1,0 +1,2 @@
+system_manager_msgs/FunctionModeEnum mode
+system_manager_msgs/TrajectoryPoint[] trajectory_points

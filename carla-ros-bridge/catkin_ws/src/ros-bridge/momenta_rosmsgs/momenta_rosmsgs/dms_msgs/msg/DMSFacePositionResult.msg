@@ -1,0 +1,13 @@
+uint16 POSITION_EAR_CENTER_AVAILABLE = 1
+uint16 POSITION_LEFT_PUPIL_AVAILABLE = 2
+uint16 POSITION_RIGHT_PUPIL_AVAILABLE = 4
+uint16 POSITION_EAR_CENTER_WCS_AVAILABLE = 8
+uint16 POSITION_LEFT_PUPIL_WCS_AVAILABLE = 16
+uint16 POSITION_RIGHT_PUPIL_WCS_AVAILABLE = 32
+uint16 available
+dms_msgs/DMSPoint3f position_ear_center
+dms_msgs/DMSPoint3f position_left_pupil
+dms_msgs/DMSPoint3f position_right_pupil
+dms_msgs/DMSPoint3f position_ear_center_wcs
+dms_msgs/DMSPoint3f position_left_pupil_wcs
+dms_msgs/DMSPoint3f position_right_pupil_wcs

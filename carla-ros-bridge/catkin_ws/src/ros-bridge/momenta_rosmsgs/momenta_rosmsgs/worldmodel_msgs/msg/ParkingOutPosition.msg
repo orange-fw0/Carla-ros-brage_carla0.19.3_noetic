@@ -1,0 +1,4 @@
+uint16 source_parking_lot_id
+perception_interface_msgs/Polygon3f source_parking_lot_position
+perception_interface_msgs/Point3f target_position
+float64 target_heading_yaw

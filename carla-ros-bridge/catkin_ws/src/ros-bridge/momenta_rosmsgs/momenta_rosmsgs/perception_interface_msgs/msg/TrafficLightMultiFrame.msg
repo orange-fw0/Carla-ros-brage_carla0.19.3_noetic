@@ -1,0 +1,17 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+perception_interface_msgs/TrafficLightTypeEnum type
+int32 track_id
+perception_interface_msgs/TrafficLightPatternEnum[] pattern
+perception_interface_msgs/TrafficLightStatusEnum[] status
+float32[] pattern_score
+float32[] status_score
+float32 duration
+float32 remaining
+uint8 count_number
+perception_interface_msgs/Shape3f shape_3d
+perception_interface_msgs/Point3f location_bv
+float32 heading_theta_bv
+perception_interface_msgs/Vector2f velocity_bv
+perception_interface_msgs/TrafficLightAssociatedInfo[] associated_infos
+string reserved_info

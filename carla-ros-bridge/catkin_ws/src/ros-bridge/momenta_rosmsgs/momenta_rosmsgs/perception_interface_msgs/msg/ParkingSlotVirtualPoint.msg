@@ -1,0 +1,2 @@
+uint8 point_index
+perception_interface_msgs/Point3f local_point

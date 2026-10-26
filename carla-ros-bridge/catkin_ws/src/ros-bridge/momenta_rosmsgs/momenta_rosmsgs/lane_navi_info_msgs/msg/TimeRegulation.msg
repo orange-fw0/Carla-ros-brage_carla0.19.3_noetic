@@ -1,0 +1,3 @@
+lane_navi_info_msgs/TimeOfDay day
+uint8 week
+lane_navi_info_msgs/DayOfYear year

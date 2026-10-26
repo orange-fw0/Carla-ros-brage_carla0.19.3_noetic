@@ -1,0 +1,3 @@
+uint8 THROTTLE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/ThrottleReportData throttle_report_data

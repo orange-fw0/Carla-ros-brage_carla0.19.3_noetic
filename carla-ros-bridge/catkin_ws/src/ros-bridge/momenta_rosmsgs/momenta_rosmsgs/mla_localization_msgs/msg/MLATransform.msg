@@ -1,0 +1,7 @@
+uint8 MLA_TRANSFORM_LLH_TO_BOOT = 1
+uint8 MLA_TRANSFORM_AVPMAP_TO_BOOT = 2
+uint8 MLA_TRANSFORM_EGOMOTION_TO_BOOT = 4
+uint8 available
+mla_localization_msgs/MLATransformInfo transform_llh_to_boot
+mla_localization_msgs/MLATransformInfo transform_avp_map_to_boot
+mla_localization_msgs/MLATransformInfo transform_ego_motion_to_boot

@@ -1,0 +1,3 @@
+uint8 CAMERA_MODEL_POLYN = 0
+uint8 CAMERA_MODEL_RADTAN = 1
+uint8 value

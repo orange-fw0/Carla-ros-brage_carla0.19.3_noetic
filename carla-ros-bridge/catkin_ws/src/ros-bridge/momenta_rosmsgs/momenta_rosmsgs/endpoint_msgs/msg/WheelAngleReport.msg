@@ -1,0 +1,3 @@
+uint8 WHEEL_ANGLE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WheelAngleReportData wheel_angle_report_data

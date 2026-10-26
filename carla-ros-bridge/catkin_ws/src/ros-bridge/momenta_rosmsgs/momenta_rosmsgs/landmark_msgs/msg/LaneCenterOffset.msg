@@ -1,0 +1,4 @@
+uint64 track_id
+uint64 track_frames_count
+float32 accumulative_offset
+float32 relative_offset

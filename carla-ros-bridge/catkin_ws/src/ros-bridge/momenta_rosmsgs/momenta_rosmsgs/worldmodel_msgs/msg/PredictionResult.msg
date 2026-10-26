@@ -1,0 +1,3 @@
+std_msgs/Header header
+worldmodel_msgs/PredictionResultMeta meta
+worldmodel_msgs/ObjectPredictionData[] object_prediction_data

@@ -1,0 +1,7 @@
+uint64 timestamp_us
+bool window_lock
+endpoint_msgs/WindowType window_left_front
+endpoint_msgs/WindowType window_right_front
+endpoint_msgs/WindowType window_left_rear
+endpoint_msgs/WindowType window_right_rear
+endpoint_msgs/WindowType window_top

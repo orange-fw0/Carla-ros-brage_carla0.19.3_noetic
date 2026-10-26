@@ -1,0 +1,3 @@
+std_msgs/Header header
+system_manager_msgs/SystemCmdTypeEnum cmd_type
+system_manager_msgs/SysAceInfo info

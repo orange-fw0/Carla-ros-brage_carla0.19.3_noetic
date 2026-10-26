@@ -1,0 +1,5 @@
+std_msgs/Header header
+e2e_planning_msgs/DLPResultMeta meta
+e2e_planning_msgs/DLPCruiseData dlp_cruise_data
+e2e_planning_msgs/DLPLaneChangeData dlp_lane_change_data
+string reserved_info

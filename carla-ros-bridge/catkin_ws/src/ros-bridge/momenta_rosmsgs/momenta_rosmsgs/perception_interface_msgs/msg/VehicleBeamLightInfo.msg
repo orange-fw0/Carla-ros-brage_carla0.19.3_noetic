@@ -1,0 +1,2 @@
+float32 beam_light_on_score
+perception_interface_msgs/VehicleBeamLightEnum beam_light_state

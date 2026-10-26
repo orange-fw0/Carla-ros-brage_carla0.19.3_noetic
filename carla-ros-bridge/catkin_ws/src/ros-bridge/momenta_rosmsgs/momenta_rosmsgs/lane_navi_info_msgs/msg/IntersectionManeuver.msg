@@ -1,0 +1,8 @@
+lane_navi_info_msgs/StaticManeuverBase maneuver_base
+lane_navi_info_msgs/IntersectionType type
+bool is_traffic_light_exist
+bool has_traffic_light_detail
+landmark_msgs/Direction direction
+landmark_msgs/TrafficLightGroup[] light_groups
+landmark_msgs/TrackId linked_intersection
+lane_navi_info_msgs/ExperienceTrajectory[] experience_trajectories

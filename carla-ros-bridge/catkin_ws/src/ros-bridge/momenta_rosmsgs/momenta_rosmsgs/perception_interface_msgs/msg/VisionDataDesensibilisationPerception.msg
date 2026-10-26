@@ -1,0 +1,5 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+uint8 available
+perception_interface_msgs/VisionDataDesensibilisationObject[] vision_data_desensibilisation_objects
+string[] reserved_infos

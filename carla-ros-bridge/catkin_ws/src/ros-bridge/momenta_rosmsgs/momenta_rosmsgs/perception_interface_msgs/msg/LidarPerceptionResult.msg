@@ -1,0 +1,3 @@
+std_msgs/Header header
+perception_interface_msgs/LidarPerceptionResultMeta meta
+perception_interface_msgs/LidarPerceptionObjects lidar_perception_objects

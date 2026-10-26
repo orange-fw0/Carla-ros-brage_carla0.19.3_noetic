@@ -1,0 +1,17 @@
+---
+bool success
+string message
+bool export_running
+bool export_disk_recording
+string error_msg
+time processed_time
+uint32 reporting_size
+uint32 reported_size
+uint64 reading_capacity
+uint64 read_capacity
+uint64 writing_capacity
+uint64 written_capacity
+uint32 request_items
+uint32 enqueued_items
+uint32 exporting_items
+uint32 exported_items

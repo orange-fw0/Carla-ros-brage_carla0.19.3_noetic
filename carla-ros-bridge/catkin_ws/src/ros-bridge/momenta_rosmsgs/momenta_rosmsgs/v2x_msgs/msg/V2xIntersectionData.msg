@@ -1,0 +1,3 @@
+int32 intersection_id
+float64 enter_angle
+float64 exit_angle

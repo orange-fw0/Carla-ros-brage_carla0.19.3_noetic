@@ -1,0 +1,2 @@
+system_manager_msgs/LaneChangeTypeEnum type
+system_manager_msgs/LaneChangeDirectionEnum direction

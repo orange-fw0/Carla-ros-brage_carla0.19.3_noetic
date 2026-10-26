@@ -1,0 +1,16 @@
+endpoint_msgs/MotorSpeedControlStatus motor_speed_control_status
+float32 motor_speed
+float32 motor_raw_speed
+bool motor_raw_speed_valid
+endpoint_msgs/McuStuckStatus mcu_stuck_status
+endpoint_msgs/McuStandstillStatus mcu_standstill_status
+endpoint_msgs/SpdctlFaultMode spdctl_fault_mode
+bool spdctl_valid
+endpoint_msgs/SpdctlRollingbackStatus spdctl_rollingback_status
+float32 mcu_req_torque
+bool mcu_req_torque_valid
+float32 motor_actual_toruqe
+bool motor_actual_toruqe_valid
+float32 motor_wheel_regen_torque
+bool motor_wheel_regen_torque_valid
+bool valid

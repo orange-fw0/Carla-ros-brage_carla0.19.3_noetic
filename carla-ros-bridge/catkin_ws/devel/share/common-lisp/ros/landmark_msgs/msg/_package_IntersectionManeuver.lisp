@@ -1,0 +1,14 @@
+(cl:in-package landmark_msgs-msg)
+(cl:export '(MANEUVER_BASE-VAL
+          MANEUVER_BASE
+          IS_TRAFFIC_LIGHT_EXIST-VAL
+          IS_TRAFFIC_LIGHT_EXIST
+          HAS_TRAFFIC_LIGHT_DETAIL-VAL
+          HAS_TRAFFIC_LIGHT_DETAIL
+          DIRECTION-VAL
+          DIRECTION
+          DISTANCE_TO_TURN_LEFT_WAITING_AREA-VAL
+          DISTANCE_TO_TURN_LEFT_WAITING_AREA
+          LIGHT_GROUPS-VAL
+          LIGHT_GROUPS
+))

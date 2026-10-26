@@ -1,0 +1,5 @@
+sensor_lidar_msgs/LidarID id
+sensor_lidar_msgs/LidarCalibResult calib_result
+sensor_lidar_msgs/LidarHorizontResult horizont_result
+sensor_lidar_msgs/LidarRotationResult rotation_result
+uint8 canmsg_result

@@ -1,0 +1,3 @@
+uint8 EXPORT_DETAILS_DATA = 1
+uint8 available
+framework_status_msgs/ExportDetailsData export_details_data

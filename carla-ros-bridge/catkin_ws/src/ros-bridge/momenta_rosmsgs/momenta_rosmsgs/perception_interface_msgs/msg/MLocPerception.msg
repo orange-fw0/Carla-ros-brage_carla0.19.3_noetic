@@ -1,0 +1,5 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+perception_interface_msgs/LaneSegmentPerception lane_segment_perception
+perception_interface_msgs/PoleLinePerception pole_line_perception
+perception_interface_msgs/TrafficSignPerception traffic_sign_perception

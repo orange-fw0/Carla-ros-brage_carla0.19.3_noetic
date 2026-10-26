@@ -1,0 +1,4 @@
+uint64 timestamp_us
+uint64 sequence
+landmark_msgs/CameraSourceEnum camera_source
+landmark_msgs/CameraModelEnum camera_model

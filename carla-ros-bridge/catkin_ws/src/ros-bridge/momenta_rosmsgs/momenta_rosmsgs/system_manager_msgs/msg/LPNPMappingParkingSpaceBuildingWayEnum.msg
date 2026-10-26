@@ -1,0 +1,6 @@
+uint8 UNKNOWN = 0
+uint8 PERCEIVED_BELOW = 1
+uint8 USER_SELECTED = 2
+uint8 NO_TARGET_SLOT = 3
+uint8 VIRTUAL = 4
+uint8 value

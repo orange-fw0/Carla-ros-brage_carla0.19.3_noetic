@@ -1,0 +1,5 @@
+uint8 available
+calib_interface_msgs/CameraCalibInfo[] camera_calib_data
+float32 travel_distance
+float32 post_processing_progress
+calib_interface_msgs/CamCalibDetailedErrorCodeEnum error_code

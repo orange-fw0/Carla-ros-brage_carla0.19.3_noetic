@@ -1,0 +1,9 @@
+---
+string[] sn
+string[] disk_type
+string[] status
+int64[] space_size # bytes
+int64[] space_used # bytes
+string[] driver
+string[] speed
+int64[] availability # percentage

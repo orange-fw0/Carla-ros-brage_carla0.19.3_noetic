@@ -1,0 +1,3 @@
+uint8 STEERING_COMMAND_DATA = 1
+uint8 available
+endpoint_msgs/SteeringCommandData steering_command_data

@@ -1,0 +1,3 @@
+uint8 WHEEL_CYLINDER_PRESS_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WheelCylinderPressReportData wheel_cylinder_press_report_data

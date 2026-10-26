@@ -1,0 +1,4 @@
+uint8 number_of_lanes
+tbt_msgs/LaneActionEnum[] lane_guidance_list
+tbt_msgs/HighLightLaneEnum[] highlight_lane_list
+tbt_msgs/LaneActionEnum[] origin_highlight_lane_list

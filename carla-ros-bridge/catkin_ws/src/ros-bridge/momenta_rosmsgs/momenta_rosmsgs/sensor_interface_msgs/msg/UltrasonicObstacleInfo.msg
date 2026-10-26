@@ -1,0 +1,3 @@
+uint64 timestamp
+float32 key_point_probability
+sensor_interface_msgs/ObstacleKeyPointData[] obstacle_key_point_data

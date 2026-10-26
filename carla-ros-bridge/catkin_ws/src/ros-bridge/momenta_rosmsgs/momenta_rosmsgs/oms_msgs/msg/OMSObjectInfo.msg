@@ -1,0 +1,3 @@
+uint8 seat_id
+oms_msgs/OMSObjectType object_type
+oms_msgs/OMSObjectDetResult object_rect

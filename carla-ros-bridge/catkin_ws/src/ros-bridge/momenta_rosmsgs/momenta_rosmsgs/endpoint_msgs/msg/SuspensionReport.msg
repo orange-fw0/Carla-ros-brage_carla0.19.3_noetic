@@ -1,0 +1,3 @@
+uint8 SUSPENSION_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/SuspensionReportData suspension_report_data

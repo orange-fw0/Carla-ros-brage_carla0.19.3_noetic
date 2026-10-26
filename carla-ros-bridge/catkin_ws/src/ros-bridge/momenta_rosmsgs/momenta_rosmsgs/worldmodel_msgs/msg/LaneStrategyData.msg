@@ -1,0 +1,6 @@
+worldmodel_msgs/LaneChangeState[] strategy_start_with_current_lane
+worldmodel_msgs/LaneChangeState[] strategy_start_with_left_lane
+worldmodel_msgs/LaneChangeState[] strategy_start_with_right_lane
+worldmodel_msgs/Interval[] current_lane_change_available_interval
+worldmodel_msgs/Interval[] left_lane_change_available_interval
+worldmodel_msgs/Interval[] right_lane_change_available_interval

@@ -1,0 +1,5 @@
+uint8 NOFAILURE = 0
+uint8 TEMPORARYFAILURE = 1
+uint8 FAILURE = 2
+uint8 RESERVED = 3
+uint8 value

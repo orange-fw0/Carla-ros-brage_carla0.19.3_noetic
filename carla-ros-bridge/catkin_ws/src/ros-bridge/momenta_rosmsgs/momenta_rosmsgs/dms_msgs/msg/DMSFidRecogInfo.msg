@@ -1,0 +1,10 @@
+uint8 REC_INFO_UN_AVAILABLE = 0
+uint8 REC_INFO_AVAILABLE = 1
+uint8 available
+string user_id
+uint64 recognize_timestamp_us
+uint64 recognize_cancel_timestamp_us
+dms_msgs/RecogResponseTypeEnum recog_response
+dms_msgs/CancelResponseTypeEnum cancel_response
+dms_msgs/RecogStatusTypeEnum recog_status
+dms_msgs/RecogErrorTypeEnum recog_error

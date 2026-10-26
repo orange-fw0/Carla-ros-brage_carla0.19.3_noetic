@@ -1,0 +1,11 @@
+uint8 cyclic_counter
+uint8 is_retransmission
+uint8 path_index
+uint16 offset
+uint8 is_update
+uint8 profile_type
+uint8 is_control_point
+uint16 value_0
+uint16 distance_1
+uint16 value_1
+uint8 accuracy

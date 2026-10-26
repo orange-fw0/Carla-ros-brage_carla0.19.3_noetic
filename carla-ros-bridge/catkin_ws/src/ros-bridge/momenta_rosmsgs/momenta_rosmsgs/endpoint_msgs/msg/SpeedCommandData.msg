@@ -1,0 +1,11 @@
+bool speed_enable
+bool toque_unload_enable
+float32 speed_command
+float32 torque_ffwd_command
+endpoint_msgs/TargetControlMotor target_control_motor
+endpoint_msgs/TargetControlMode target_control_mode
+float32 wheel_torque_lim_max
+float32 wheel_torque_lim_min
+float32 wheel_torque_rate_max
+float32 wheel_torque_rate_min
+float32 torque_unload_rate

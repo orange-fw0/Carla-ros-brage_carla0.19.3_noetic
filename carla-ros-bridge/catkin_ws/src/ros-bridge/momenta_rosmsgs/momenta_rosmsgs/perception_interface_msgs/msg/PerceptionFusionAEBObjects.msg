@@ -1,0 +1,5 @@
+uint8 PERCEPTION_FUSION_AEB_OBJECTS_DATA = 1
+uint8 PERCEPTION_FUSION_AEB_OBJECTS_RESERVED = 2
+uint8 available
+perception_interface_msgs/PerceptionFusionAEBObjectData[] perception_fusion_aeb_objects_data
+string[] reserved_infos

@@ -1,0 +1,4 @@
+uint8 tx_sensor_id
+uint8 rx_sensor_id
+uint64 host_timestamp
+sensor_interface_msgs/UltrasonicResultMeta meta

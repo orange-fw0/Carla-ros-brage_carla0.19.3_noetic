@@ -1,0 +1,2 @@
+dms_msgs/DMSHeartRate heart_rate_result
+dms_msgs/RespiratoryRate respiratory_rate

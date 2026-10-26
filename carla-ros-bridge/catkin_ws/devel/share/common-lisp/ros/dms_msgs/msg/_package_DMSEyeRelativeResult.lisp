@@ -1,0 +1,20 @@
+(cl:in-package dms_msgs-msg)
+(cl:export '(AVAILABLE-VAL
+          AVAILABLE
+          LEFT_EYE_RELATIVE_DISTANCE-VAL
+          LEFT_EYE_RELATIVE_DISTANCE
+          RIGHT_EYE_RELATIVE_DISTANCE-VAL
+          RIGHT_EYE_RELATIVE_DISTANCE
+          IS_LEFT_EYE_CLOSE-VAL
+          IS_LEFT_EYE_CLOSE
+          IS_RIGHT_EYE_CLOSE-VAL
+          IS_RIGHT_EYE_CLOSE
+          LEFT_EYE_CLOSE_TIME-VAL
+          LEFT_EYE_CLOSE_TIME
+          RIGHT_EYE_CLOSE_TIME-VAL
+          RIGHT_EYE_CLOSE_TIME
+          RESERVED-VAL
+          RESERVED
+          IS_EYE_BLINK-VAL
+          IS_EYE_BLINK
+))

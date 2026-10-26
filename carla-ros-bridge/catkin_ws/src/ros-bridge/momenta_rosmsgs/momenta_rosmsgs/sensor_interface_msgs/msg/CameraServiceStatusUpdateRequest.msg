@@ -1,0 +1,4 @@
+std_msgs/Header header
+sensor_interface_msgs/CameraServiceStatusMeta meta
+sensor_interface_msgs/VideoStatus[] video_status
+string additional_info

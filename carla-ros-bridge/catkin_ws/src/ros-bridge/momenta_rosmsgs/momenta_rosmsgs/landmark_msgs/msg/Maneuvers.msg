@@ -1,0 +1,4 @@
+landmark_msgs/IntersectionManeuver[] intersection_maneuvers
+landmark_msgs/RampManeuver[] ramp_maneuvers
+landmark_msgs/RoadSplittingMergingManeuver[] road_splitting_merging_maneuver
+landmark_msgs/DestinationManeuver[] destination_maneuver

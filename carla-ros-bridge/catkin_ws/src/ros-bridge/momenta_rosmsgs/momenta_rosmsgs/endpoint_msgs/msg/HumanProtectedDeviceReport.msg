@@ -1,0 +1,4 @@
+uint8 HUMAN_PROTECTED_DEVICE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/HumanProtectedDeviceReportData human_protected_device_report_data
+endpoint_msgs/SeatSensorStatusReportData seat_sensor_status_report_data

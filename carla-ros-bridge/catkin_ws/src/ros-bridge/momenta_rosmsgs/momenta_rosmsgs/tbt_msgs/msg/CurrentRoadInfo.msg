@@ -1,0 +1,5 @@
+tbt_msgs/RoadClassEnum road_class
+tbt_msgs/RoadFormEnum road_form
+tbt_msgs/RoadTypeEnum road_type
+tbt_msgs/MainSideRoadStatusEnum main_side_road_status
+uint8 current_speed_limit

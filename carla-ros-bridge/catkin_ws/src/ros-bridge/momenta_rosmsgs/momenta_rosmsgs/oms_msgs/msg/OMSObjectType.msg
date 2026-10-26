@@ -1,0 +1,21 @@
+uint8 UNAVAILABLE = 0
+uint8 COMPUTER = 1
+uint8 PAD = 2
+uint8 WALLET = 3
+uint8 BACKPACK = 4
+uint8 HANDBAG = 5
+uint8 PHONE = 6
+uint8 CHILD_SEAT_HARD = 7
+uint8 CHILD_SEAT_SOFT = 8
+uint8 CHILD_SEAT_BASKET = 9
+uint8 CHILD_SEAT_UNUSUAL = 10
+uint8 CAT = 11
+uint8 DOG = 12
+uint8 RESERVED1 = 13
+uint8 RESERVED2 = 14
+uint8 RESERVED3 = 15
+uint8 RESERVED4 = 16
+uint8 RESERVED5 = 17
+uint8 UNCERTAIN = 18
+uint8 value
+float32 score

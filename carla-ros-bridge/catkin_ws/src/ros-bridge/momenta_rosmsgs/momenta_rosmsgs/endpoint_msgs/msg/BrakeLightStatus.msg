@@ -1,0 +1,5 @@
+uint8 BRAKE_LIGHT_NONE = 0
+uint8 BRAKE_LIGHT_OFF = 1
+uint8 BRAKE_LIGHT_ON = 2
+uint8 BRAKE_LIGHT_INVALID = 255
+uint8 value

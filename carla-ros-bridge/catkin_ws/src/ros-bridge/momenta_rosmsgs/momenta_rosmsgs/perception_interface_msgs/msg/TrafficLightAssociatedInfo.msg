@@ -1,0 +1,3 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+uint32 track_id

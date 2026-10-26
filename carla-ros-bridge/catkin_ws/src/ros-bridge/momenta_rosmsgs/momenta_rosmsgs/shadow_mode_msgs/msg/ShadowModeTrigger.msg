@@ -1,0 +1,3 @@
+std_msgs/Header header
+shadow_mode_msgs/ShadowModeTriggerEvent trigger_event
+shadow_mode_msgs/ShadowTriggerMessage trigger_message

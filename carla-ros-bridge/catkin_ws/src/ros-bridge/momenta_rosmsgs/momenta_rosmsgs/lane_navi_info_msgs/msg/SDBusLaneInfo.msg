@@ -1,0 +1,5 @@
+uint32 offset
+uint8[] on_lanes
+lane_navi_info_msgs/TimeRegulationRange[] time_limit_list
+lane_navi_info_msgs/HolidayType holiday
+lane_navi_info_msgs/WorkHolidayType work_holiday

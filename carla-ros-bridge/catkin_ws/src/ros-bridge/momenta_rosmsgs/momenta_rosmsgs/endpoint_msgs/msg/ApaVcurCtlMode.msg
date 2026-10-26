@@ -1,0 +1,9 @@
+uint8 NORMAL = 0
+uint8 DR_SWITCH_MODE = 1
+uint8 OBSTACLE_CROSSING_MODE = 2
+uint8 RESERVED1 = 3
+uint8 RESERVED2 = 4
+uint8 RESERVED3 = 5
+uint8 RESERVED4 = 6
+uint8 RESERVED5 = 7
+uint8 value

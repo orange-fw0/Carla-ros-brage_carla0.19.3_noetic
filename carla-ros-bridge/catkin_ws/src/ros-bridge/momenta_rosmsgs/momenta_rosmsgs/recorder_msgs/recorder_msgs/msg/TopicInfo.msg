@@ -1,0 +1,3 @@
+string topic_name
+string topic_date_type
+uint32 topic_message_cnt

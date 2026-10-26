@@ -1,0 +1,2 @@
+float32 door_state_on_score
+perception_interface_msgs/VehicleDoorStateEnum door_state

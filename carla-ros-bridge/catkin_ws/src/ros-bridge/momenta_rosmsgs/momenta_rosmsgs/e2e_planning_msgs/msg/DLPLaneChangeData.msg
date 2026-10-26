@@ -1,0 +1,5 @@
+e2e_planning_msgs/DLPLaneInfo[] multi_source_dlp_lane_infos
+e2e_planning_msgs/DLPLaneChangeDecision[] dlp_lane_change_decisions
+e2e_planning_msgs/DLPTrajectory[] dlp_trajectories
+e2e_planning_msgs/DLPTrajectories dlp_agent_prediction_trajectories
+string reserved_info

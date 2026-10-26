@@ -1,0 +1,8 @@
+prefix=/home/carla/carla_project/carla-ros-bridge/catkin_ws/devel
+
+Name: rviz_carla_plugin
+Description: Description of rviz_carla_plugin
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rviz carla_msgs nav_msgs carla_ros_scenario_runner_types sensor_interface_msgs

@@ -1,0 +1,3 @@
+perception_interface_msgs/CameraSourceEnum camera_name
+uint16 status
+string reserved_info

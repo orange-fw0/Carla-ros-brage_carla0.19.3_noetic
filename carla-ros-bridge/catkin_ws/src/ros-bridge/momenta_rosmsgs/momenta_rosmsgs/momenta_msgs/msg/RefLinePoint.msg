@@ -1,0 +1,14 @@
+float64 x
+float64 y
+float64 z
+float64 curvature
+float64 yaw
+float64 left_road_border_distance
+float64 right_road_border_distance
+float64 left_lane_border_distance
+float64 right_lane_border_distance
+float64 left_obstacle_distance
+float64 right_obstacle_distance
+float64 lane_width
+float64 speed_limit
+string track_id

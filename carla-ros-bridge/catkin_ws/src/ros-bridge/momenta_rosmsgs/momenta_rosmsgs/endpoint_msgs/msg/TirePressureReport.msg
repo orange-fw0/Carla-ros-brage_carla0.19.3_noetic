@@ -1,0 +1,3 @@
+uint8 TIRE_PRESSURE_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/TirePressureReportData tire_pressure_report_data

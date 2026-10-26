@@ -1,0 +1,7 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+perception_interface_msgs/Point2f[] points_2d
+perception_interface_msgs/Point3f[] points_3d
+uint32[] points_track_id
+float32[] points_score
+perception_interface_msgs/LaneSegmentPointEnum[] points_type

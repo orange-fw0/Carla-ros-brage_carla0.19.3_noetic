@@ -1,0 +1,3 @@
+lane_navi_info_msgs/TimeRegulation start_time
+lane_navi_info_msgs/TimeRegulation end_time
+bool is_limited

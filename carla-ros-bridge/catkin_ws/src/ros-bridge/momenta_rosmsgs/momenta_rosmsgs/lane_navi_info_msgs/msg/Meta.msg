@@ -1,0 +1,6 @@
+string source
+string version
+string reserved_data
+lane_navi_info_msgs/MapType map_type
+lane_navi_info_msgs/AdministrativeInfo administrative_info
+lane_navi_info_msgs/AdministrativeWideDrivingRule administrative_wide_driving_rule

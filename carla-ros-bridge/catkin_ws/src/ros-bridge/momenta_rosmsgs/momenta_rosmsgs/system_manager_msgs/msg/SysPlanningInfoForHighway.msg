@@ -1,0 +1,6 @@
+system_manager_msgs/FunctionModeEnum function_mode
+system_manager_msgs/NaviSettings navi_settings
+system_manager_msgs/DrivingStyleEnum driving_style
+system_manager_msgs/LaneChangeCmd lane_change_cmd
+system_manager_msgs/StartStopCmdEnum start_stop_cmd
+system_manager_msgs/LaneChangeStyleEnum lane_change_style

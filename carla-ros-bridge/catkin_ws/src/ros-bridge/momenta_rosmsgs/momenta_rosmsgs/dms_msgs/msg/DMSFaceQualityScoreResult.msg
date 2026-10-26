@@ -1,0 +1,15 @@
+float32 light_forehead_prob
+float32 light_eye_prob
+float32 light_nose_prob
+float32 light_mouth_prob
+float32 faceshade_forehead_prob
+float32 faceshade_eye_prob
+float32 faceshade_nose_prob
+float32 faceshade_mouth_prob
+float32 eye_left_prob
+float32 eye_right_prob
+float32 iris_left_prob
+float32 iris_right_prob
+float32 infrared_block_prob
+int32 yaw_region
+int32 pitch_region

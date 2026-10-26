@@ -1,0 +1,3 @@
+worldmodel_msgs/RoadPriorityType road_priority_type
+float64 distance
+float64 length

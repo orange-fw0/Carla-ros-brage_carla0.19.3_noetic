@@ -1,0 +1,5 @@
+uint8 seat_id
+oms_msgs/OMSBodyDetResult body_det_result
+oms_msgs/OMSSeatBeltStatus seatbelt_status
+oms_msgs/OMSAgeGroup age_cls_result
+oms_msgs/OMSBodyEventInfo body_event_info

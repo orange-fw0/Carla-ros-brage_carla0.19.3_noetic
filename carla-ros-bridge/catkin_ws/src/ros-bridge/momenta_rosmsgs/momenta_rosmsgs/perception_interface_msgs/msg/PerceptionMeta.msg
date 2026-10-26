@@ -1,0 +1,10 @@
+string algorithm_name
+string instance_name
+uint64 sensor_timestamp_us
+uint64 pipeline_start_timestamp_us
+uint64 pipeline_finish_timestamp_us
+perception_interface_msgs/FrameMeta[] relevant_frames
+string version_tag
+string ts_log
+uint64 sequence
+string task_tag

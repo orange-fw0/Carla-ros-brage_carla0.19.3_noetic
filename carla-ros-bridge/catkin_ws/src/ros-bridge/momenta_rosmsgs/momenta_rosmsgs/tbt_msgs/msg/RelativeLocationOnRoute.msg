@@ -1,0 +1,6 @@
+uint32 ori_cur_step_id
+uint32 ori_cur_link_id_in_step
+uint32 ori_link_offset
+uint32 link_index
+uint32 offset
+uint8 valid

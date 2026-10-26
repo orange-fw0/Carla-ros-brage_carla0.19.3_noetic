@@ -1,0 +1,3 @@
+landmark_msgs/ManeuverType type
+lane_navi_info_msgs/Cursor start_cursor
+lane_navi_info_msgs/Cursor end_cursor

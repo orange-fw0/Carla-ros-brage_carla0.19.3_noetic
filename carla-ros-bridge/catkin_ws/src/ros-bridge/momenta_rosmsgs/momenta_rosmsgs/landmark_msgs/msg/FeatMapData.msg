@@ -1,0 +1,9 @@
+int32[] shape
+float32 map_scalar
+landmark_msgs/FloatRange x_range
+landmark_msgs/FloatRange y_range
+int16 cls_num
+uint8[] cls_map
+float32[] feat_map
+landmark_msgs/FloatRange[] cls_range
+string reserved_info

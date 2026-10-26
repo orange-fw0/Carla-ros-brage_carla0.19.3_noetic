@@ -1,0 +1,3 @@
+int32 number
+lane_navi_info_msgs/SDLaneDirectType lane_type
+lane_navi_info_msgs/SDLaneArrow[] arrows

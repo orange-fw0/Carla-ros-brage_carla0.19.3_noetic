@@ -1,0 +1,2 @@
+set(v2x_msgs_MESSAGE_FILES "msg/V2xCollisionWarning.msg;msg/V2xCollisionWarningData.msg;msg/V2xCollisionWarningInfo.msg;msg/V2xIntersection.msg;msg/V2xIntersectionData.msg;msg/V2xIntersectionInfo.msg;msg/V2xIntersectionState.msg;msg/V2xMeta.msg;msg/V2xOverHorizon.msg;msg/V2xOverHorizonData.msg;msg/V2xOverHorizonInfo.msg;msg/V2xPerception.msg;msg/V2xPerceptionInfo.msg;msg/V2xPerceptionObject.msg;msg/V2xPerceptionObjectType.msg;msg/V2xPhase.msg;msg/V2xPhaseState.msg;msg/V2xTrafficLight.msg;msg/V2xTrafficLightInfo.msg")
+set(v2x_msgs_SERVICE_FILES "")

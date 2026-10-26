@@ -1,0 +1,3 @@
+uint8 OMS_CAMERA_NO_BLOCK = 0
+uint8 OMS_CAMERA_BLOCK = 1
+uint8 value

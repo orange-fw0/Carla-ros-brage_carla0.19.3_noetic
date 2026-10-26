@@ -1,0 +1,16 @@
+uint8 MemsIntialization_Err
+uint8 MemsOperating_Err
+uint8 LidarTransmitting_Err
+uint8 LidarReceiving_Err
+uint8 Lidar_Fusa_Err
+uint8 WindowContamination_Err
+uint8 SunBlind_Err
+uint8 WindowHeating_Err
+uint8 LidarInternal_Err
+uint8 LidarExternal_Err
+uint8 LidarInternal_Volt_Err
+uint32 Lidar_Temp_Err
+uint8 Clock_Err
+uint8 Sync_Err
+uint8 reserved1
+uint8 reserved2

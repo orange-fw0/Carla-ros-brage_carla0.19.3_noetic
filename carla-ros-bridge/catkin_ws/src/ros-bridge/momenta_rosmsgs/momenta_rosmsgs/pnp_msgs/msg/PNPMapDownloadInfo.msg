@@ -1,0 +1,7 @@
+std_msgs/Header header
+pnp_msgs/MapDownloadTypeEnum type
+pnp_msgs/MapDownloadResponseId response_id
+pnp_msgs/MapDownloadStatus[] map_list
+pnp_msgs/DownloadStatusEnum total_status
+uint8 total_progress
+string error_msg

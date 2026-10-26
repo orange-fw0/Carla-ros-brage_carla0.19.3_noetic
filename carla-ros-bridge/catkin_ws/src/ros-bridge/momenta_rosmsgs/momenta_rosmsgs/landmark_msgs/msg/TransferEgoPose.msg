@@ -1,0 +1,10 @@
+bool available
+bool is_high_precision_mode
+uint64 sensor_timestamp_us
+float64 longitude
+float64 latitude
+float64 altitude
+float64 global_roll
+float64 global_pitch
+float64 global_yaw
+string reserved

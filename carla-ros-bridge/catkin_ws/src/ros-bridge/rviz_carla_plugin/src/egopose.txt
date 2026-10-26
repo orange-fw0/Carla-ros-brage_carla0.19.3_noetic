@@ -1,0 +1,1352 @@
+[INFO] [1756344698.100022]: Path visualizer initialized. Listening to /msd/planning/plan and /mla/egopose...
+[INFO] [1756344698.105223]: 已订阅规划话题: /msd/planning/plan (类型: planning_msgs/Planning)
+[INFO] [1756344698.108733]: 已订阅自车位置话题: /mla/egopose (类型: mla_localization_msgs/MLALocalization)
+header: 
+  seq: 8034
+  stamp: 
+    secs: 1755592966
+    nsecs: 371003928
+  frame_id: "{\"coordinate_system\":\"GCJ02\",\"gnss_type\":\"rtk\",\"loc_type\":\"ddloc\",\"\
+  version\":\"3b8bb7c0ee-HEAD\"}"
+meta: 
+  timestamp_us: 1755592966329846
+  seq: 8034
+  type: 0
+position: 
+  available: 3
+  position_global: 
+    latitude: 31.275106758951075
+    longitude: 121.18476321037056
+    altitude: 0.0
+  position_local: 
+    x: 622.5896623785092
+    y: 237.64022005104792
+    z: 0.1909366034467524
+velocity: 
+  available: 3
+  velocity_global: 
+    ve: 4.976186359244903
+    vn: -3.428758019958136
+    vu: -0.15269601590351636
+  velocity_local: 
+    vx: 5.202199461057005
+    vy: 3.0750158399733887
+    vz: -0.15334668041894675
+angular_velocity: 
+  available: 1
+  angvelocity_local: 
+    vx: -0.005662789237190429
+    vy: 0.009178899596897315
+    vz: 0.026204276033787728
+orientation: 
+  available: 15
+  euler_global: 
+    roll: 0.023443856008572947
+    pitch: 0.025141415448511933
+    yaw: -0.6031828185940667
+  quaternion_global: 
+    w: 0.9546801795485194
+    x: 0.014925368178088958
+    y: 0.00852065932787999
+    z: -0.29713698392280397
+  euler_local: 
+    roll: 0.023434187476126446
+    pitch: 0.02525602286498141
+    yaw: 0.5334018529306106
+  quaternion_local: 
+    w: 0.9644636273042958
+    x: 0.007973880267354454
+    y: 0.015268125511577803
+    z: 0.26365409750856245
+acceleration: 
+  available: 3
+  acceleration_global: 
+    ae: -0.05209456615506745
+    an: 0.045993111678263934
+    au: 0.9987130624748692
+  acceleration_local: 
+    ax: -0.08686863790196894
+    ay: 0.028797038363707474
+    az: 0.994196548231116
+position_std: 
+  available: 0
+  pos_std_global: 
+    std_pe: 0.0
+    std_pn: 0.0
+    std_pu: 0.0
+  pos_std_local: 
+    std_px: 0.0
+    std_py: 0.0
+    std_pz: 0.0
+velocity_std: 
+  available: 2
+  vel_std_global: 
+    std_ve: 0.0
+    std_vn: 0.0
+    std_vu: 0.0
+  vel_std_local: 
+    std_vx: 5.209660495941162
+    std_vy: 3.0699280754939924
+    std_vz: -0.15292337146682716
+angular_velocity_std: 
+  available: 0
+  angvel_std_local: 
+    std_vx: 6.048828125
+    std_vy: -0.009054714813828468
+    std_vz: 0.0
+orientation_std: 
+  available: 0
+  ori_std_xyz: 
+    std_faix: 0.0
+    std_faiy: 0.0
+    std_faiz: 0.0
+acceleration_std: 
+  available: 0
+  acc_std_global: 
+    std_ae: 0.0
+    std_an: 0.0
+    std_au: 0.0
+  acc_std_local: 
+    std_ax: 0.0
+    std_ay: 0.0
+    std_az: 0.0
+status: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+status_ddld: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+transform: 
+  available: 3
+  transform_llh_to_boot: 
+    transform_q: 
+      w: -0.8430970648363398
+      x: 1.154268537774069e-06
+      y: -3.17726126756237e-05
+      z: -0.5377614138756306
+    transform_t: 
+      x: 622.5896623785092
+      y: 237.64022005104792
+      z: 0.1909366034467524
+    transform_center: 
+      latitude: 31.275106758951075
+      longitude: 121.18476321037056
+      altitude: 0.0
+  transform_avp_map_to_boot: 
+    transform_q: 
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+  transform_ego_motion_to_boot: 
+    transform_q: 
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+pose_detail: 
+  available: 0
+  pose_detail_info: 
+    available: 0
+    is_keyframe: False
+    has_scale: True
+    pose_type: 0
+road_lane_id_info: 
+  lane_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  road_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  offset: 0
+  road_class: 0
+  status: 0
+  reserved: 0
+link_offset_infos: 
+  - 
+    source: "mlni"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "sdpro"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "tbt"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "hq-mapApi"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+reserved: 
+  available: 2
+  reserved_data: [0, 262144, 0]
+header: 
+  seq: 8035
+  stamp: 
+    secs: 1755592966
+    nsecs: 391005912
+  frame_id: "{\"coordinate_system\":\"GCJ02\",\"gnss_type\":\"rtk\",\"loc_type\":\"ddloc\",\"\
+  version\":\"3b8bb7c0ee-HEAD\"}"
+meta: 
+  timestamp_us: 1755592966349846
+  seq: 8035
+  type: 0
+position: 
+  available: 3
+  position_global: 
+    latitude: 31.275106164190525
+    longitude: 121.18476421647483
+    altitude: 0.0
+  position_local: 
+    x: 622.6938504380794
+    y: 237.70102317395043
+    z: 0.19170348859233802
+velocity: 
+  available: 3
+  velocity_global: 
+    ve: 4.964811496017617
+    vn: -3.418016875369931
+    vu: -0.1568872444981664
+  velocity_local: 
+    vx: 5.188037374690219
+    vy: 3.0687130962177296
+    vz: -0.1551588273866153
+angular_velocity: 
+  available: 1
+  angvelocity_local: 
+    vx: 0.001398068112557334
+    vy: 0.0062895023736046305
+    vz: 0.025349100279326613
+orientation: 
+  available: 15
+  euler_global: 
+    roll: 0.023414245855651
+    pitch: 0.025306512155046527
+    yaw: -0.6026226050873285
+  quaternion_global: 
+    w: 0.9547623121292306
+    x: 0.014933328383057373
+    y: 0.008608056209000044
+    z: -0.29687004749139567
+  euler_local: 
+    roll: 0.02317272782072359
+    pitch: 0.025026556326215126
+    yaw: 0.5338731560655835
+  quaternion_local: 
+    w: 0.9644049860335941
+    x: 0.007874473550505428
+    y: 0.015124893703673098
+    z: 0.26387923974859784
+acceleration: 
+  available: 3
+  acceleration_global: 
+    ae: -0.04779839886908786
+    an: 0.03957991433404194
+    au: 0.9964692428603871
+  acceleration_local: 
+    ax: -0.08945242721585941
+    ay: 0.02776407172802498
+    az: 0.9786220065890188
+position_std: 
+  available: 0
+  pos_std_global: 
+    std_pe: 0.0
+    std_pn: 0.0
+    std_pu: 0.0
+  pos_std_local: 
+    std_px: 0.0
+    std_py: 0.0
+    std_pz: 0.0
+velocity_std: 
+  available: 2
+  vel_std_global: 
+    std_ve: 0.0
+    std_vn: 0.0
+    std_vu: 0.0
+  vel_std_local: 
+    std_vx: 5.186075431893363
+    std_vy: 3.059666309084952
+    std_vz: -0.15088558265998261
+angular_velocity_std: 
+  available: 0
+  angvel_std_local: 
+    std_vx: 6.023257255554199
+    std_vy: -0.008648740127682686
+    std_vz: 0.0
+orientation_std: 
+  available: 0
+  ori_std_xyz: 
+    std_faix: 0.0
+    std_faiy: 0.0
+    std_faiz: 0.0
+acceleration_std: 
+  available: 0
+  acc_std_global: 
+    std_ae: 0.0
+    std_an: 0.0
+    std_au: 0.0
+  acc_std_local: 
+    std_ax: 0.0
+    std_ay: 0.0
+    std_az: 0.0
+status: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+status_ddld: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+transform: 
+  available: 3
+  transform_llh_to_boot: 
+    transform_q: 
+      w: -0.8430935992841324
+      x: 2.004601913597963e-06
+      y: -3.054980048124576e-05
+      z: -0.5377668471641014
+    transform_t: 
+      x: 622.6938504380794
+      y: 237.70102317395043
+      z: 0.19170348859233802
+    transform_center: 
+      latitude: 31.275106164190525
+      longitude: 121.18476421647483
+      altitude: 0.0
+  transform_avp_map_to_boot: 
+    transform_q: 
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+  transform_ego_motion_to_boot: 
+    transform_q: 
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+pose_detail: 
+  available: 0
+  pose_detail_info: 
+    available: 0
+    is_keyframe: False
+    has_scale: True
+    pose_type: 0
+road_lane_id_info: 
+  lane_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  road_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  offset: 0
+  road_class: 0
+  status: 0
+  reserved: 0
+link_offset_infos: 
+  - 
+    source: "mlni"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "sdpro"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "tbt"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "hq-mapApi"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+reserved: 
+  available: 2
+  reserved_data: [0, 262144, 0]
+header: 
+  seq: 8036
+  stamp: 
+    secs: 1755592966
+    nsecs: 407526296
+  frame_id: "{\"coordinate_system\":\"GCJ02\",\"gnss_type\":\"rtk\",\"loc_type\":\"ddloc\",\"\
+  version\":\"3b8bb7c0ee-HEAD\"}"
+meta: 
+  timestamp_us: 1755592966369846
+  seq: 8036
+  type: 0
+position: 
+  available: 3
+  position_global: 
+    latitude: 31.275105568614944
+    longitude: 121.18476521744908
+    altitude: 0.0
+  position_local: 
+    x: 622.7972742683495
+    y: 237.7623060544413
+    z: 0.18869396109363054
+velocity: 
+  available: 3
+  velocity_global: 
+    ve: 4.953358813909861
+    vn: -3.4083832736945254
+    vu: -0.15168039398312785
+  velocity_local: 
+    vx: 5.174305729155442
+    vy: 3.062577071713023
+    vz: -0.15174358109161654
+angular_velocity: 
+  available: 1
+  angvelocity_local: 
+    vx: 0.011191277657632889
+    vy: 0.0009950188597306977
+    vz: 0.023167268135854402
+orientation: 
+  available: 15
+  euler_global: 
+    roll: 0.02331951082207467
+    pitch: 0.02501847521495546
+    yaw: -0.60220324021931
+  quaternion_global: 
+    w: 0.9548274739822487
+    x: 0.014843609961358995
+    y: 0.008487714618319488
+    z: -0.2966683696667881
+  euler_local: 
+    roll: 0.023408089869669826
+    pitch: 0.025035797449219865
+    yaw: 0.5343308943073951
+  quaternion_local: 
+    w: 0.9643428185089017
+    x: 0.00798328495421024
+    y: 0.015162198171657924
+    z: 0.26410105944235285
+acceleration: 
+  available: 3
+  acceleration_global: 
+    ae: -0.05068619999053523
+    an: 0.041033136827753294
+    au: 0.9809285423879381
+  acceleration_local: 
+    ax: -0.09717785376225596
+    ay: 0.026073498898635382
+    az: 1.012224016618384
+position_std: 
+  available: 0
+  pos_std_global: 
+    std_pe: 0.0
+    std_pn: 0.0
+    std_pu: 0.0
+  pos_std_local: 
+    std_px: 0.0
+    std_py: 0.0
+    std_pz: 0.0
+velocity_std: 
+  available: 2
+  vel_std_global: 
+    std_ve: 0.0
+    std_vn: 0.0
+    std_vu: 0.0
+  vel_std_local: 
+    std_vx: 5.1754148121934485
+    std_vy: 3.056596218755445
+    std_vz: -0.15067356916689112
+angular_velocity_std: 
+  available: 0
+  angvel_std_local: 
+    std_vx: 6.012514114379883
+    std_vy: -0.008648740127682686
+    std_vz: 0.0
+orientation_std: 
+  available: 0
+  ori_std_xyz: 
+    std_faix: 0.0
+    std_faiy: 0.0
+    std_faiz: 0.0
+acceleration_std: 
+  available: 0
+  acc_std_global: 
+    std_ae: 0.0
+    std_an: 0.0
+    std_au: 0.0
+  acc_std_local: 
+    std_ax: 0.0
+    std_ay: 0.0
+    std_az: 0.0
+status: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+status_ddld: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+transform: 
+  available: 3
+  transform_llh_to_boot: 
+    transform_q: 
+      w: -0.8430900503988878
+      x: 1.8329207529128946e-06
+      y: -3.081897913928789e-05
+      z: -0.5377724109372215
+    transform_t: 
+      x: 622.7972742683495
+      y: 237.7623060544413
+      z: 0.18869396109363054
+    transform_center: 
+      latitude: 31.275105568614944
+      longitude: 121.18476521744908
+      altitude: 0.0
+  transform_avp_map_to_boot: 
+    transform_q: 
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+  transform_ego_motion_to_boot: 
+    transform_q: 
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+pose_detail: 
+  available: 0
+  pose_detail_info: 
+    available: 0
+    is_keyframe: False
+    has_scale: True
+    pose_type: 0
+road_lane_id_info: 
+  lane_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  road_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  offset: 0
+  road_class: 0
+  status: 0
+  reserved: 0
+link_offset_infos: 
+  - 
+    source: "mlni"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "sdpro"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "tbt"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "hq-mapApi"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+reserved: 
+  available: 2
+  reserved_data: [0, 262144, 0]
+[INFO] [1756344700.591142]: 接收到规划消息！开始解析...
+[INFO] [1756344700.593742]: 解析到path，包含 236 个路径点
+[INFO] [1756344700.595820]: 开始绘制轨迹，共 236 个点
+[INFO] [1756344700.607357]: 轨迹标记已发布
+header: 
+  seq: 8037
+  stamp: 
+    secs: 1755592966
+    nsecs: 427836888
+  frame_id: "{\"coordinate_system\":\"GCJ02\",\"gnss_type\":\"rtk\",\"loc_type\":\"ddloc\",\"\
+  version\":\"3b8bb7c0ee-HEAD\"}"
+meta: 
+  timestamp_us: 1755592966389846
+  seq: 8037
+  type: 0
+position: 
+  available: 3
+  position_global: 
+    latitude: 31.275104978154552
+    longitude: 121.18476621811192
+    altitude: 0.0
+  position_local: 
+    x: 622.9005351516271
+    y: 237.82355963894088
+    z: 0.185688447221213
+velocity: 
+  available: 3
+  velocity_global: 
+    ve: 4.945339231019018
+    vn: -3.4011047374085726
+    vu: -0.14821580736569315
+  velocity_local: 
+    vx: 5.164226580085919
+    vy: 3.05852052322968
+    vz: -0.14856336495484015
+angular_velocity: 
+  available: 1
+  angvelocity_local: 
+    vx: 0.01704116850721655
+    vy: 0.0005137128144487628
+    vz: 0.024080659364494772
+orientation: 
+  available: 15
+  euler_global: 
+    roll: 0.023710992434722123
+    pitch: 0.02496998036750727
+    yaw: -0.6017534234470514
+  quaternion_global: 
+    w: 0.954891624183104
+    x: 0.01502143068518349
+    y: 0.008409868837869008
+    z: -0.2964550850962804
+  euler_local: 
+    roll: 0.02376087690349155
+    pitch: 0.0250349157855343
+    yaw: 0.5348039728388455
+  quaternion_local: 
+    w: 0.964277780633371
+    x: 0.008149920475440733
+    y: 0.015210237275345177
+    z: 0.2643307447418651
+acceleration: 
+  available: 3
+  acceleration_global: 
+    ae: -0.057886978374189345
+    an: 0.042662462918527155
+    au: 1.0146673528021137
+  acceleration_local: 
+    ax: -0.08236807818640916
+    ay: 0.023494132676129025
+    az: 1.0179852468036115
+position_std: 
+  available: 0
+  pos_std_global: 
+    std_pe: 0.0
+    std_pn: 0.0
+    std_pu: 0.0
+  pos_std_local: 
+    std_px: 0.0
+    std_py: 0.0
+    std_pz: 0.0
+velocity_std: 
+  available: 2
+  vel_std_global: 
+    std_ve: 0.0
+    std_vn: 0.0
+    std_vu: 0.0
+  vel_std_local: 
+    std_vx: 5.1672712296248795
+    std_vy: 3.0551336161262173
+    std_vz: -0.1504759451525184
+angular_velocity_std: 
+  available: 0
+  angvel_std_local: 
+    std_vx: 6.004756450653076
+    std_vy: -0.008648740127682686
+    std_vz: 0.0
+orientation_std: 
+  available: 0
+  ori_std_xyz: 
+    std_faix: 0.0
+    std_faiy: 0.0
+    std_faiz: 0.0
+acceleration_std: 
+  available: 0
+  acc_std_global: 
+    std_ae: 0.0
+    std_an: 0.0
+    std_au: 0.0
+  acc_std_local: 
+    std_ax: 0.0
+    std_ay: 0.0
+    std_az: 0.0
+status: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+status_ddld: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+transform: 
+  available: 3
+  transform_llh_to_boot: 
+    transform_q: 
+      w: -0.8430864717462488
+      x: 1.8569923379438279e-06
+      y: -3.072268892312666e-05
+      z: -0.537778021316537
+    transform_t: 
+      x: 622.9005351516271
+      y: 237.82355963894088
+      z: 0.185688447221213
+    transform_center: 
+      latitude: 31.275104978154552
+      longitude: 121.18476621811192
+      altitude: 0.0
+  transform_avp_map_to_boot: 
+    transform_q: 
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+  transform_ego_motion_to_boot: 
+    transform_q: 
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+pose_detail: 
+  available: 0
+  pose_detail_info: 
+    available: 0
+    is_keyframe: False
+    has_scale: True
+    pose_type: 0
+road_lane_id_info: 
+  lane_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  road_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  offset: 0
+  road_class: 0
+  status: 0
+  reserved: 0
+link_offset_infos: 
+  - 
+    source: "mlni"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "sdpro"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "tbt"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "hq-mapApi"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+reserved: 
+  available: 2
+  reserved_data: [0, 262144, 0]
+header: 
+  seq: 8038
+  stamp: 
+    secs: 1755592966
+    nsecs: 448071768
+  frame_id: "{\"coordinate_system\":\"GCJ02\",\"gnss_type\":\"rtk\",\"loc_type\":\"ddloc\",\"\
+  version\":\"3b8bb7c0ee-HEAD\"}"
+meta: 
+  timestamp_us: 1755592966409846
+  seq: 8038
+  type: 0
+position: 
+  available: 3
+  position_global: 
+    latitude: 31.27510438879623
+    longitude: 121.18476721802398
+    altitude: 0.0
+  position_local: 
+    x: 623.0034998950878
+    y: 237.88470390349568
+    z: 0.18268263078542815
+velocity: 
+  available: 3
+  velocity_global: 
+    ve: 4.935881158419796
+    vn: -3.3922677448713117
+    vu: -0.15186110603179123
+  velocity_local: 
+    vx: 5.152263448398324
+    vy: 3.0535876895170033
+    vz: -0.1524432965544464
+angular_velocity: 
+  available: 1
+  angvelocity_local: 
+    vx: 0.014429344495818766
+    vy: 0.003937583355672134
+    vz: 0.02372817927670063
+orientation: 
+  available: 15
+  euler_global: 
+    roll: 0.02409640185316619
+    pitch: 0.02499799843355783
+    yaw: -0.6012652196523399
+  quaternion_global: 
+    w: 0.9549608318348527
+    x: 0.015207548924558683
+    y: 0.008369831147584987
+    z: -0.29622371061707575
+  euler_local: 
+    roll: 0.02406128096098392
+    pitch: 0.025102496882313932
+    yaw: 0.5352713034098541
+  quaternion_local: 
+    w: 0.9642132826194618
+    x: 0.008282264913897283
+    y: 0.015284416464785563
+    z: 0.2645576843740484
+acceleration: 
+  available: 3
+  acceleration_global: 
+    ae: -0.047326033601329746
+    an: 0.031640619375229134
+    au: 1.0199948811038977
+  acceleration_local: 
+    ax: -0.08593345256586514
+    ay: 0.021641567970219548
+    az: 0.9733484475420996
+position_std: 
+  available: 0
+  pos_std_global: 
+    std_pe: 0.0
+    std_pn: 0.0
+    std_pu: 0.0
+  pos_std_local: 
+    std_px: 0.0
+    std_py: 0.0
+    std_pz: 0.0
+velocity_std: 
+  available: 2
+  vel_std_global: 
+    std_ve: 0.0
+    std_vn: 0.0
+    std_vu: 0.0
+  vel_std_local: 
+    std_vx: 5.152468198835846
+    std_vy: 3.04966992290703
+    std_vz: -0.15049367016823245
+angular_velocity_std: 
+  available: 0
+  angvel_std_local: 
+    std_vx: 5.98923921585083
+    std_vy: -0.008648740127682686
+    std_vz: 0.0
+orientation_std: 
+  available: 0
+  ori_std_xyz: 
+    std_faix: 0.0
+    std_faiy: 0.0
+    std_faiz: 0.0
+acceleration_std: 
+  available: 0
+  acc_std_global: 
+    std_ae: 0.0
+    std_an: 0.0
+    std_au: 0.0
+  acc_std_local: 
+    std_ax: 0.0
+    std_ay: 0.0
+    std_az: 0.0
+status: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+status_ddld: 
+  available: 1
+  status_info: 
+    quality: 4
+    common: 3
+    extended: 0
+    type: 2
+transform: 
+  available: 3
+  transform_llh_to_boot: 
+    transform_q: 
+      w: -0.8430832321888954
+      x: 1.97129990589676e-06
+      y: -3.071960554618861e-05
+      z: -0.5377831000081215
+    transform_t: 
+      x: 623.0034998950878
+      y: 237.88470390349568
+      z: 0.18268263078542815
+    transform_center: 
+      latitude: 31.27510438879623
+      longitude: 121.18476721802398
+      altitude: 0.0
+  transform_avp_map_to_boot: 
+    transform_q: 
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+  transform_ego_motion_to_boot: 
+    transform_q: 
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_t: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    transform_center: 
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+pose_detail: 
+  available: 0
+  pose_detail_info: 
+    available: 0
+    is_keyframe: False
+    has_scale: True
+    pose_type: 0
+road_lane_id_info: 
+  lane_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  road_id: 
+    is_visible: False
+    count: 0
+    id: 0
+    linked_id: 0
+    map_id: 0
+    area_id: 0
+  offset: 0
+  road_class: 0
+  status: 0
+  reserved: 0
+link_offset_infos: 
+  - 
+    source: "mlni"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "sdpro"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "tbt"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: ''
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+  - 
+    source: "hq-mapApi"
+    link_id: 
+      is_visible: False
+      count: 0
+      id: 0
+      linked_id: 0
+      map_id: 0
+      area_id: 0
+    offset: 0
+    status: 0
+    reserved: 0
+reserved: 
+  available: 2
+  reserved_data: [0, 262144, 0]

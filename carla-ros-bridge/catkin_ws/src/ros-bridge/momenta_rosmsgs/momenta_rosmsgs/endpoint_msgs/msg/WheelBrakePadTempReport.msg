@@ -1,0 +1,3 @@
+uint8 WHEEL_BRAKE_PAD_TEMP_REPORT_DATA = 1
+uint8 available
+endpoint_msgs/WheelBrakePadTempData wheel_brake_pad_temp_data

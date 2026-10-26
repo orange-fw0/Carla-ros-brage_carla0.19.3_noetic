@@ -1,0 +1,2 @@
+perception_interface_msgs/Point3f[] bounding_box_3d
+perception_interface_msgs/TrafficLightPatternEnum pattern

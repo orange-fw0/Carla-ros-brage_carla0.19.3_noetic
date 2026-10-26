@@ -1,0 +1,8 @@
+std_msgs/Header header
+adasis_v2_msgs/Position position
+adasis_v2_msgs/Segment segment
+adasis_v2_msgs/Stub stub
+adasis_v2_msgs/ProfileShort profile_short
+adasis_v2_msgs/ProfileLong profile_long
+adasis_v2_msgs/MetaData meta_data
+string reserved

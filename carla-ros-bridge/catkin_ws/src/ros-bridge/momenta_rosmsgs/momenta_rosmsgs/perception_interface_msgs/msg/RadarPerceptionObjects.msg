@@ -1,0 +1,10 @@
+uint8 BASIC_RADAR_PERCEPTION_OBJECT_DATA = 1
+uint8 BOSCH_RADAR_PERCEPTION_OBJECT_DATA = 2
+uint8 CONTI_RADAR_PERCEPTION_OBJECT_DATA = 4
+uint8 BASIC_RADAR_PERCEPTION_OBJECT_DATA_FAULTY = 17
+uint8 BOSCH_RADAR_PERCEPTION_OBJECT_DATA_FAULTY = 18
+uint8 CONTI_RADAR_PERCEPTION_OBJECT_DATA_FAULTY = 20
+uint8 available
+perception_interface_msgs/BasicRadarPerceptionObjectData[] basic_radar_perception_object_data
+perception_interface_msgs/BoschRadarPerceptionObjectData[] bosch_radar_perception_object_data
+perception_interface_msgs/ContiRadarPerceptionObjectData[] conti_radar_perception_object_data

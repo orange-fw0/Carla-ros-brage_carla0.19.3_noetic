@@ -1,0 +1,9 @@
+v2x_msgs/V2xPerceptionObjectType type
+float64 longitude
+float64 latitude
+float64 elevation
+float64 speed
+float64 heading
+float64 width
+float64 length
+float64 height

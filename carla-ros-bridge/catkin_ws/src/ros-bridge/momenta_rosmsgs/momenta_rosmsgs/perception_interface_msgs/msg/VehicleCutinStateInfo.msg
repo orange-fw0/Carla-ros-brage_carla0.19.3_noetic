@@ -1,0 +1,2 @@
+float32 cutin_state_on_score
+perception_interface_msgs/VehicleCutinStateEnum cutin_state

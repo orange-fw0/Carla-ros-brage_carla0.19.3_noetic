@@ -1,0 +1,4 @@
+bool suspension_enable
+bool suspension_adjust_pause
+bool suspension_safety_mode
+endpoint_msgs/SuspensionLevel suspension_level_command

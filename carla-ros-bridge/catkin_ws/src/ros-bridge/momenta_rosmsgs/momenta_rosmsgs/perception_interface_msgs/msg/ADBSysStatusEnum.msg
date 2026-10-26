@@ -1,0 +1,4 @@
+uint8 INVALID = 0
+uint8 DETECTED_NO_FAULT = 1
+uint8 DETECTED_FAULT = 2
+uint8 value

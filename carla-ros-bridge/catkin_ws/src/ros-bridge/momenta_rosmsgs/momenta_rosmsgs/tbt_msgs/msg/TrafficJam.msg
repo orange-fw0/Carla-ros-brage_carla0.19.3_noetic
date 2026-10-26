@@ -1,0 +1,3 @@
+tbt_msgs/TrafficJamStatusEnum status
+uint32 length
+uint32 distance_to_jam

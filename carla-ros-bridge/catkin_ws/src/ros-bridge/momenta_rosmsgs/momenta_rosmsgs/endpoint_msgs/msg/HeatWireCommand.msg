@@ -1,0 +1,3 @@
+endpoint_msgs/CameraSurfaceCondition ff_camera_status
+endpoint_msgs/CameraSurfaceCondition fw_camera_status
+endpoint_msgs/HeatWireControlType heat_wire_control

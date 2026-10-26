@@ -1,0 +1,2 @@
+float32 brake_light_on_score
+perception_interface_msgs/VehicleBrakeLightEnum brake_light_state

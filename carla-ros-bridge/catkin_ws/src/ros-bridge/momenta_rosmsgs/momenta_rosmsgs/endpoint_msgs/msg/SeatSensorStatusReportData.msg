@@ -1,0 +1,3 @@
+uint64 timestamp_us
+endpoint_msgs/SeatSensorStatusType[] enabled_seat_sensor_status_array
+bool valid

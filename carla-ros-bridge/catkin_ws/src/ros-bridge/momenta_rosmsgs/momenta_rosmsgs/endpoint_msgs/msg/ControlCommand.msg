@@ -1,0 +1,14 @@
+std_msgs/Header header
+endpoint_msgs/ControlCommandMeta meta
+endpoint_msgs/WireControlTypeCommand wire_type_command
+endpoint_msgs/BrakeCommand brake_command
+endpoint_msgs/GearCommand gear_command
+endpoint_msgs/SteeringCommand steering_command
+endpoint_msgs/ThrottleCommand throttle_command
+endpoint_msgs/AebCommand aeb_command
+endpoint_msgs/VehicleLightCommand vehicle_light_command
+endpoint_msgs/WindowCommand window_command
+endpoint_msgs/AuxiliaryCommand auxiliary_command
+endpoint_msgs/AcceCommand acce_command
+endpoint_msgs/ControlCommandExtra extra
+endpoint_msgs/SpeedCommand speed_command

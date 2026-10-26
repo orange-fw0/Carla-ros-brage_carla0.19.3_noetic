@@ -1,0 +1,5 @@
+lane_navi_info_msgs/StaticManeuverBase maneuver_base
+landmark_msgs/DirectionInfo ramp_in_direction_info
+landmark_msgs/DirectionInfo ramp_out_direction_info
+float64 ramp_in_angle
+float64 ramp_out_angle

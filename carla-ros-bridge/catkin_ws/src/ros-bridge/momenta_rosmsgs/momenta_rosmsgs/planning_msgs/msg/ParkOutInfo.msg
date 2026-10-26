@@ -1,0 +1,5 @@
+uint32 available_direction
+uint32 recommend_direction
+planning_msgs/ParkOutDisableReason disable_reason
+bool reached_take_over_point
+string reserved

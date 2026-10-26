@@ -1,0 +1,11 @@
+uint16 parking_lot_id
+perception_interface_msgs/Polygon3f parking_lot_position
+perception_interface_msgs/Point3f parking_lot_center
+perception_interface_msgs/Point3f parking_lot_entrance_center
+float64 available_inner_width
+float64 available_outter_width
+uint16 next_parking_lot_id
+uint16 previous_parking_lot_id
+float64 left_extended_distance
+float64 right_extended_distance
+float64 score

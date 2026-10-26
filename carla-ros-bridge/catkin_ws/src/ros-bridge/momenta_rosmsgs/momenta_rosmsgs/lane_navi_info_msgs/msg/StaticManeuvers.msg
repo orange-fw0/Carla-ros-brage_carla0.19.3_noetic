@@ -1,0 +1,7 @@
+bool valid
+lane_navi_info_msgs/IntersectionManeuver[] intersection_maneuvers
+lane_navi_info_msgs/RampManeuver[] ramp_maneuvers
+lane_navi_info_msgs/RoadSplittingMergingManeuver[] road_splitting_merging_maneuver
+lane_navi_info_msgs/LaneSplittingMergingManeuver[] lane_splitting_merging_maneuver
+lane_navi_info_msgs/DestinationManeuver[] destination_maneuver
+lane_navi_info_msgs/CommonManeuver[] common_maneuver

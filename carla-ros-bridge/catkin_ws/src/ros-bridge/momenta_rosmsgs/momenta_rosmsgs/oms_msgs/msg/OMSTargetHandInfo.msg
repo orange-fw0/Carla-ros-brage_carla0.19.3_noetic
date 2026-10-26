@@ -1,0 +1,3 @@
+oms_msgs/OMSHandDetResult hand_det_result
+oms_msgs/OMSStaticGestureResult static_gesture_type
+oms_msgs/OMSDynamicGestureEvent dynamic_gesture_event

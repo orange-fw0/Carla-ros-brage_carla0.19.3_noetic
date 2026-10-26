@@ -1,0 +1,10 @@
+float32 tx_frequency
+float32 rx_frequency
+sensor_interface_msgs/UssMeaMode measurement_mode
+float32 reverberation_time
+uint16 reverberation_period
+float32 distance_interval
+sensor_interface_msgs/NearRangeDetectionStatus near_range_detection_status
+float32 near_range_distance
+uint16 num_amplitude_samples
+float32[] amplitude_samples

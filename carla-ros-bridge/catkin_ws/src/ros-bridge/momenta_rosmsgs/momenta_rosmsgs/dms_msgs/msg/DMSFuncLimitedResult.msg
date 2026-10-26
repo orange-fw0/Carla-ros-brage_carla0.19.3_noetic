@@ -1,0 +1,11 @@
+uint8 UN_AVAILABLE = 0
+uint8 FUNCTION_LIMITED_TYPE_AVAILABLE = 1
+uint8 L2_FUNCTION_LIMITED_TYPE_AVAILABLE = 2
+uint8 L3_FUNCTION_LIMITED_TYPE_AVAILABLE = 4
+uint8 RESERVED = 8
+uint8 available
+dms_msgs/DMSFunctionLimitedTypeEnum function_limited_type
+dms_msgs/L2DMSFunctionLimitedTypeEnum l2_function_limited_type
+dms_msgs/L3DMSFunctionLimitedTypeEnum l3_function_limited_type
+uint8 reserved
+string func_limited_params

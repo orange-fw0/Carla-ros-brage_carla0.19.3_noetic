@@ -1,0 +1,8 @@
+sensor_interface_msgs/UltrasonicEhcoInfo[] uss_echo_info
+uint16 first_echo_amplitude
+int16 uss_temperature
+uint64 timestamp_us
+uint8 burst_mode
+uint8 uss_rt_width
+uint8 uss_config_status
+string reserved

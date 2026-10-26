@@ -1,0 +1,10 @@
+uint8 available
+sensor_interface_msgs/UltrasonicResultMeta meta
+float32 uss_echo_distance
+float32 uss_echo_prob
+uint64 uss_echo_width
+uint16 first_echo_amplitude
+uint16 uss_rt_width
+uint16 uss_echo_quality
+uint16 echo_send_id
+uint64 reserved

@@ -1,0 +1,10 @@
+int8 aRawient_temperature
+uint8 cont_wav_noise_l
+uint8 cont_wav_noise_h
+bool sensor_status_valid
+bool sensor_com_status_valid
+bool thermal_warning
+bool tx_fail
+bool sensor_disturbed
+bool white_band_noise
+uint64 reserved

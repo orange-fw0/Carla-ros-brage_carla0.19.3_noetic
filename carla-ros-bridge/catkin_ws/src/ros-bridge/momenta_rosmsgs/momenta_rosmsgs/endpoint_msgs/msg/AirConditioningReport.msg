@@ -1,0 +1,3 @@
+uint8 AIR_CONDITIONING_DATA = 1
+uint8 available
+endpoint_msgs/AirConditioningReportData air_conditioning_data

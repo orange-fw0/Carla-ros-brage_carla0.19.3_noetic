@@ -1,0 +1,4 @@
+float32 value
+float32 start_offset
+float32 end_offset
+lane_navi_info_msgs/InterpolationType interpolation_type

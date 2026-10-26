@@ -1,0 +1,2 @@
+sensor_interface_msgs/UssObstaclePosture uss_obstacle_posture
+sensor_interface_msgs/UltrasonicObstacleInfo[] uss_obstacle_info

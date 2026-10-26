@@ -1,0 +1,3 @@
+uint8 seat_id
+dms_msgs/DMSFrameResult face_frame_info
+dms_msgs/DMSEventResult face_event_info

@@ -1,0 +1,3 @@
+landmark_msgs/TrackId lane_group_id
+float32 start_offset
+float32 end_offset

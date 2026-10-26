@@ -1,0 +1,8 @@
+(cl:in-package recorder_srvs-srv)
+(cl:export '(COLLECTION_DISK_RECORDING-VAL
+          COLLECTION_DISK_RECORDING
+          EXPORT_DISK_RECORDING-VAL
+          EXPORT_DISK_RECORDING
+          ANY_DISK_RECORDING-VAL
+          ANY_DISK_RECORDING
+))

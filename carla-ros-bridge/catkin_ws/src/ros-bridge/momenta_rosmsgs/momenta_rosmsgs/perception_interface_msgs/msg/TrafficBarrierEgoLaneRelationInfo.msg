@@ -1,0 +1,4 @@
+float32 distance_to_left_line
+float32 distance_to_right_line
+perception_interface_msgs/TrafficBarrierEgoLaneRelationEnum ego_lane_relation
+perception_interface_msgs/TrafficBarrierUsefulEnum useful

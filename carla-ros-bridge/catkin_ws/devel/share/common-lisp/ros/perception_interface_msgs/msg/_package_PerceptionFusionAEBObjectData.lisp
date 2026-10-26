@@ -1,0 +1,26 @@
+(cl:in-package perception_interface_msgs-msg)
+(cl:export '(TRACK_ID-VAL
+          TRACK_ID
+          TYPE_INFO-VAL
+          TYPE_INFO
+          SCORE-VAL
+          SCORE
+          TTC-VAL
+          TTC
+          SHAPE-VAL
+          SHAPE
+          RELATIVE_POSITION-VAL
+          RELATIVE_POSITION
+          RELATIVE_VELOCITY-VAL
+          RELATIVE_VELOCITY
+          RELATIVE_ACCELERATION-VAL
+          RELATIVE_ACCELERATION
+          RELATIVE_HEADING_YAW-VAL
+          RELATIVE_HEADING_YAW
+          RELATIVE_ANGULAR_VELOCITY-VAL
+          RELATIVE_ANGULAR_VELOCITY
+          VELOCITY_RELATIVE_TO_GROUND-VAL
+          VELOCITY_RELATIVE_TO_GROUND
+          ACCELERATION_RELATIVE_TO_GROUND-VAL
+          ACCELERATION_RELATIVE_TO_GROUND
+))

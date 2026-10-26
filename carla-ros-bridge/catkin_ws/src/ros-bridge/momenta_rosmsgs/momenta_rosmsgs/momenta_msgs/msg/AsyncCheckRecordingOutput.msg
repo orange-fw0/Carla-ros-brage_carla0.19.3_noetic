@@ -1,0 +1,5 @@
+int64 key_num
+bool service_response
+bool collection_disk_recording
+bool export_disk_recording
+bool any_disk_recording

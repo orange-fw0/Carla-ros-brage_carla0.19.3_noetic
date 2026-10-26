@@ -1,0 +1,14 @@
+(cl:in-package dms_msgs-msg)
+(cl:export '(AVAILABLE-VAL
+          AVAILABLE
+          FUNCTION_LIMITED_TYPE-VAL
+          FUNCTION_LIMITED_TYPE
+          L2_FUNCTION_LIMITED_TYPE-VAL
+          L2_FUNCTION_LIMITED_TYPE
+          L3_FUNCTION_LIMITED_TYPE-VAL
+          L3_FUNCTION_LIMITED_TYPE
+          RESERVED-VAL
+          RESERVED
+          FUNC_LIMITED_PARAMS-VAL
+          FUNC_LIMITED_PARAMS
+))

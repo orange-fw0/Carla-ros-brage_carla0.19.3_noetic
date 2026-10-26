@@ -1,0 +1,3 @@
+bool available
+worldmodel_msgs/ReferenceLinePoint[] reference_line_points
+worldmodel_msgs/ReferenceLineSegment[] reference_line_segments

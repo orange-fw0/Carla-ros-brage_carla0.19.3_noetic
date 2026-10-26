@@ -1,0 +1,7 @@
+uint64 timestamp_us
+endpoint_msgs/WorkType driver_work_type
+endpoint_msgs/EpbStatus epb_report
+endpoint_msgs/AutoHoldStatus auto_hold_state
+bool vehicle_hold_active
+bool overide
+bool valid

@@ -1,0 +1,3 @@
+perception_interface_msgs/Point2f position
+float32 confidence
+perception_interface_msgs/ParkingSlotPointTypeEnum type

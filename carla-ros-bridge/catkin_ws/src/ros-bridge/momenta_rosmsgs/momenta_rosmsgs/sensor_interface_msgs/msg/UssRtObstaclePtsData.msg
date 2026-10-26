@@ -1,0 +1,2 @@
+sensor_interface_msgs/UssObstaclePosture uss_obstacle_pts_posture
+sensor_interface_msgs/ObstacleKeyPointData[] uss_rt_obstacle_pts_data

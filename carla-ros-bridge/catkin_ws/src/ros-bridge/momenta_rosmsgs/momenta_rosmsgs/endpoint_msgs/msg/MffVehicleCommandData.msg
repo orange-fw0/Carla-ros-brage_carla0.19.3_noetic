@@ -1,0 +1,6 @@
+uint64 timestamp_us
+endpoint_msgs/HeatWireCommand heat_wire_command
+endpoint_msgs/RearviewMirrorCommand rearview_mirror_command
+endpoint_msgs/SuspensionCommand suspension_comand
+endpoint_msgs/SentryModeCommand sentrymode_command
+endpoint_msgs/TurnSignalCommand turn_signal_command

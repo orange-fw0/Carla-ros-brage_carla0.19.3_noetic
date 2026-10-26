@@ -1,0 +1,4 @@
+uint8 LOW_CONFIDENCE = 0
+uint8 MIDIUM_CONFIDENCE = 1
+uint8 HIGH_CONFIDENCE = 2
+uint8 value

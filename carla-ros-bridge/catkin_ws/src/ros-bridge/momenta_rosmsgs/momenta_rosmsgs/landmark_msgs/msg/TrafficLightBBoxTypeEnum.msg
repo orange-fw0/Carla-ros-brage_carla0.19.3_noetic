@@ -1,0 +1,5 @@
+uint8 LIGHT_GROUP = 0
+uint8 LIGHT_BULB = 1
+uint8 LIGHT_TYPE_GLIM_HALO = 2
+uint8 LIGHT_TYPE_UNKNOWN = 3
+uint8 value

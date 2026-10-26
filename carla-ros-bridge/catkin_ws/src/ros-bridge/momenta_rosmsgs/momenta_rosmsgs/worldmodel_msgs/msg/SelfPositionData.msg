@@ -1,0 +1,4 @@
+bool in_map_area
+bool in_intersection
+bool on_ramp
+int32 current_parking_slot_id

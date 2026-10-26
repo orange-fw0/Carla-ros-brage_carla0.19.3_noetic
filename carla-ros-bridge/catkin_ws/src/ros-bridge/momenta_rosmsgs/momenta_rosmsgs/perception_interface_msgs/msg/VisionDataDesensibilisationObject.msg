@@ -1,0 +1,6 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+perception_interface_msgs/DataDesensibilisationTypeEnum type_info
+float32 score
+perception_interface_msgs/Rect4f bounding_box_2d
+perception_interface_msgs/Rect4f bounding_box_2d_raw

@@ -1,0 +1,4 @@
+uint8 AIR_TEMP_MODE_NORMAL = 0
+uint8 AIR_TEMP_MODE_COLD = 1
+uint8 AIR_TEMP_MODE_HOT = 2
+uint8 value

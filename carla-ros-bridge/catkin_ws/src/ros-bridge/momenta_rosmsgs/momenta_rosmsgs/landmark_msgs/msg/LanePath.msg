@@ -1,0 +1,9 @@
+landmark_msgs/LaneIdWithOnRouteInfo[] lane_in_lane_path
+float32 onroute_distance
+landmark_msgs/LaneSplittingMergingManeuver[] lane_maneuvers
+landmark_msgs/LanePathDirection direction
+landmark_msgs/LanePathEndType end_type
+landmark_msgs/NoLaneChangeZone[] left_no_lane_change_zones
+landmark_msgs/NoLaneChangeZone[] right_no_lane_change_zones
+landmark_msgs/NaviOnrouteDisInfo navi_onroutedis_info
+string reserved_info

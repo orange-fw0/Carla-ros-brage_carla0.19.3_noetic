@@ -1,0 +1,2 @@
+lane_navi_info_msgs/WeatherRuleType[] weather_rule_type
+bool is_limited

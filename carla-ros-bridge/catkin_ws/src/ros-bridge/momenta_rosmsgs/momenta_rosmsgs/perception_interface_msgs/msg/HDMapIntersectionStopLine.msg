@@ -1,0 +1,2 @@
+float64 distance_to_stop_line
+float64 distance_buffer

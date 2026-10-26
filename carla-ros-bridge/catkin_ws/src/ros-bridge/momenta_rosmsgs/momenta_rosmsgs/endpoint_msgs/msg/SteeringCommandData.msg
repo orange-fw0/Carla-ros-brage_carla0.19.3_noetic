@@ -1,0 +1,8 @@
+uint64 timestamp_us
+bool steering_enable
+endpoint_msgs/SteeringType steering_type
+float32 steering_command
+float32 steering_rate
+endpoint_msgs/RWhSteerModType rwheel_steer_mode
+float32 rwheel_command
+endpoint_msgs/RWhSteerDirection rwheel_steer_direction

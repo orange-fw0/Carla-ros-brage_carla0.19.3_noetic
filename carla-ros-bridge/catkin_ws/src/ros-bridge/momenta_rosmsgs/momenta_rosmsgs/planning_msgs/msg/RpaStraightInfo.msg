@@ -1,0 +1,3 @@
+float32 forward_distance
+float32 backward_distance
+string reserved

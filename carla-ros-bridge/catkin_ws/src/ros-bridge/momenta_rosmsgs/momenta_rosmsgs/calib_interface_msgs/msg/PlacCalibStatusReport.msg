@@ -1,0 +1,3 @@
+std_msgs/Header header
+calib_interface_msgs/PlacCalibStatusEnum calib_status
+calib_interface_msgs/PlacTotalErrorCodeEnum error_code

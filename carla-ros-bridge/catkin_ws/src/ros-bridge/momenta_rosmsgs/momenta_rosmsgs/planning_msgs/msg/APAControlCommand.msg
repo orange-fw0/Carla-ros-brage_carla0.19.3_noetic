@@ -1,0 +1,5 @@
+planning_msgs/APABrakeMode brake_mode
+planning_msgs/APASteeringMode steering_mode
+uint8 special_scenario_type
+bool use_second_traj_sv
+string reserved

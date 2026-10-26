@@ -1,0 +1,4 @@
+uint8 MFF_VEHICLE_COMMAND_DATA = 1
+uint8 available
+endpoint_msgs/MffVehicleCommandData mff_vehicle_command_data
+string json_command

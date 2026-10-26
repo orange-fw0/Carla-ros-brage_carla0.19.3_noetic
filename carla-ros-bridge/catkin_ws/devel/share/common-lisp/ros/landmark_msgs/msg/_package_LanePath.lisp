@@ -1,0 +1,20 @@
+(cl:in-package landmark_msgs-msg)
+(cl:export '(LANE_IN_LANE_PATH-VAL
+          LANE_IN_LANE_PATH
+          ONROUTE_DISTANCE-VAL
+          ONROUTE_DISTANCE
+          LANE_MANEUVERS-VAL
+          LANE_MANEUVERS
+          DIRECTION-VAL
+          DIRECTION
+          END_TYPE-VAL
+          END_TYPE
+          LEFT_NO_LANE_CHANGE_ZONES-VAL
+          LEFT_NO_LANE_CHANGE_ZONES
+          RIGHT_NO_LANE_CHANGE_ZONES-VAL
+          RIGHT_NO_LANE_CHANGE_ZONES
+          NAVI_ONROUTEDIS_INFO-VAL
+          NAVI_ONROUTEDIS_INFO
+          RESERVED_INFO-VAL
+          RESERVED_INFO
+))

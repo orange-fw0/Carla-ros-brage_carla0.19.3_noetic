@@ -1,0 +1,7 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+uint8 available
+perception_interface_msgs/ParkingSlotPoint[] corner_points
+perception_interface_msgs/ParkingSlotCenterPoint center_point
+perception_interface_msgs/Point2f[] wheel_stop_points
+perception_interface_msgs/ParkingSlotPoint3d[] points_3d

@@ -1,0 +1,4 @@
+std_msgs/Header header
+system_manager_msgs/SsmState state
+system_manager_msgs/SsmState switching_state
+bool can_switch

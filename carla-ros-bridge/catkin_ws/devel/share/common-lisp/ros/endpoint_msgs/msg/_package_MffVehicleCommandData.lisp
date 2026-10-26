@@ -1,0 +1,14 @@
+(cl:in-package endpoint_msgs-msg)
+(cl:export '(TIMESTAMP_US-VAL
+          TIMESTAMP_US
+          HEAT_WIRE_COMMAND-VAL
+          HEAT_WIRE_COMMAND
+          REARVIEW_MIRROR_COMMAND-VAL
+          REARVIEW_MIRROR_COMMAND
+          SUSPENSION_COMAND-VAL
+          SUSPENSION_COMAND
+          SENTRYMODE_COMMAND-VAL
+          SENTRYMODE_COMMAND
+          TURN_SIGNAL_COMMAND-VAL
+          TURN_SIGNAL_COMMAND
+))

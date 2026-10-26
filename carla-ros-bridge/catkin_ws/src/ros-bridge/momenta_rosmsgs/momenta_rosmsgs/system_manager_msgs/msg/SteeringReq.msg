@@ -1,0 +1,3 @@
+uint8 NO_STEERING_RESET = 0
+uint8 STEERING_RESET = 1
+uint8 value

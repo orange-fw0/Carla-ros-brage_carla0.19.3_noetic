@@ -1,0 +1,4 @@
+system_manager_msgs/SysPlanningModeTypeForParking mode
+uint32 id
+bool wireless_charge
+system_manager_msgs/ParkingDirectionType parking_direction

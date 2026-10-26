@@ -1,0 +1,2 @@
+bool reliable
+landmark_msgs/LaneCenterIntersectWithRoadBoundary[] lane_center_intersect_with_road_boundaries

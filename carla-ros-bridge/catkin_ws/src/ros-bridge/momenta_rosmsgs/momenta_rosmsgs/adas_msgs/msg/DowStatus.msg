@@ -1,0 +1,4 @@
+uint8 left_front_state
+uint8 left_rear_state
+uint8 right_front_state
+uint8 right_rear_state

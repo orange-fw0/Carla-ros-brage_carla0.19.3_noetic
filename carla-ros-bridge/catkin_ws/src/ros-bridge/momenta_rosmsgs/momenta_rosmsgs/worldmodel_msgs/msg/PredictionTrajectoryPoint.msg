@@ -1,0 +1,6 @@
+perception_interface_msgs/Point2f position
+float32 yaw
+float32 theta
+float32 velocity
+float32 confidence
+worldmodel_msgs/Matrix2f covariance_xy

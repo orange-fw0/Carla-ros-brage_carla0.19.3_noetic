@@ -1,0 +1,7 @@
+std_msgs/Header header
+uint8 current_direction
+uint8 light_status
+uint8 light_pattern
+float64 dist2stopline
+string current_state
+string current_lane_id

@@ -1,0 +1,6 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+float32 score
+perception_interface_msgs/PoleLinePoint[] points_2d
+perception_interface_msgs/PoleLineTypeEnum type
+uint32 track_id

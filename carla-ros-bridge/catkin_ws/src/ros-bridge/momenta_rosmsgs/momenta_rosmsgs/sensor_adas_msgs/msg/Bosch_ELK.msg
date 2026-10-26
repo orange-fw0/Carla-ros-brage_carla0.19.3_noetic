@@ -1,0 +1,21 @@
+uint8 ANGLE_REQUEST_STATE_INHIBITED = 0
+uint8 ANGLE_REQUEST_STATE_READY = 1
+uint8 ANGLE_REQUEST_STATE_ACTIVE = 2
+uint8 FAULT_STATUS_FLAG_NO_ERROR = 0
+uint8 FAULT_STATUS_FLAG_ERROR = 1
+uint8 ELK_TAKE_OVER_REQ_INACTIVE = 0
+uint8 ELK_TAKE_OVER_REQ_WARN_RE = 1
+uint8 ELK_TAKE_OVER_REQ_WARN_SL = 2
+uint8 ELK_STATUS_OFF = 0
+uint8 ELK_STATUS_PASSIVE = 1
+uint8 ELK_STATUS_ACTIVE = 2
+uint8 ELK_STATUS_FAILURE = 3
+uint32 ELK_status
+uint32 ELK_OT_Fault_Status_Flag
+uint32 ELK_Take_Over_Req
+float32 Motor_Torque_Upper_Limit
+float32 Motor_Torque_Lower_Limit
+uint32 ADAS_AngleReq_State
+float32 ADAS_AngleReq
+float64 reserved1
+float64 reserved2

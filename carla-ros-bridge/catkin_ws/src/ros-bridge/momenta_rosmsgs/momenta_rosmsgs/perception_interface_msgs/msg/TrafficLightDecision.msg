@@ -1,0 +1,10 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+perception_interface_msgs/TrafficLightPatternEnum pattern
+perception_interface_msgs/TrafficLightStatusEnum status
+float32 duration
+float32 remaining
+uint8 count_number
+float32 score
+string reserved_info
+perception_interface_msgs/TrafficLightPositionFeature pos_feature

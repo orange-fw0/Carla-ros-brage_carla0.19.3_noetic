@@ -1,0 +1,3 @@
+uint8 WIRE_CONTROL_TYPE_COMMAND_DATA = 1
+uint8 available
+endpoint_msgs/WireControlTypeCommandData wire_control_command_data

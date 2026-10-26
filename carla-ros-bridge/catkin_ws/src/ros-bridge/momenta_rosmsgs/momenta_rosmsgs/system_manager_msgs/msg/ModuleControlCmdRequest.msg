@@ -1,0 +1,3 @@
+std_msgs/Header header
+system_manager_msgs/RunningModeEnum running_mode
+system_manager_msgs/ModuleControlCmdEnum module_control_cmd

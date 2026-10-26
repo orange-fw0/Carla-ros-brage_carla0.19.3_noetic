@@ -1,0 +1,4 @@
+uint8 AIR_DEFROS_MODE_OFF = 0
+uint8 AIR_DEFROS_MODE_FONT = 1
+uint8 AIR_DEFROS_MODE_REAR = 2
+uint8 value

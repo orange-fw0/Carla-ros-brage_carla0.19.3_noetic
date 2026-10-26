@@ -1,0 +1,3 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionFusionResultMeta meta
+perception_interface_msgs/FusionParkingSlot parking_slot

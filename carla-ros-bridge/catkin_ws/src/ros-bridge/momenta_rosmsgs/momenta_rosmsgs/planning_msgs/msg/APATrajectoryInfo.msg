@@ -1,0 +1,10 @@
+planning_msgs/APATrajectoryExtendType extend_type
+bool at_last_segment
+float32 remain_safe_distance
+float32 first_remain_distance
+float32 second_remain_distance
+float32 second_target_v
+planning_msgs/Gear first_gear
+planning_msgs/Gear second_gear
+uint32 second_start_index
+string reserved

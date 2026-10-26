@@ -1,0 +1,4 @@
+std_msgs/Header header
+perception_interface_msgs/PerceptionMeta meta
+perception_interface_msgs/VisionAEBObject[] vision_aeb_objects
+float32 vision_min_ttc

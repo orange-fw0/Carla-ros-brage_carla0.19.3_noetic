@@ -1,0 +1,5 @@
+lane_navi_info_msgs/TBTGuideInfo[] guide_info_list
+lane_navi_info_msgs/TBTLaneInfo[] lane_info_list
+lane_navi_info_msgs/TBTTrafficLight[] traffic_light_list
+lane_navi_info_msgs/TBTLongSolidLine[] long_solid_line_list
+string reserved

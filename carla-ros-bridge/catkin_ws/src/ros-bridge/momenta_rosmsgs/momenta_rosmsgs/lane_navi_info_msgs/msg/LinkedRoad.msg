@@ -1,0 +1,2 @@
+landmark_msgs/TrackId[] linked_roads
+landmark_msgs/TrafficLightGroup linked_traffic_light_group

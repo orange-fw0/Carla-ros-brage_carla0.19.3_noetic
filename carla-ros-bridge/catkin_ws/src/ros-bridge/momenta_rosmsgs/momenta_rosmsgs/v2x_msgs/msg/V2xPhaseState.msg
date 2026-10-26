@@ -1,0 +1,3 @@
+perception_interface_msgs/TrafficLightStatusEnum status
+float64 start_time
+float64 likely_end_time

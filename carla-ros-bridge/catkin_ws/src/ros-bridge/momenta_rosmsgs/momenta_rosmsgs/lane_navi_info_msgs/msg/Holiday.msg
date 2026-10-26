@@ -1,0 +1,2 @@
+lane_navi_info_msgs/HolidayType holiday_type
+bool is_limited

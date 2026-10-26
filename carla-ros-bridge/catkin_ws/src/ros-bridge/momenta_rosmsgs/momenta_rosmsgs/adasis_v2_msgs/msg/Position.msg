@@ -1,0 +1,11 @@
+uint8 cyclic_counter
+uint8 path_index
+uint16 offset
+uint8 position_index
+uint16 position_age
+uint8 position_probability
+uint16 speed
+uint8 relative_heading
+uint8 position_confidence
+uint8 current_lane
+uint8 reserved

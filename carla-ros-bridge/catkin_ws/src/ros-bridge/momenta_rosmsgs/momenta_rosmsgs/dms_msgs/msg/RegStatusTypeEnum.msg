@@ -1,0 +1,7 @@
+uint8 NO_ACTION = 0
+uint8 REGISTERING = 1
+uint8 REGISTER_SUCCESS = 2
+uint8 REGISTER_FAIL = 3
+uint8 RESERVED = 4
+uint8 RESERVED1 = 5
+uint8 value

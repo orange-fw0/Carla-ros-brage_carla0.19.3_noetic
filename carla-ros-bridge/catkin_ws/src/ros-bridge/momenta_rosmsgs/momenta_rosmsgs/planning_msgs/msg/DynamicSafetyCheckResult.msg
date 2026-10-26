@@ -1,0 +1,3 @@
+std_msgs/Header header
+planning_msgs/TrajectorySafetyInfo trajectory_main
+planning_msgs/TrajectorySafetyInfo trajectory_slave

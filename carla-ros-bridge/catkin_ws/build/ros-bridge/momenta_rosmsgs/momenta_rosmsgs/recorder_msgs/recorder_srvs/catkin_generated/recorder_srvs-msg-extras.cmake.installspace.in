@@ -1,0 +1,2 @@
+set(recorder_srvs_MESSAGE_FILES "")
+set(recorder_srvs_SERVICE_FILES "srv/CacheBagDetails.srv;srv/TopicsV2.srv;srv/DiskList.srv;srv/DiskListV2.srv;srv/DiskListV3.srv;srv/DiskType.srv;srv/DiskEject.srv;srv/DiskEjectV2.srv;srv/CheckRecording.srv;srv/ExportDetails.srv;srv/ExportDetailsV2.srv;srv/ExportDetailsV3.srv;srv/ExporterStats.srv;srv/GlobalMeta.srv;srv/VersionInfo.srv;srv/ReceivingStats.srv;srv/UpdateExportItem.srv;srv/StopRecordings.srv;srv/Restart.srv")

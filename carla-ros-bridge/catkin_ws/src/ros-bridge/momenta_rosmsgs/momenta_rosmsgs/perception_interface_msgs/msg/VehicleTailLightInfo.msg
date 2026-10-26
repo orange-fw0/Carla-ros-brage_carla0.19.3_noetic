@@ -1,0 +1,6 @@
+float32 tail_light_score
+float32 tail_light_unkown_score
+float32 tail_light_off_score
+float32 tail_light_on_score
+float32 tail_light_high_on_score
+perception_interface_msgs/VehicleTailLightEnum tail_light_state

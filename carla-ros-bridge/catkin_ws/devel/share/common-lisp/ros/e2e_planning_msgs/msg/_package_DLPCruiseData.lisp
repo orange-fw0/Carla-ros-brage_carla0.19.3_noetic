@@ -1,0 +1,8 @@
+(cl:in-package e2e_planning_msgs-msg)
+(cl:export '(DLP_CRUISE_TRAJECTORIES-VAL
+          DLP_CRUISE_TRAJECTORIES
+          DLP_AGENT_PREDICTION_TRAJECTORIES-VAL
+          DLP_AGENT_PREDICTION_TRAJECTORIES
+          RESERVED_INFO-VAL
+          RESERVED_INFO
+))

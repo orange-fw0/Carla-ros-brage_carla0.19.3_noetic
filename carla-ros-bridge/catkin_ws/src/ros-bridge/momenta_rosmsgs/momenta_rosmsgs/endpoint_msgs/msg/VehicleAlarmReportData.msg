@@ -1,0 +1,11 @@
+uint64 timestamp_us
+bool seat_belt_alarm
+bool seat_belt_tightening
+bool steering_wheel_alarm
+bool buzzer_alarm
+endpoint_msgs/HandOffStatus steering_handoff
+endpoint_msgs/FeetOffStatus feet_off
+bool pkg_fastswitch_enable
+bool tire_alarm
+endpoint_msgs/VehicleCrashStatus vehicle_crash_status
+bool valid

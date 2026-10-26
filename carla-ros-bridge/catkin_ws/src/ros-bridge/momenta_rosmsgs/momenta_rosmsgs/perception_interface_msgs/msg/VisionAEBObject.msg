@@ -1,0 +1,12 @@
+perception_interface_msgs/CameraSourceEnum camera_source
+perception_interface_msgs/CameraModelEnum camera_model
+perception_interface_msgs/ObjectTypeInfo type_info
+float32 score
+float32 visibility_2d
+perception_interface_msgs/Rect4f bounding_box_2d
+perception_interface_msgs/ObjectTrackInfo track_info
+perception_interface_msgs/Shape3f shape_3d
+float32 heading_theta_bv
+perception_interface_msgs/Vector3f velocity_bv
+perception_interface_msgs/Point3f location_bv
+float32 ttc

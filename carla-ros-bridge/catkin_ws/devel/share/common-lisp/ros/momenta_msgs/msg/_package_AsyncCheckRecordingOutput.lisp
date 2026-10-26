@@ -1,0 +1,12 @@
+(cl:in-package momenta_msgs-msg)
+(cl:export '(KEY_NUM-VAL
+          KEY_NUM
+          SERVICE_RESPONSE-VAL
+          SERVICE_RESPONSE
+          COLLECTION_DISK_RECORDING-VAL
+          COLLECTION_DISK_RECORDING
+          EXPORT_DISK_RECORDING-VAL
+          EXPORT_DISK_RECORDING
+          ANY_DISK_RECORDING-VAL
+          ANY_DISK_RECORDING
+))

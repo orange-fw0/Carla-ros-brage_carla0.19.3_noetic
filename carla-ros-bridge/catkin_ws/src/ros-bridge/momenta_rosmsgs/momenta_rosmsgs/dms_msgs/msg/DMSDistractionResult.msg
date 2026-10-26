@@ -1,0 +1,31 @@
+uint16 DISTRACTION_LITE_AVAILABLE = 1
+uint16 DISTRACTION_PRO_AVAILABLE = 2
+uint16 DISTRACTION_TYPE_AVAILABLE = 4
+uint16 DISTRACTION_LEVEL_AVAILABLE = 8
+uint16 DISTRACTION_CONFIDENCE_LEVEL_AVAILABLE = 16
+uint16 DISTRACTION_REASON_TYPE_AVAILABLE = 32
+uint16 DISTRACTION_PRO_CORE_AVAILABLE = 64
+uint16 RESERVED = 128
+uint16 L3_DISTRACTION_LEVEL_AVAILABLE = 256
+uint16 L3_DISTRACTION_CONFIDENCE_LEVEL_AVAILABLE = 512
+uint16 L2_DISTRACTION_LEVEL_AVAILABLE = 1024
+uint16 L2_DISTRACTION_CONFIDENCE_LEVEL_AVAILABLE = 2048
+uint16 available
+int32 distraction_lite
+int32 distraction_pro
+dms_msgs/DMSDistractionTypeEnum distraction_type
+dms_msgs/DMSDistractionLevelTypeEnum distraction_level_type
+dms_msgs/DMSDistractionConfidenceTypeEnum distraction_confidence_level
+dms_msgs/DMSDistractionReasonTypeEnum distraction_reason_type
+dms_msgs/L2DMSDistractionLevelTypeEnum l2_distraction_level_type
+dms_msgs/L2DMSDistractionConfidenceTypeEnum l2_distraction_confidence_level
+dms_msgs/L3DMSDistractionLevelTypeEnum l3_distraction_level_type
+dms_msgs/L3DMSDistractionConfidenceTypeEnum l3_distraction_confidence_level
+int32 distraction_pro_core
+int32 reserved
+int32 distraction_sensitivity
+string dis_params
+int32 l2_distraction_sensitivity
+string l2_dis_params
+int32 l3_distraction_sensitivity
+string l3_dis_params

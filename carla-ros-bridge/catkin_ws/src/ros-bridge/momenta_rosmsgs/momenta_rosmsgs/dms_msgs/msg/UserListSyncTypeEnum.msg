@@ -1,0 +1,4 @@
+uint8 NO_ACTION = 0
+uint8 USER_LIST_SYNC_SUCCESS = 1
+uint8 USER_LIST_SYNC_FAIL = 2
+uint8 value

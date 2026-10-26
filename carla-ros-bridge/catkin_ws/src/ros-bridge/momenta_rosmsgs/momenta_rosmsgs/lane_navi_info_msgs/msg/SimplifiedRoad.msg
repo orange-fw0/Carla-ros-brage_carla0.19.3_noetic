@@ -1,0 +1,9 @@
+landmark_msgs/TrackId road_id
+float32 length
+lane_navi_info_msgs/SpeedLimit[] speed_limits
+lane_navi_info_msgs/Curvature[] curvatures
+lane_navi_info_msgs/Slope[] slopes
+landmark_msgs/RoadNodeRoadClassEnum road_class
+landmark_msgs/RoadNodeFormwayEnum[] formways
+landmark_msgs/TrackId[] prev_roads
+landmark_msgs/TrackId[] next_roads
